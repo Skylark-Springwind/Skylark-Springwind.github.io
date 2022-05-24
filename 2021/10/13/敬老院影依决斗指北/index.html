@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="写在前面本文旨在通过介绍影依卡组的游戏方式，单卡效果和卡组构筑来指导决斗者如何使用影依卡组进行决斗。本文中所指“影依”，一般应该认为是卡组中存在大量影依怪兽，以影依怪兽为核心的卡组，诚然，影依有着多彩的外挂方式，但是这并不是笔者希望介绍的，望周知">
+<meta property="og:type" content="article">
+<meta property="og:title" content="敬老院影依决斗指北">
+<meta property="og:url" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/index.html">
+<meta property="og:site_name" content="云雀东风的博客">
+<meta property="og:description" content="写在前面本文旨在通过介绍影依卡组的游戏方式，单卡效果和卡组构筑来指导决斗者如何使用影依卡组进行决斗。本文中所指“影依”，一般应该认为是卡组中存在大量影依怪兽，以影依怪兽为核心的卡组，诚然，影依有着多彩的外挂方式，但是这并不是笔者希望介绍的，望周知">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/brokensword.png">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/border.png">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/salamangreat.png">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/Construct.png">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/Winda.png">
+<meta property="og:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/ShaddollFushion.png">
+<meta property="og:image" content="http://example.com/ElShaddollFushion.png">
+<meta property="article:published_time" content="2021-10-13T02:03:00.000Z">
+<meta property="article:modified_time" content="2021-12-23T06:36:46.170Z">
+<meta property="article:author" content="SkyLark">
+<meta property="article:tag" content="影依">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/brokensword.png">
+
+<link rel="canonical" href="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>敬老院影依决斗指北 | 云雀东风的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">云雀东风的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">记录，思考，分享</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">3</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SkyLark">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="云雀东风的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          敬老院影依决斗指北
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-10-13 10:03:00" itemprop="dateCreated datePublished" datetime="2021-10-13T10:03:00+08:00">2021-10-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-23 14:36:46" itemprop="dateModified" datetime="2021-12-23T14:36:46+08:00">2021-12-23</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B8%B8%E6%88%8F%E7%8E%8B/" itemprop="url" rel="index"><span itemprop="name">游戏王</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/" class="post-meta-item leancloud_visitors" data-flag-title="敬老院影依决斗指北" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p><em>本文旨在通过介绍影依卡组的游戏方式，单卡效果和卡组构筑来指导决斗者如何使用影依卡组进行决斗。本文中所指“影依”，一般应该认为是卡组中存在大量影依怪兽，以影依怪兽为核心的卡组，诚然，影依有着多彩的外挂方式，但是这并不是笔者希望介绍的，望周知</em></p>
+<span id="more"></span>
+
+<h2 id="影依的取胜之道"><a href="#影依的取胜之道" class="headerlink" title="影依的取胜之道"></a>影依的取胜之道</h2><p>或许你是刚刚得到了一个影依构筑，正苦于不了解打法，备受折磨；又或许你只是单纯的想观望一下，影依这个卡组究竟好不好赢，正在犹豫；又或者干脆你只是抱着”知己知彼，百战不殆“的想法，来探究一下影依的胜利之道，寻找对策。</p>
+<p>无论如何，我认为，在真正开始动手构筑卡组，介绍打法以前，先知道自己怎么赢，是很有必要的。</p>
+<p>一般而言，影依的获胜手段有四种：</p>
+<ol>
+<li>寻找机会直接OTK对手；</li>
+<li>召唤出复数的融合怪兽，对手无法快速处理，以high beat形式击杀对手；</li>
+<li>使用米德拉什的效果，压制对手的展开，慢速beat死对手；</li>
+<li>利用各种回收效果，展开资源战，拖垮对方。</li>
+</ol>
+<p>仅仅只是四行文字，我想也不能看出什么端倪，因此我想要通过介绍一些敬老院中的常见对局，来彻底让读者了解影依究竟是如何取胜的。</p>
+<h3 id="对抗各种形态的pk"><a href="#对抗各种形态的PK" class="headerlink" title="对抗各种形态的PK"></a>对抗各种形态的PK</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/brokensword.png" alt="幻影骑士团断碎剑"></p>
+<p>对局十分不利，这是当然的。</p>
+<p>首先，神影依·米德拉什的效果会被幻影雾剑无效，而且对方也会大量采用禁忌的一滴这样的meta卡，因此采取米德拉什压制对方的战略效果会非常差，同时，PK系统拥有非常强大的展开能力，能够调度包括但不限于断碎剑，锈战斧，天霆号阿宙斯，访问码语者等怪兽来冲击我们的战线，因此，即使大量召唤了融合怪兽，也只会被全部清理干净。幻影骑士团的怪兽在被送去墓地以后，也有多彩的效果，能够除外自身来检索幻影魔法陷阱，检索幻影怪兽，把幻影骑士团相关的卡送去墓地，或者干脆是自己特殊召唤，因为存在这些下级怪兽的检索能力，进行资源战也是非常危险的，而PK卡组在上述怪兽的支持下，也很容易产生OTK。</p>
+<p>为此，我们只能尝试先于对手进行OTK。好在我们进行OTK的手段也不少。旧影依下级怪兽统一为暗属性魔法使族，而且因为展开时几乎不可避免地会在墓地堆积融合魔法，所以，连接召唤神圣魔皇后，并且进一步连接召唤访问码语者是相当方便的，在此之上，神影依·拿非利也是持有2800攻击力的大型怪兽，在不攻击特殊召唤的怪兽时也能输出大量伤害，基于这些，虽然畏惧对方OTK我方，我方同时也拥有OTK对方的能力。</p>
+<p>幻影骑士团会残留在场上压制我方的怪兽，一般是锈战斧，希望龙皇，击灭枪王，流离的狮鹫骑手以及后场覆盖着的陷阱卡幻影雾剑，这些怪兽除去流离的狮鹫骑手基本上都是光属性或者暗属性，能用超融合简单地处理掉，后攻突破在手牌允许的情况下也不会太过困难。而在面对枪王时，虽然我们不能将怪兽召唤·特殊召唤，却依然可以覆盖怪兽，并且发动怪兽的反转效果，进行简单的干扰和保护，不至于对方能够立刻auto win。使用影依的伪典融合召唤七贤巨鲲魔，保护自己生命值的同时干扰对方的展开，到了我们的回合就使用影依龙破坏后场的幻影雾剑，并调度大型怪兽OTK对方，这算是笔者理想中的对局情况。</p>
+<h3 id="对抗坑beat"><a href="#对抗坑beat" class="headerlink" title="对抗坑beat"></a>对抗坑beat</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/border.png" alt="冲浪检察官"></p>
+<p>有利对局，正常情况下，能够获胜。</p>
+<p>此处的坑beat是狭义的坑beat，亦即使用雷王，冲浪检察官压制我方的检索和怪兽的效果，后场覆盖着诸如技能抽取，大宇宙，王宫的敕命，岔子这样的贴纸陷阱，或者是神之通告这样的反击陷阱来作战的卡组，因为也是均卡卡组，会积极使用强贪壶来赚取手牌，对方打出了强大的怪兽就使用超融合和暴食兽处理，而手握红莲魔兽时则会伺机将我方OTK。</p>
+<p>了解了对方的策略以后，我方就可以拿出对策。对方一般不会从额外卡组特殊召唤怪兽，影依融合的威力下降不少，同时因为后场的阻抗存在，尝试OTK对方也是比较危险的策略，不过有机会时也不能错过。神字陷阱在对抗融合魔法时，效果并不理想，虽然影依融合与写身（与神之假身的接触，下同）一回合只能发动一次，但是神之宣告是发动无效，依然可以发动第二张，而且即使融合魔法被康，也不会有任何融合怪兽被送去墓地，而神之通告并不能对应入连锁的特殊召唤来发动。影依龙在被送去墓地时，也能破坏后场的贴纸，即使是王家长眠之谷，也能通过C1影依龙C2神影依·七贤巨鲲魔的效果来简单地处理掉。虽然冲浪检察官在对抗下级怪兽时的2000攻击力非常可观，但是在融合怪兽面前确实也只能算是小型怪兽。</p>
+<p>因此，对抗此类卡组的要点就是尽快融合召唤七贤巨鲲魔，检索到影光的圣选士来进行资源战，影光的圣选士苏生的七贤巨鲲魔能够无效对方的贴纸，暴食兽以及红莲魔兽的效果，苏生拿非利也能将影依龙送去墓地来破坏后场的红坑，上述融合怪兽被送去墓地后，又能将影光的圣选士回收利用，对方在发动了强贪壶和神字陷阱以后，血量和卡组都会渐渐下降，我们的胜算会越来越大。</p>
+<h3 id="对抗转生炎兽"><a href="#对抗转生炎兽" class="headerlink" title="对抗转生炎兽"></a>对抗转生炎兽</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/salamangreat.png" alt="转生炎兽·日光狼"></p>
+<p>有利对局，很容易获胜。</p>
+<p>基本上，只要能够站住神影依·米德拉什，就已经胜利了，对方系统内只有灯火美洲豹和犰狳蜥的combo可以处理，而系统外的处理手段则能够被伪典轻易的化解掉，只要能够调度出米德拉什和伪典，即使说是已经auto win了也没有什么问题。因此应该采取以米德拉什为中心的慢速打法，积极使用影依巫女·艾丽娅儿的效果除外对方墓地的转生炎兽的咆哮，羚羊，犰狳蜥等卡片，在对抗持有墓地的烽火猞猁代破的怪兽时，拿非利将会先发动破坏效果，对方的怪兽并不会被破坏，而后结算战斗，造成伤害并战斗破坏对方，墓地的烽火猞猁形同虚设也是我方的优势。</p>
+<h2 id="影依的单卡"><a href="#影依的单卡" class="headerlink" title="影依的单卡"></a>影依的单卡</h2><p>读者可能无法理解上述打法，或者说无法在脑海中想象出这样的图景，因此笔者希望介绍卡牌的效果，帮助读者理解我们为什么采取了这些运作方式，这样才能对于上述打法有迹可循。影依并不是一个擅长展开的卡组，而是运作资源从而获胜，因此笔者认为，对于构筑和单卡的理解，要比熟记各种combo重要得多，可以认为影依的决斗，早在决斗者精心挑选怪兽和魔法陷阱的时候就已经开始了。</p>
+<p>笔者无意于对于所有单卡都多费笔墨。相信读者可以注意到，在我们介绍打法时，有这样几个单卡出现频率相当高，可以说它们的存在是上述打法能够成立的理由，甚至我们可以认为，能够正确地使用它们，就能在决斗中获胜，所以笔者想先对它们进行介绍。</p>
+<h3 id="神影依拿非利"><a href="#神影依·拿非利" class="headerlink" title="神影依·拿非利"></a>神影依·拿非利</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/Construct.png" alt="神影依·拿非利"></p>
+<p>神影依·拿非利，光属性天使族八星融合怪兽。如果非要做一个类比，笔者希望将它和<font color="red">永火恶魔</font>，<font color="red">发条空母</font>这样强大的支点并列在一起。①效果是特殊召唤成功时，从卡组中将一张影依卡送去墓地，影依下级怪兽持有多彩的遗言效果，被拿非利送去墓地后，将能够尽可能地赚取收益，仅就字面意思上来看，就很强，但是笔者认为使用时至少有三个要点：</p>
+<ul>
+<li>特殊召唤成功时发动，即使是送去墓地以后再被特殊召唤出来，也可以发动，能够反复使用这个效果而不需要再次融合召唤拿非利，同时，也<font color="red">不限定一回合一次</font>，一个回合多次融合就能将复数影依卡送去墓地。</li>
+<li>将一张影依卡送去墓地，影依卡并不局限于影依怪兽，在进行决斗时，可以通过这个效果将<font color="red">影依魔法陷阱</font>送去墓地，之后使用回收效果拿回来使用，相较于影依刺猬的反转效果，使用这种手段检索影依魔法陷阱的次数还要更多一些。曾经也有使用影依融合或者写身融合召唤拿非利以后，用本效果将影依的原核送去墓地来立刻回收融合，然后拿非利送去墓地再将原核拿回手牌这样的伪永动，不过现在这种回收方式已经被更方便的影依的圣选士取代了，笔者并不推荐在40影依中投入原核。</li>
+<li>本效果并非必发效果，因此可以与作为素材的下级怪兽的效果发动自排连锁，例如，C1拿非利，C2影依龙，就能够在对方<font color="red">技能抽取</font>在场的情况下，使拿非利的效果通过，你也可以通过C1影依龙C2拿非利的手段来保护影依龙的效果通过，例如，对方的<font color="red">死灵王·恶眼</font>在场时，就可以通过这种手段来破坏对方的不死世界，此时死灵王并不能连锁影依龙。</li>
+</ul>
+<p>②效果，这张卡在与特殊召唤的怪兽进行战斗的伤判流程开始时发动，破坏对方怪兽。这个效果代表了影依的突破能力，虽然在当下，持有破坏抗性的怪兽越来越多，但是不可否认，环境中仍然充斥着装弹枪管狞猛龙，访问码语者这种即使不能使用效果也持有相当高攻击力的怪兽，或者持有战斗耐性，但是没有效果破坏抗性的怪兽。甚至于在某些时候，对方的破坏抗性反而是一件好事。因为我方的效果是伤判发动，即使破坏了对方怪兽，也不能继续攻击，更不会进行伤害计算，在对抗一些小型怪兽时，往往打不出伤害，但是在对抗转生炎兽时，我方使用拿非利攻击对方场上的小型怪兽，对方便不能随意发动代破效果，代破效果一旦发动，在伤判阶段那个怪兽将不会被效果破坏，伤害计算正常适用，能够打下血量。不过这张卡并不建议用于对抗雷神龙·雷龙，即使我方不攻击，对方攻击过来，它的效果必定发动，对方可以除外墓地来赚取收益。而其他的对手，则会犹豫于如何处理这种破坏效果，这时它往往能够在战斗阶段中保护我方。可以说，某种意义上带有攻守兼备的属性。</p>
+<p>③效果则是共同的遗言效果，回收墓地中的影依魔法陷阱，可以回收使用①效果送去墓地的魔法陷阱，也就是说，如果我们在做出神影依·拿非利以后，把喜欢的影依魔法陷阱送去墓地，再使用它进行连接召唤或者同调召唤，就等于从卡组中<font color="red">精确检索</font>了一张魔法陷阱。这点，将会在后面的combo中介绍。</p>
+<h3 id="神影依米德拉什"><a href="#神影依·米德拉什" class="headerlink" title="神影依·米德拉什"></a>神影依·米德拉什</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/Winda.png" alt="神影依·米德拉什"></p>
+<p>神影依·米德拉什，暗属性五星魔法使族融合怪兽。一般我们认为，虽然打法不同，影依获得胜利的方式往往是这样的：保护自己，减慢决斗的速度-&gt;调度资源-&gt;利用资源量的暴力压垮对方。如果说拿非利是调度资源的支点，米德拉什则更像是一种前提，即保护自己，减慢决斗速度这一环。</p>
+<p>①效果，这张卡不会被对方的效果破坏，如果对方拿不出无效怪兽效果的方案，或者拿不出非破坏的解决手段，这张卡至少可以消耗对方一个战斗阶段，而如果选择先无效，再来处理，则不得不多使用一张手牌，无论如何，这张卡确实拥有一定程度上的自保能力。此外，这个破坏抗性只局限于对方的效果，依然会被我方的激流葬破坏。</p>
+<p>②效果，只要这张卡在场上表侧表示存在，双方一回合只能有一次把怪兽特殊召唤，如果使用写身或者伪典连锁对方的特殊召唤，几乎就是封印了对方的特殊召唤，做一个类比，大概就是持有效果破坏抗性的虚无魔人，也就是我们说的，减慢决斗速度。如果是转生炎兽，或者说码语者这样下级怪兽质量并不高，极度依赖特殊召唤调度额外卡组的怪兽的卡组，打出米德拉什对方无法处理则直接auto win，或者是一次特殊召唤就能做出足以击毙米德拉什的召唤兽的召唤师卡组，也能够消耗对方一个战斗阶段，之前也有自奏采用过简易融合出米德拉什，然后使用丁吉尔苏保护，或者教导卡组投入一部分影依怪兽，都是为了使用米德拉什的②效果来封印对方。而对于影依使而言，把对方拖入我方的节奏来获取胜利，其实是学习这个卡组相当重要的一环。为此，我们常常需要保护米德拉什，一般来说，使用写身或者伪典，埋下一个对方无法立刻对策的米德拉什，是一个好的选择，例如，对方发动水晶机巧·继承玻纤的效果时，我方立刻连锁二速融合召唤米德拉什，将会极大地干扰对方的展开。</p>
+<p>③效果则是共通效果，回收墓地的影依魔法陷阱，本效果在米德拉什身上倒是乏善可陈，最起码，你可以回收融合来继续融合召唤其他的影依怪兽。</p>
+<h3 id="影依融合"><a href="#影依融合" class="headerlink" title="影依融合"></a>影依融合</h3><p><img src="/2021/10/13/%E6%95%AC%E8%80%81%E9%99%A2%E5%BD%B1%E4%BE%9D%E5%86%B3%E6%96%97%E6%8C%87%E5%8C%97/ShaddollFushion.png" alt="影依融合"></p>
+<p>影依融合，可以认为这是大多数人选择玩影依这个卡组的理由，毕竟确实把赚卡写在脸上了。在对方场上存在从额外卡组特殊召唤的怪兽时，可以从手卡场上卡组把融合素材怪兽送去墓地来把影依怪兽融合召唤。通常，一个融合怪兽是在手卡场上集齐一组融合素材怪兽以后，打出融合魔法卡来融合召唤，这样做至少亏损了三张甚至以上的手牌，即一组融合素材外加一张融合魔法卡。但是影依融合能够从卡组中选择融合素材，相对来说极大减轻了手牌负担，利好我们的资源战，同时，影依融合的使用还至少有三个要点：</p>
+<ul>
+<li>因为灰流丽的发动条件是包含效果，因此，即使我方完全无法从卡组中选择融合素材，影依融合也会被灰流丽无效，需要一边警惕着对手的灰流丽一边使用影依融合，如何确保影依融合通过，也是影依使不得不学习的一门功课；</li>
+<li>影依下级怪兽的效果均为一回合只能<font color="red">使用</font>一次，而影依融合则是一回合只能<font color="red">发动</font>一张，这两者的区别在于，如果影依怪兽的效果被无效了，本回合将无法再使用它的效果，而如果影依融合的<font color="red">发动</font>被无效了，本回合还能发动一张影依融合，但是如果是影依融合的效果被无效了，或者发动以后效果不能处理（例如对方发动了虚无空间，或者我方失去了融合素材怪兽），都将不能再发动第二张；</li>
+<li>如果要从卡组中选择融合素材，对方场上必须要有从<font color="red">额外卡组</font>中特殊召唤的怪兽，对方可以采取很多手段来规避，包括但不限于把自身破坏或者送去墓地（毁灭凤凰人），变为里侧表示（召唤兽雷电，或者使用月之书指向自己的怪兽），从游戏中除外（使用墓地的白雪将自己场上的怪兽除外），送去墓地再特殊召唤（幻变骚灵·十六巫赫斯提），因此在发动以前，必须考虑对方如果采取了上述应对措施，自己的手中是否有一组融合素材，不然就会白白浪费掉一张影依融合。</li>
+</ul>
+<p>那么，为什么我们要冒着这么大的风险使用影依融合？这是因为，影依融合不仅是能够不亏卡地赚取一张融合怪兽，更能够产生额外的收益。影依融合怪兽的融合条件，其实基本上可以概括为影依怪兽加上一只其他怪兽，如果对方场上存在从额外卡组特殊召唤的怪兽，我们在融合影依怪兽时，<font color="red">还能够将包括一只影依怪兽在内的指定的两个怪兽送去墓地</font>，影依怪兽送去墓地时将可以发动各种各样的遗言效果，而我们指定的怪兽，一般为光属性和暗属性，可以连接到妖精传姬·白雪或者黄金卿·埃尔德里奇这样好用的光属性怪兽，也可以将PSY骨架驱动者送去墓地，不影响我们使用PSY骨架·γ的效果的同时，避免抽到废札。</p>
+<h3 id="与神之假身的接触"><a href="#与神之假身的接触" class="headerlink" title="与神之假身的接触"></a>与神之假身的接触</h3><p><img src="/ElShaddollFushion.png" alt="与神之假身的接触"></p>
+<p>通称接触，神影依融合，写身。本卡是具有融合、影依融合字段的速攻融合魔法，虽然相对于影依融合，失去了能从卡组挑选融合素材的便利性，但是</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%BD%B1%E4%BE%9D/" rel="tag"># 影依</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2021/12/02/%E6%95%AC%E8%80%81%E9%99%A2OCG%E6%9E%84%E7%AD%91/" rel="next" title="敬老院OCG构筑">
+      敬老院OCG构筑 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BD%B1%E4%BE%9D%E7%9A%84%E5%8F%96%E8%83%9C%E4%B9%8B%E9%81%93"><span class="nav-number">2.</span> <span class="nav-text">影依的取胜之道</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%8A%97%E5%90%84%E7%A7%8D%E5%BD%A2%E6%80%81%E7%9A%84pk"><span class="nav-number">2.1.</span> <span class="nav-text">对抗各种形态的PK</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%8A%97%E5%9D%91beat"><span class="nav-number">2.2.</span> <span class="nav-text">对抗坑beat</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AF%B9%E6%8A%97%E8%BD%AC%E7%94%9F%E7%82%8E%E5%85%BD"><span class="nav-number">2.3.</span> <span class="nav-text">对抗转生炎兽</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BD%B1%E4%BE%9D%E7%9A%84%E5%8D%95%E5%8D%A1"><span class="nav-number">3.</span> <span class="nav-text">影依的单卡</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A5%9E%E5%BD%B1%E4%BE%9D%E6%8B%BF%E9%9D%9E%E5%88%A9"><span class="nav-number">3.1.</span> <span class="nav-text">神影依·拿非利</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A5%9E%E5%BD%B1%E4%BE%9D%E7%B1%B3%E5%BE%B7%E6%8B%89%E4%BB%80"><span class="nav-number">3.2.</span> <span class="nav-text">神影依·米德拉什</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BD%B1%E4%BE%9D%E8%9E%8D%E5%90%88"><span class="nav-number">3.3.</span> <span class="nav-text">影依融合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%8E%E7%A5%9E%E4%B9%8B%E5%81%87%E8%BA%AB%E7%9A%84%E6%8E%A5%E8%A7%A6"><span class="nav-number">3.4.</span> <span class="nav-text">与神之假身的接触</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SkyLark</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SkyLark</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'esJ64NjaRf19yPijsTW5gIv8-gzGzoHsz',
+      appKey     : 'rUGSTM0v6HknUkbxyXhJLfCv',
+      placeholder: "图一乐",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/hijiki.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
+</html>
