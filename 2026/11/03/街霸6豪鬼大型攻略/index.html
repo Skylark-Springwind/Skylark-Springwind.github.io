@@ -1,0 +1,4823 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="街霸6 豪鬼（Akuma &#x2F; ゴウキ）大型攻略 · Year 4 版本依据：2026-08-03 平衡更新（Year 4），数据核对至 2026-08-31 官方帧数表镜像骨架来源：波风水门《街霸6备忘录》豪鬼篇（文字版）数据校验：Capcom 官方帧数 &#x2F; SuperCombo Wiki &#x2F; SF6 Lab（Year 4 连段&amp;压起身篇）配套文档：街霸6深红毒蛇_训练笔记.md（同一套笔">
+<meta property="og:type" content="article">
+<meta property="og:title" content="街霸6 豪鬼大型攻略">
+<meta property="og:url" content="http://example.com/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/index.html">
+<meta property="og:site_name" content="云雀东风的博客">
+<meta property="og:description" content="街霸6 豪鬼（Akuma &#x2F; ゴウキ）大型攻略 · Year 4 版本依据：2026-08-03 平衡更新（Year 4），数据核对至 2026-08-31 官方帧数表镜像骨架来源：波风水门《街霸6备忘录》豪鬼篇（文字版）数据校验：Capcom 官方帧数 &#x2F; SuperCombo Wiki &#x2F; SF6 Lab（Year 4 连段&amp;压起身篇）配套文档：街霸6深红毒蛇_训练笔记.md（同一套笔">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-11-03T00:40:00.000Z">
+<meta property="article:modified_time" content="2026-11-03T00:41:18.446Z">
+<meta property="article:author" content="SkyLark">
+<meta property="article:tag" content="街霸6">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>街霸6 豪鬼大型攻略 | 云雀东风的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">云雀东风的博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">记录，思考，分享</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">10</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">16</span></a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SkyLark">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="云雀东风的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          街霸6 豪鬼大型攻略
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2026-11-03 08:40:00 / 修改时间：08:41:18" itemprop="dateCreated datePublished" datetime="2026-11-03T08:40:00+08:00">2026-11-03</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B8%B8%E6%88%8F/" itemprop="url" rel="index"><span itemprop="name">游戏</span></a>
+                </span>
+            </span>
+
+          
+            <span id="/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/" class="post-meta-item leancloud_visitors" data-flag-title="街霸6 豪鬼大型攻略" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2026/11/03/%E8%A1%97%E9%9C%B86%E8%B1%AA%E9%AC%BC%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="街霸6-豪鬼akuma-ゴウキ大型攻略-year-4"><a href="#街霸6-豪鬼（Akuma-ゴウキ）大型攻略-·-Year-4" class="headerlink" title="街霸6 豪鬼（Akuma / ゴウキ）大型攻略 · Year 4"></a>街霸6 豪鬼（Akuma / ゴウキ）大型攻略 · Year 4</h1><blockquote>
+<p><strong>版本依据</strong>：2026-08-03 平衡更新（Year 4），数据核对至 2026-08-31 官方帧数表镜像<br><strong>骨架来源</strong>：波风水门《街霸6备忘录》豪鬼篇（文字版）<br><strong>数据校验</strong>：Capcom 官方帧数 / SuperCombo Wiki / SF6 Lab（Year 4 连段&amp;压起身篇）<br><strong>配套文档</strong>：<code>街霸6深红毒蛇_训练笔记.md</code>（同一套笔记体系，可对照阅读）<br><strong>专项模块</strong>：<code>街霸6豪鬼_波动实验室.md</code>（波的原理 + 7 天可测量训练，对应 4.3 节）</p>
+</blockquote>
+<span id="more"></span>
+
+<hr>
+<h2 id="〇-这份文档怎么用"><a href="#〇、这份文档怎么用" class="headerlink" title="〇、这份文档怎么用"></a>〇、这份文档怎么用</h2><p>三层，不要混着看：</p>
+<table>
+<thead>
+<tr>
+<th>层</th>
+<th>内容</th>
+<th>什么时候看</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>机制层</strong></td>
+<td>为什么这样打（第 1、4、9 章）</td>
+<td>开局前读一遍，之后每两周回看</td>
+</tr>
+<tr>
+<td><strong>数据层</strong></td>
+<td>多少帧、什么连段（第 3、5、6、7 章）</td>
+<td>训练场查表，实战后核对</td>
+</tr>
+<tr>
+<td><strong>执行层</strong></td>
+<td>怎么练、练到什么算过（第 10 章）</td>
+<td>每天照做</td>
+</tr>
+</tbody></table>
+<p><strong>一条阅读纪律</strong>：本文所有 <code>+XX</code> 优势帧，<strong>默认指「击倒后剩余的优势帧」</strong>，不是「招式被防后的帧数」。这两者混淆是新手读帧数表最常见的翻车点。</p>
+<h3 id="本阶段封存清单先看这个省时间"><a href="#本阶段封存清单（先看这个，省时间）" class="headerlink" title="本阶段封存清单（先看这个，省时间）"></a>本阶段封存清单（先看这个，省时间）</h3><p>有些内容<strong>存在于本文但你不该现在练</strong>。看到 ⛔ 标记就是它：</p>
+<table>
+<thead>
+<tr>
+<th>内容</th>
+<th>位置</th>
+<th>为什么封存</th>
+<th>解锁条件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>⛔ <strong>瞬狱杀</strong></td>
+<td>5.5</td>
+<td>会诱发”等机会”，显著拉低胜率</td>
+<td>30 天结业 + 10 局不按</td>
+</tr>
+<tr>
+<td>⛔ <code>2MK &gt; CDR &gt; 5HP, 5MK</code></td>
+<td>5.1 / 7.2</td>
+<td>3 格斗气 + 1 帧容错，同价有更稳的</td>
+<td>主练路线 10 成 9</td>
+</tr>
+</tbody></table>
+<p><strong>未封存但限条件使用</strong>：百鬼袭（只在击倒后）、DRC（斗气 ≥4）、凹（每局 ≤2 次）。</p>
+<blockquote>
+<p><strong>理由见 10.1「三层学习阶梯」</strong>：不是这些东西不好，是它们属于 L3，现在引入会抢走 L1 的注意力。</p>
+</blockquote>
+<hr>
+<h2 id="一-角色定位用-1000-血买来的工具箱"><a href="#一、角色定位：用-1000-血买来的工具箱" class="headerlink" title="一、角色定位：用 1000 血买来的工具箱"></a>一、角色定位：用 1000 血买来的工具箱</h2><h3 id="11-一句话结论"><a href="#1-1-一句话结论" class="headerlink" title="1.1 一句话结论"></a>1.1 一句话结论</h3><p><strong>豪鬼是全游戏最全能的角色，代价是全游戏最低的血量（9000）。</strong></p>
+<p>他不是”难角色”，他是”<strong>贵角色</strong>“——每一次交互都在花钱，而钱包只有 9000。</p>
+<h3 id="12-强弱结构"><a href="#1-2-强弱结构" class="headerlink" title="1.2 强弱结构"></a>1.2 强弱结构</h3><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>评级</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>立回（中距离）</td>
+<td>★★★★★</td>
+<td>2MK 可取消下段、6MK/6HP 长距离脱节、三速波</td>
+</tr>
+<tr>
+<td>压制</td>
+<td>★★★★★</td>
+<td>5MP +1、大量偷帧压起身、百鬼袭中下二择</td>
+</tr>
+<tr>
+<td>爆发伤害</td>
+<td>★★★★★</td>
+<td>版边 5000+ 家常，全资源 6700</td>
+</tr>
+<tr>
+<td>抗压（防守）</td>
+<td>★★★★</td>
+<td><strong>有完全无敌 OD 升龙</strong>（这是他与毒蛇的根本差别）</td>
+</tr>
+<tr>
+<td>容错率</td>
+<td>★★</td>
+<td>9000 血，两套就死</td>
+</tr>
+<tr>
+<td>上手难度</td>
+<td>★★★</td>
+<td>招式多但每个都不难，难在”选择”</td>
+</tr>
+</tbody></table>
+<h3 id="13-与深红毒蛇的结构对比迁移用"><a href="#1-3-与深红毒蛇的结构对比（迁移用）" class="headerlink" title="1.3 与深红毒蛇的结构对比（迁移用）"></a>1.3 与深红毒蛇的结构对比（迁移用）</h3><p>这两人都是”高波动角色”，但<strong>税付在不同地方</strong>：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>深红毒蛇</th>
+<th>豪鬼</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>税的形态</td>
+<td><strong>操作难度</strong>（HJC、取消链、低空火腿）</td>
+<td><strong>血量</strong>（9000）</td>
+</tr>
+<tr>
+<td>抗压</td>
+<td>差（无常规无敌 OD，只能 SA2/SA3 凹）</td>
+<td><strong>好</strong>（OD 升龙 1-8F 完全无敌）</td>
+</tr>
+<tr>
+<td>火力来源</td>
+<td>必杀接必杀的取消链</td>
+<td>普通技 → 单发必杀 → 击倒</td>
+</tr>
+<tr>
+<td>失败的样子</td>
+<td><strong>做不到</strong>（掉连、接不上）</td>
+<td><strong>做太多</strong>（凹、乱跳、硬抢）</td>
+</tr>
+<tr>
+<td>上分瓶颈</td>
+<td>执行稳定性</td>
+<td>风险管理</td>
+</tr>
+<tr>
+<td>练习重点</td>
+<td>手法（肌肉）</td>
+<td>克制（决策）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>这张表是本攻略最重要的一页。</strong></p>
+<p>毒蛇的局，输在”手不行”；豪鬼的局，输在”手太快”。所以从毒蛇转豪鬼，<strong>旧的手法资产几乎全部作废，但”确认”和”距离”这两项资产全部保值</strong>——而这两项恰好是毒蛇笔记里反复强调的东西（生驹的”确认是闸门”、老桑局的”距离管理”）。</p>
+<p><strong>结论：豪鬼的入门课不是连段，是”少送”。</strong></p>
+</blockquote>
+<h3 id="14-9000-血的真实含义反直觉"><a href="#1-4-9000-血的真实含义（反直觉）" class="headerlink" title="1.4 9000 血的真实含义（反直觉）"></a>1.4 9000 血的真实含义（反直觉）</h3><p>新手以为”血少 = 容易死”。真正的机制后果是：<strong>风险收益比被改写了</strong>。</p>
+<p>同样一个 50/50 猜拳，双方期望值相同；但**豪鬼输掉这个猜拳的代价，比对手高 11%**（10000/9000）。这意味着：</p>
+<table>
+<thead>
+<tr>
+<th>常见误判</th>
+<th>实际情况</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>“我要靠进攻压死他”</td>
+<td>进攻是对的，但<strong>赌博式进攻是负期望</strong></td>
+</tr>
+<tr>
+<td>“豪鬼就是莽”</td>
+<td>职业豪鬼打的是<strong>确定性</strong>，不是莽</td>
+</tr>
+<tr>
+<td>“血少所以要多打”</td>
+<td>血少所以<strong>每次交互的质量</strong>更重要</td>
+</tr>
+</tbody></table>
+<p><strong>推论：豪鬼的正确打法是提高确定性、降低赌性。</strong> 这跟他”杀意之波”的角色气质完全相反——这也是为什么大量豪鬼玩家卡在钻石上不去。</p>
+<hr>
+<h2 id="二-术语与招式速查"><a href="#二、术语与招式速查" class="headerlink" title="二、术语与招式速查"></a>二、术语与招式速查</h2><h3 id="21-命名对照俗称-官方-指令"><a href="#2-1-命名对照（俗称-↔-官方-↔-指令）" class="headerlink" title="2.1 命名对照（俗称 ↔ 官方 ↔ 指令）"></a>2.1 命名对照（俗称 ↔ 官方 ↔ 指令）</h3><table>
+<thead>
+<tr>
+<th>俗称</th>
+<th>官方技名</th>
+<th>指令</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>波 / 豪波动</td>
+<td>Gou Hadoken</td>
+<td>236P</td>
+<td><strong>三档蓄力</strong>，核心</td>
+</tr>
+<tr>
+<td>空波</td>
+<td>Zanku Hadoken</td>
+<td>空中 236P</td>
+<td>空中版</td>
+</tr>
+<tr>
+<td>升龙</td>
+<td>Gou Shoryuken</td>
+<td>623P</td>
+<td>对空 / 凹（OD 版）</td>
+</tr>
+<tr>
+<td>旋风 / 龙卷</td>
+<td>Tatsumaki Zanku-kyaku</td>
+<td>214K</td>
+<td>强制站立时才连得上</td>
+</tr>
+<tr>
+<td>灼火</td>
+<td>Adamant Flame</td>
+<td>214P</td>
+<td>前冲拳，命中/被防都可用</td>
+</tr>
+<tr>
+<td>百鬼袭</td>
+<td>Demon Raid</td>
+<td>236K</td>
+<td>跳向对手，三种派生</td>
+</tr>
+<tr>
+<td>阿修罗闪空</td>
+<td>Ashura Senku</td>
+<td>6KKK / 4KKK</td>
+<td>瞬移，前版 1-37F 无敌</td>
+</tr>
+<tr>
+<td>胧 / 胧投</td>
+<td>Oboro Throw</td>
+<td>闪空中 LP+LK</td>
+<td>指令投，CA 状态外也可用</td>
+</tr>
+<tr>
+<td>前重拳 / 苦无组合</td>
+<td>Kikoku Combination</td>
+<td>6HP</td>
+<td>13F，射程最远前冲拳</td>
+</tr>
+<tr>
+<td>前中脚</td>
+<td>Resso Snap Kick</td>
+<td>6MK</td>
+<td>10F，+5/-4，脱节好</td>
+</tr>
+<tr>
+<td>前中拳</td>
+<td>Skull Splitter</td>
+<td>6MP</td>
+<td>20F，<strong>中段</strong></td>
+</tr>
+<tr>
+<td>后重脚</td>
+<td>Rago High Kick</td>
+<td>4HK</td>
+<td>12F，对空 launcher，KD+47</td>
+</tr>
+<tr>
+<td>一气</td>
+<td>SA1 Messatsu Gohado</td>
+<td>236236P</td>
+<td>装填型，<strong>不能凹</strong></td>
+</tr>
+<tr>
+<td>二气</td>
+<td>SA2 Empyrean’s End</td>
+<td>214214P</td>
+<td>全无敌 1-11F，<strong>板边上墙</strong></td>
+</tr>
+<tr>
+<td>三气 / 祸坏</td>
+<td>SA3 Sip of Calamity</td>
+<td>236236K</td>
+<td>全无敌 1-11F，高伤</td>
+</tr>
+<tr>
+<td>瞬狱杀</td>
+<td>CA Shun Goku Satsu</td>
+<td>LP·LP·6LK·HP</td>
+<td><strong>CA 限定</strong>，6F 发生但只有 <strong>1F 无敌</strong></td>
+</tr>
+</tbody></table>
+<h3 id="22-数字记号"><a href="#2-2-数字记号" class="headerlink" title="2.2 数字记号"></a>2.2 数字记号</h3><p><code>5</code> = 站，<code>2</code> = 蹲，<code>6</code> = 前，<code>4</code> = 后，<code>j.</code> = 空中<br><code>&gt;</code> = 取消，<code>,</code> = 目押，<code>~</code> = 派生，<code>&#123;&#125;</code> = 半蓄力，<code>[]</code> = 满蓄力<br><code>PC</code> = 惩罚反击（打确反），<code>CH</code> = 打康，<code>KD+HKD</code> = 击倒 / 硬直击倒，<code>DR/CDR</code> = 绿冲 / 绿冲取消</p>
+<hr>
+<h3 id="23-输入层5-帧缓冲-窜招以及刷键该不该用"><a href="#2-3-输入层：5-帧缓冲、窜招，以及「刷键该不该用」" class="headerlink" title="2.3 输入层：5 帧缓冲、窜招，以及「刷键该不该用」"></a>2.3 输入层：5 帧缓冲、窜招，以及「刷键该不该用」</h3><blockquote>
+<p>这一节回答一个具体问题：<strong>豪鬼大量 0 帧目押，习惯是刷两下键，要不要改成只按一下？</strong><br>答案：<strong>要，但要先分清「目押」和「TC」是两种东西。</strong></p>
+</blockquote>
+<h4 id="先把数字说准"><a href="#先把数字说准" class="headerlink" title="先把数字说准"></a>先把数字说准</h4><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>提前缓冲</th>
+<th><strong>实际窗口</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>普通招式（目押、连段衔接）</td>
+<td>最多提前 <strong>4F</strong></td>
+<td><strong>5F</strong></td>
+</tr>
+<tr>
+<td>冲刺 / 起身凹</td>
+<td>提前 <strong>7F</strong></td>
+<td>8F</td>
+</tr>
+<tr>
+<td><strong>0 帧目押</strong>（优势 = 发生）</td>
+<td>优势 1F + 缓冲 4F</td>
+<td><strong>5F</strong></td>
+</tr>
+</tbody></table>
+<p>所以”0 帧目押在街霸 6 实际上是 4 帧”——准确说是 <strong>5 帧</strong>（4 帧提前 + 本帧）。60fps 下 1 帧约 16ms，不影响结论，但既然是算帧，就说准。</p>
+<h4 id="结论先行目押单按tc-连打"><a href="#结论先行：目押单按，TC-连打" class="headerlink" title="结论先行：目押单按，TC 连打"></a>结论先行：目押单按，TC 连打</h4><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>例子</th>
+<th>打法</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>目押（link）</strong></td>
+<td><code>5HP, 5MK</code>；<code>5MP, 2HP</code></td>
+<td><strong>单按一次</strong></td>
+<td>需要读时机，连打会污染反馈</td>
+</tr>
+<tr>
+<td><strong>TC / 取消（cancel）</strong></td>
+<td><code>6MP &gt; 5MP</code>；<code>5MP TC</code></td>
+<td><strong>连打、越连越好</strong></td>
+<td>取消窗口宽，只需”尽快按”</td>
+</tr>
+<tr>
+<td><strong>特殊技 / 指令</strong></td>
+<td><code>6HP</code>、<code>623</code>、<code>236</code></td>
+<td><strong>单按 + 方向干净</strong></td>
+<td>问题是方向残留，不是频率</td>
+</tr>
+</tbody></table>
+<p><strong>混用这两种是掉招的主要来源</strong>：把”连打”的习惯带到目押上，掉连；把”单按”的习惯带到 TC 上，反而慢一拍。</p>
+<h4 id="为什么刷键在目押上没有好处三条"><a href="#为什么刷键在目押上没有好处（三条）" class="headerlink" title="为什么刷键在目押上没有好处（三条）"></a>为什么刷键在目押上没有好处（三条）</h4><p><strong>① 它不扩大窗口。</strong> 窗口是游戏给的 5 帧，恒定。你按两下只是产生两个候选时刻，而人手连按的间隔在 2~4 帧之间浮动——<strong>覆盖是随机的，不是叠加的</strong>。你并没有变稳，只是把一次判断换成了两次赌。</p>
+<p><strong>② 它抹掉反馈（最致命）。</strong> 按两下之后，你无法分辨”我这一下是按早了还是按晚了”。而<strong>没有反馈就没有学习</strong>——这和你之前那条”后摇里按了没效果”是同一类问题：不是技术问题，是<strong>数据被自己遮住了</strong>。</p>
+<p><strong>③ 连段里有实际代价。</strong> 第二下会在第一下之后出招：变成空振、掉连，或者在对手已经落地时挥空被确反。练得越多，这个习惯越贵。</p>
+<h4 id="但-6hp-5hp-窜招是另一件事"><a href="#但-6HP-5HP-窜招是另一件事" class="headerlink" title="但 6HP / 5HP 窜招是另一件事"></a>但 <code>6HP</code> / <code>5HP</code> 窜招是另一件事</h4><p>这不是按键频率问题，是<strong>方向残留</strong>问题。原因有两个：</p>
+<ol>
+<li><strong><code>6</code> 会残留。</strong> 你刚按过前进、<code>6MK</code>、或者摇过半圈，方向还没回中，这时按 HP 就出成 <code>6HP</code>。</li>
+<li><strong>SF6 每帧读 3 次输入</strong>（社区测试，WydD）。同一帧里出现多个方向时，游戏最终取哪个<strong>看起来是随机的</strong>——所以”按得更快”不是解法，**”更干净”才是**。</li>
+</ol>
+<p>三条修正：</p>
+<table>
+<thead>
+<tr>
+<th>问题</th>
+<th>做法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>想要 <code>5HP</code> 却出 <code>6HP</code></td>
+<td>按之前<strong>先把方向回中 1~2 帧</strong>，宁可慢一点</td>
+</tr>
+<tr>
+<td>想要 <code>6HP</code> 却出 <code>5HP</code></td>
+<td>顺序是「<strong>前 → 停 1 帧 → 按</strong>」，不是”边推边按”</td>
+</tr>
+<tr>
+<td>前走中直接按 HP</td>
+<td><strong>别这么干</strong>，先停住再按</td>
+</tr>
+</tbody></table>
+<h4 id="怎么验证别信我信你自己的表"><a href="#怎么验证（别信我，信你自己的表）" class="headerlink" title="怎么验证（别信我，信你自己的表）"></a>怎么验证（别信我，信你自己的表）</h4><p><strong>先做 <code>K0.5</code>（各 10 次粗测，2 分钟）</strong>：<code>DR 2HP, 2MP</code> 单按 10 次 vs 刷两下 10 次。</p>
+<ul>
+<li>两个数<strong>差距明显</strong>（单按明显更低）→ 刷键确实在替你干活，按 §2.3b 的锚点法改</li>
+<li>两个数<strong>接近</strong>（大概率）→ 刷键只是安慰剂，改成单按，把省下的注意力放到读时机上</li>
+</ul>
+<p>只有两者接近、但你想进一步确认时，才做正式对照：</p>
+<table>
+<thead>
+<tr>
+<th>打法</th>
+<th>成功 /20</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A 单按一次</td>
+<td></td>
+</tr>
+<tr>
+<td>B 刷两下</td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>如果 B 显著高于 A，那就是我判断错了，以你的实测为准。</strong></p>
+<h4 id="找时机的正确工具比刷键有用一万倍"><a href="#找时机的正确工具（比刷键有用一万倍）" class="headerlink" title="找时机的正确工具（比刷键有用一万倍）"></a>找时机的正确工具（比刷键有用一万倍）</h4><ol>
+<li>打开 <strong>设置 → 界面显示 → 可取消时机显示</strong>（头顶会出现红/绿条）</li>
+<li>训练场把速度调到 <strong>50%</strong></li>
+<li>出招，盯住<strong>头顶条从红变绿的瞬间</strong>——那就是窗口打开的那一帧</li>
+<li>记住那个”收招动作长什么样”，恢复 100% 速度再练</li>
+</ol>
+<blockquote>
+<p>目押之所以叫”目押”，就是<strong>用眼睛看收招动作</strong>，不是用手指碰运气。刷键的本质是”放弃看，改用碰”——它解决的从来不是时机问题，是”我不知道时机在哪”的问题。而后者有更快的解法。</p>
+</blockquote>
+<h3 id="23b-为什么这个习惯在毒蛇身上从没被惩罚"><a href="#2-3b-为什么这个习惯在毒蛇身上从没被惩罚" class="headerlink" title="2.3b 为什么这个习惯在毒蛇身上从没被惩罚"></a>2.3b 为什么这个习惯在毒蛇身上从没被惩罚</h3><blockquote>
+<p>这一节回答一个更根本的问题：<strong>同样是刷键，为什么在毒蛇身上无害，到豪鬼身上就变成掉招？</strong></p>
+</blockquote>
+<h4 id="不是毒蛇不需要精度是毒蛇的错误看得见"><a href="#不是”毒蛇不需要精度”，是”毒蛇的错误看得见”" class="headerlink" title="不是”毒蛇不需要精度”，是”毒蛇的错误看得见”"></a>不是”毒蛇不需要精度”，是”毒蛇的错误看得见”</h4><table>
+<thead>
+<tr>
+<th></th>
+<th>毒蛇</th>
+<th>豪鬼</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>连段的主导结构</td>
+<td>HJC、低空火腿、假电取消 = <strong>取消（cancel）</strong></td>
+<td><code>2HP, 2MP</code>、<code>5MP, 2HP</code> = <strong>目押（link）</strong></td>
+</tr>
+<tr>
+<td>窗口位置</td>
+<td>动作<strong>本身持续期间</strong>（十几帧）</td>
+<td>对手硬直<strong>最后几帧</strong>（0~1 帧余量）</td>
+</tr>
+<tr>
+<td>按早了会怎样</td>
+<td>取消不出来 → <strong>连段当场断掉</strong></td>
+<td>指令被吞 → 但<strong>刷键的第二下会”碰巧”接上</strong></td>
+</tr>
+<tr>
+<td>按两下的代价</td>
+<td>无（取消本来就鼓励连打）</td>
+<td>掉连、出成别的招、被确反</td>
+</tr>
+</tbody></table>
+<p><strong>关键差别是「错误的可见性」。</strong></p>
+<ul>
+<li>毒蛇按错：连段断了，慢动作里一目了然 → 你能从失败里学到东西</li>
+<li>豪鬼刷键按错：第二下蒙对，连段成立 → <strong>你以为你按对了</strong></li>
+</ul>
+<blockquote>
+<p>刷键把 0 帧目押从一个<strong>可学习任务</strong>，变成了一个<strong>不可学习任务</strong>。<br>而毒蛇根本不会制造这种错觉，因为它的连段里几乎没有 link——<strong>它不给你犯这个错的机会，也不给你发现这个错的机会。</strong></p>
+</blockquote>
+<p>这跟你前面那条”后摇里按了也没效果”是同一个结构：<strong>不是技术问题，是数据被自己遮住了。</strong> 三个问题（后摇按了没用 / 波被防几帧 / 0 帧要不要刷键）其实是同一件事——<strong>用手感代替读数</strong>。</p>
+<h4 id="你举的那条dr-2hp-2mp-确实是-0-帧"><a href="#你举的那条：DR-2HP-2MP-确实是-0-帧" class="headerlink" title="你举的那条：DR 2HP, 2MP 确实是 0 帧"></a>你举的那条：<code>DR 2HP, 2MP</code> 确实是 0 帧</h4><p>用官方帧数验一遍（DR 中命中优势 +4）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2HP 命中 +1 → 绿冲中 +5</span><br><span class="line">2MP 发生 6F → 需要 +5 才接得上（公式：优势 ≥ 发生 − 1）</span><br><span class="line">+5 = +5 → 余 0 帧</span><br></pre></td></tr></table></figure>
+
+<p><strong>完全成立，也完全不容错。</strong> 这就是为什么它在录像里看起来”很顺”，实战里却常常莫名其妙断——不是你没练，是这个连接本来就只有一条缝。</p>
+<h4 id="余量公式自己算任何一条连段"><a href="#余量公式（自己算任何一条连段）" class="headerlink" title="余量公式（自己算任何一条连段）"></a>余量公式（自己算任何一条连段）</h4><blockquote>
+<p><strong>余量 = 命中优势 −（下一招发生 − 1）</strong><br>绿冲中的招，命中优势 <strong>+4</strong>。</p>
+</blockquote>
+<p>豪鬼常用 link 按余量分档（官方 Year 4 数据）：</p>
+<table>
+<thead>
+<tr>
+<th>余量</th>
+<th>连段</th>
+<th>算式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>0 帧</strong></td>
+<td><code>DR 2HP, 2MP</code></td>
+<td>(1+4)=5 vs 6F</td>
+</tr>
+<tr>
+<td><strong>0 帧</strong></td>
+<td><code>DR 2HP, 5MP</code></td>
+<td>(1+4)=5 vs 6F</td>
+</tr>
+<tr>
+<td><strong>0 帧</strong></td>
+<td><code>DR 5HP, 2MK</code></td>
+<td>(3+4)=7 vs 8F</td>
+</tr>
+<tr>
+<td><strong>0 帧</strong></td>
+<td><code>5HP, 5LP</code> / <code>5MK, 5LP</code></td>
+<td>3 vs 4F</td>
+</tr>
+<tr>
+<td><strong>1 帧</strong></td>
+<td><code>DR 5MP, 2HP</code> ← <strong>7.2 主练这条</strong></td>
+<td>(4+4)=8 vs 8F</td>
+</tr>
+<tr>
+<td><strong>1 帧</strong></td>
+<td><code>DR 5HP, 5MK</code></td>
+<td>(3+4)=7 vs 7F</td>
+</tr>
+<tr>
+<td><strong>1 帧</strong></td>
+<td><code>2MP, 5MP</code> / <code>2MP, 2MP</code></td>
+<td>6 vs 6F</td>
+</tr>
+<tr>
+<td><strong>1 帧</strong></td>
+<td><code>5MP, 2LP</code></td>
+<td>4 vs 4F</td>
+</tr>
+<tr>
+<td><strong>2 帧</strong></td>
+<td><code>2LP, 2LP</code> / <code>2LP, 5LP</code></td>
+<td>5 vs 4F</td>
+</tr>
+</tbody></table>
+<p><strong>读法</strong>：0 帧档必须单按，且必须靠视觉锚点；1 帧档单按也能稳；2 帧档容错已经够宽，连打的收益刚好抵消掉风险。</p>
+<h4 id="但先问一句这条-0-帧值不值得练"><a href="#但先问一句：这条-0-帧值不值得练" class="headerlink" title="但先问一句：这条 0 帧值不值得练"></a>但先问一句：这条 0 帧值不值得练</h4><p>0 帧目押的注意力成本是固定的，收益却差别很大。</p>
+<table>
+<thead>
+<tr>
+<th>情况</th>
+<th>建议</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>能多打 400+ 伤害，或唯一进斩杀线</td>
+<td><strong>值得练</strong>，用视觉锚点</td>
+</tr>
+<tr>
+<td>只多 100 伤害，且有 1 帧替代路线</td>
+<td><strong>换路线</strong>，把注意力留给立回</td>
+</tr>
+<tr>
+<td>只是为了”看起来很帅”</td>
+<td><strong>不练</strong></td>
+</tr>
+</tbody></table>
+<p>豪鬼的连段表里，很多 0 帧 route 都有 1 帧替代品（比如 <code>DR 2HP, 5MP</code> 和 <code>DR 2HP, 2MP</code> 同为 0 帧，但后续收尾可能不同）。<strong>先找替代，再决定练不练</strong>——这跟 DRC 那条”一样的钱先买稳的”是同一个判断。</p>
+<h4 id="怎么把碰改成看针对-0-帧"><a href="#怎么把”碰”改成”看”（针对-0-帧）" class="headerlink" title="怎么把”碰”改成”看”（针对 0 帧）"></a>怎么把”碰”改成”看”（针对 0 帧）</h4><p>0 帧目押只有 5 帧窗口（1 帧 + 4 帧缓冲），60fps 下 83ms，<strong>不可能靠手感稳定</strong>。必须找一个视觉锚点：</p>
+<table>
+<thead>
+<tr>
+<th>锚点</th>
+<th>怎么用</th>
+<th>适用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>可取消时机显示</strong>（红/绿条）</td>
+<td>只在<strong>取消</strong>时有效，目押看不到</td>
+<td>练 TC / DRC 用</td>
+</tr>
+<tr>
+<td><strong>对手的受击姿势</strong></td>
+<td>硬直结束前会开始”往回站”，那一帧就是窗口</td>
+<td>通用，最可靠</td>
+</tr>
+<tr>
+<td><strong>自己的收招动作</strong></td>
+<td><code>2HP</code> 收拳到胸前的某一帧</td>
+<td>最稳定，因为是你自己的动作</td>
+</tr>
+</tbody></table>
+<p><strong>训练步骤</strong>（10 分钟）：</p>
+<ol>
+<li>50% 速度，只打 <code>DR 2HP, 2MP</code>，20 次，找”看到什么就按”</li>
+<li>口头描述那个画面（”他肩膀往下塌的那一下”），描述不出来说明你还在碰</li>
+<li>100% 速度，20 次，记录成功数</li>
+<li>开随机防御，被防时<strong>必须停</strong>（练确认，别练手速）</li>
+<li>单按 vs 刷键各 20 次，填上面那张 A/B 表</li>
+</ol>
+<blockquote>
+<p><strong>验收标准不是”20 次全成”，是”说得出你在看什么”。</strong> 只要说得出，成功率会自己长上去；说不出，成功率就是运气。</p>
+</blockquote>
+<hr>
+<h2 id="三-帧数基座"><a href="#三、帧数基座" class="headerlink" title="三、帧数基座"></a>三、帧数基座</h2><blockquote>
+<p>数据源：Capcom 官方帧数表（Year 4）。<strong>带 ⚠️ 的条目与备忘录有 1 帧出入，以官方为准。</strong></p>
+</blockquote>
+<h3 id="31-普通技只列会用的"><a href="#3-1-普通技（只列会用的）" class="headerlink" title="3.1 普通技（只列会用的）"></a>3.1 普通技（只列会用的）</h3><table>
+<thead>
+<tr>
+<th>技</th>
+<th>发生</th>
+<th>命中</th>
+<th>被防</th>
+<th>判定</th>
+<th>关键属性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5LP</td>
+<td>4</td>
+<td>+4</td>
+<td>-1</td>
+<td>上</td>
+<td>链式取消，压制起点</td>
+</tr>
+<tr>
+<td>2LP</td>
+<td>4</td>
+<td>+5</td>
+<td>-1</td>
+<td>上</td>
+<td>链式，确反默认按钮</td>
+</tr>
+<tr>
+<td>5LK</td>
+<td>5</td>
+<td>+2</td>
+<td>-4</td>
+<td>上</td>
+<td><strong>射程最远轻攻击</strong>，确反 5F 用</td>
+</tr>
+<tr>
+<td>2LK</td>
+<td>5</td>
+<td>+3</td>
+<td>-3</td>
+<td>下</td>
+<td>最快下段起手</td>
+</tr>
+<tr>
+<td>5MP</td>
+<td>6</td>
+<td>+4</td>
+<td><strong>+1</strong></td>
+<td>上</td>
+<td><strong>压制核心</strong>，被防仍有利</td>
+</tr>
+<tr>
+<td>2MP</td>
+<td>6</td>
+<td><strong>+6</strong></td>
+<td>-1</td>
+<td>上</td>
+<td>脱节优秀，连段主力</td>
+</tr>
+<tr>
+<td>5MK</td>
+<td>7</td>
+<td>+3</td>
+<td>-3</td>
+<td>上</td>
+<td><strong>强制站立</strong>（接旋风的前提）</td>
+</tr>
+<tr>
+<td>2MK</td>
+<td>8</td>
+<td>0</td>
+<td>-6</td>
+<td>下</td>
+<td><strong>立回中枢</strong>，可取消必杀/绿冲</td>
+</tr>
+<tr>
+<td>2HP</td>
+<td>8</td>
+<td>+1</td>
+<td>-8</td>
+<td>上</td>
+<td>对空 + 连段，判定框 11F 才出</td>
+</tr>
+<tr>
+<td>5HP</td>
+<td>9</td>
+<td>+3</td>
+<td>-3</td>
+<td>上</td>
+<td>远距离可取消，确认窗口 19F</td>
+</tr>
+<tr>
+<td>2HK</td>
+<td>9</td>
+<td><strong>KD+40</strong></td>
+<td>-12</td>
+<td>下</td>
+<td>扫腿，PC 时 HKD+47</td>
+</tr>
+<tr>
+<td>6MK</td>
+<td>10</td>
+<td>+5</td>
+<td>-4</td>
+<td>上</td>
+<td>长距离脱节，中距离安全</td>
+</tr>
+<tr>
+<td>4HK</td>
+<td>12</td>
+<td><strong>KD+47</strong></td>
+<td>-15</td>
+<td>上</td>
+<td>对空 launcher，高伤起手</td>
+</tr>
+<tr>
+<td>5HK</td>
+<td>13</td>
+<td><strong>+7</strong></td>
+<td><strong>+3</strong></td>
+<td>上</td>
+<td><strong>强制站立</strong>；被防 +3 极强，但<strong>蹲着能躲</strong>（打空 +1F）</td>
+</tr>
+<tr>
+<td>6HP</td>
+<td>13</td>
+<td>+4</td>
+<td>-3</td>
+<td>上</td>
+<td>射程最远前冲拳，确认 20F</td>
+</tr>
+<tr>
+<td>6MP</td>
+<td>20</td>
+<td>+3</td>
+<td>-3</td>
+<td><strong>中段</strong></td>
+<td>唯一常规中段，DR 后可接 5MK</td>
+</tr>
+</tbody></table>
+<p><strong>三条必须背下来的</strong>：</p>
+<ol>
+<li><strong>5MP 被防 +1</strong> —— 全游戏最好的压制起手之一，被防还能继续压。</li>
+<li><strong>5HK 是上段，蹲着能躲</strong> —— 备忘录里”重脚”起手的所有连段，<strong>都建立在对手没蹲的前提下</strong>。但注意：官方表上<strong>它被防是 +3，不是 -13</strong>（旧稿把”蹲空”和”被防”混成了一条，见 3.3）。所以它是极强的按钮，风险只在蹲空 —— 打空时多吃 1F，13F 的东西打空就是 14F 收招。</li>
+<li><strong>2MK 被防 -6 但可取消</strong> —— 这是豪鬼的立回发动机，也是他的死穴（见 4.3）。</li>
+</ol>
+<blockquote>
+<p><strong>2026-11-02 数据修正</strong>：<code>5HK</code> 旧稿记「被防 -13」，与同行的 <code>+3</code> 自相矛盾。官方 2026-08-27：13F / <strong>+7 命中 / +3 被防</strong> / 15F 收招 / 打空 +1F / 800 / 强制站立。**+3 被防意味着它比 5MP 还强** —— 但它蹲着打空，所以真正的限制是”对手蹲不蹲”，不是”安不安全”。</p>
+</blockquote>
+<h3 id="32-必杀技"><a href="#3-2-必杀技" class="headerlink" title="3.2 必杀技"></a>3.2 必杀技</h3><table>
+<thead>
+<tr>
+<th>技</th>
+<th>发生</th>
+<th>命中</th>
+<th>被防</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>236LP(Lv1)</td>
+<td>16</td>
+<td>0</td>
+<td>-4</td>
+<td><strong>最安全波</strong>，复合首选</td>
+</tr>
+<tr>
+<td>236MP(Lv1)</td>
+<td>14</td>
+<td>-2</td>
+<td>-6</td>
+<td>中速，对波用</td>
+</tr>
+<tr>
+<td>236HP(Lv1)</td>
+<td>12</td>
+<td>-4</td>
+<td>-8</td>
+<td>最快，最不安全</td>
+</tr>
+<tr>
+<td>236PP(OD)</td>
+<td>12</td>
+<td>KD</td>
+<td><strong>随距离 +4 ~ +27</strong></td>
+<td>2 段，斗气 2 格；实测见 <code>D1</code></td>
+</tr>
+<tr>
+<td>236{P}(Lv2)</td>
+<td>31</td>
+<td>KD</td>
+<td><strong>-2</strong></td>
+<td>蓄力 25-48F，三键相同</td>
+</tr>
+<tr>
+<td>236<a href="Lv3">P</a></td>
+<td>56</td>
+<td>KD</td>
+<td><strong>+1</strong></td>
+<td>满蓄，2 段，1350</td>
+</tr>
+<tr>
+<td>623LP</td>
+<td>5</td>
+<td>KD+38</td>
+<td>-23</td>
+<td>1-14F 空中打击无敌，对空最好</td>
+</tr>
+<tr>
+<td>623MP</td>
+<td>6</td>
+<td>KD+32</td>
+<td>-30</td>
+<td>1-9F</td>
+</tr>
+<tr>
+<td>623HP</td>
+<td>7</td>
+<td>KD+30</td>
+<td>-36</td>
+<td>1-9F，射程最远</td>
+</tr>
+<tr>
+<td>623PP(OD)</td>
+<td>6</td>
+<td>KD+14</td>
+<td>-41</td>
+<td><strong>1-8F 完全无敌（唯一的凹）</strong></td>
+</tr>
+<tr>
+<td>214LK</td>
+<td>12</td>
+<td>KD+50</td>
+<td>-13</td>
+<td>强制站立时才能连</td>
+</tr>
+<tr>
+<td>214MK</td>
+<td>11</td>
+<td>KD+41</td>
+<td>-13</td>
+<td><strong>+41 是压起身主力帧</strong></td>
+</tr>
+<tr>
+<td>214HK</td>
+<td>7</td>
+<td>KD+34</td>
+<td>-59</td>
+<td>推板最远，被防大确反</td>
+</tr>
+<tr>
+<td>214KK(OD)</td>
+<td>13</td>
+<td>KD+47</td>
+<td>-17</td>
+<td>Year 4 起<strong>能打蹲姿</strong></td>
+</tr>
+<tr>
+<td>214LP</td>
+<td>15</td>
+<td>+1</td>
+<td>-8</td>
+<td>灼火最轻版</td>
+</tr>
+<tr>
+<td>214MP</td>
+<td>19</td>
+<td>+2</td>
+<td>-4</td>
+<td>折中</td>
+</tr>
+<tr>
+<td>214HP</td>
+<td>23</td>
+<td>+3</td>
+<td>-3</td>
+<td><strong>PC 时 +12</strong>，确反起手用这个</td>
+</tr>
+<tr>
+<td>214PP(OD)</td>
+<td>18</td>
+<td>+1</td>
+<td>-3</td>
+<td><strong>PC 时崩解 +39</strong>，板边上墙</td>
+</tr>
+<tr>
+<td>214LP~6P</td>
+<td>7</td>
+<td>+3</td>
+<td>-10</td>
+<td>派生收尾</td>
+</tr>
+<tr>
+<td>214MP~6P</td>
+<td>7</td>
+<td>KD+32</td>
+<td>-18</td>
+<td>派生收尾</td>
+</tr>
+<tr>
+<td>214HP~6P</td>
+<td>11</td>
+<td><strong>KD+47</strong></td>
+<td>-14</td>
+<td><strong>+47 是最高收尾帧</strong></td>
+</tr>
+<tr>
+<td>214PP~6P</td>
+<td>7</td>
+<td><strong>HKD+45(+63)</strong></td>
+<td>-18</td>
+<td>板边<strong>上墙</strong></td>
+</tr>
+<tr>
+<td>236K(百鬼)</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>7F 后可取消，18-40F 空中</td>
+</tr>
+<tr>
+<td>236K~无输入(下段滑)</td>
+<td>8</td>
+<td><strong>HKD+39</strong></td>
+<td>+2</td>
+<td>下段派生</td>
+</tr>
+<tr>
+<td>236K~P(斩)</td>
+<td>16</td>
+<td>KD+37~41</td>
+<td>+3</td>
+<td><strong>中段</strong>派生</td>
+</tr>
+<tr>
+<td>236K~K(空箭)</td>
+<td>13</td>
+<td>—</td>
+<td>-5</td>
+<td>俯冲踢</td>
+</tr>
+<tr>
+<td>空 214K</td>
+<td>11</td>
+<td>KD+46</td>
+<td>-2</td>
+<td>空中旋风</td>
+</tr>
+<tr>
+<td>6KKK(前闪)</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td><strong>1-37F 无敌</strong>，可派生</td>
+</tr>
+<tr>
+<td>6KKK~LP+LK(胧)</td>
+<td>8</td>
+<td><strong>HKD+20</strong></td>
+<td>—</td>
+<td>指令投，过波/过拆</td>
+</tr>
+</tbody></table>
+<h3 id="33-超必杀"><a href="#3-3-超必杀" class="headerlink" title="3.3 超必杀"></a>3.3 超必杀</h3><table>
+<thead>
+<tr>
+<th>超必</th>
+<th>指令</th>
+<th>发生</th>
+<th>无敌</th>
+<th>命中</th>
+<th>被防</th>
+<th>伤害</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>SA1</td>
+<td>236236P</td>
+<td>10</td>
+<td><strong>1-14F 打击/投无敌</strong></td>
+<td>KD+9</td>
+<td>-41</td>
+<td>2200</td>
+</tr>
+<tr>
+<td>空中 SA1</td>
+<td>空中 236236K</td>
+<td>14</td>
+<td>—</td>
+<td>KD+49~</td>
+<td>-28~</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>SA2</td>
+<td>214214P</td>
+<td>9</td>
+<td><strong>1-11F 全无敌</strong></td>
+<td><strong>HKD+29</strong></td>
+<td>-35</td>
+<td>2800</td>
+</tr>
+<tr>
+<td>SA3 / CA</td>
+<td>236236K</td>
+<td>8</td>
+<td><strong>1-11F 全无敌</strong></td>
+<td><strong>HKD+18</strong></td>
+<td>-41</td>
+<td>4000 / 4500</td>
+</tr>
+<tr>
+<td>瞬狱杀</td>
+<td>LP·LP·6LK·HP</td>
+<td>6</td>
+<td><strong>仅 1F 全无敌</strong></td>
+<td>—</td>
+<td>-47</td>
+<td>4700</td>
+</tr>
+</tbody></table>
+<p><strong>关键结论：</strong></p>
+<ul>
+<li><strong>SA1 不是凹招</strong>（只有打击/投无敌，会被跳入和中段打穿）。它是连段收尾 + 板边压制工具。</li>
+<li><strong>瞬狱杀只有 1 帧无敌</strong>——它是”抓空振 / 抓起身 / 抓拆投”的工具，<strong>不是防守技</strong>。<strong>本阶段整体封存，见 5.5。</strong></li>
+<li><strong>真的能凹的只有三个</strong>：OD 升龙（1-8F）、SA2（1-11F）、SA3（1-11F）。</li>
+</ul>
+<hr>
+<h2 id="四-立回豪鬼的地面"><a href="#四、立回：豪鬼的地面" class="headerlink" title="四、立回：豪鬼的地面"></a>四、立回：豪鬼的地面</h2><h3 id="41-核心模型三段距离"><a href="#4-1-核心模型：三段距离" class="headerlink" title="4.1 核心模型：三段距离"></a>4.1 核心模型：三段距离</h3><p>豪鬼的立回不是”一套拳脚走天下”，而是<strong>按距离切换武器</strong>。这是他与隆肯最大的区别（隆肯是”同距离不同选项”，豪鬼是”不同距离不同角色”）。</p>
+<table>
+<thead>
+<tr>
+<th>距离</th>
+<th>主武器</th>
+<th>目的</th>
+<th>风险</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>贴身（0-1 身位）</strong></td>
+<td>5MP / 2LP / 投 / 6MP 中段</td>
+<td>打投择、削斗气</td>
+<td>被凹、被拆</td>
+</tr>
+<tr>
+<td><strong>⚠️ 死区（约 1.5 格）</strong></td>
+<td><strong>不用按钮</strong>——前走一步或后走半步</td>
+<td>改变距离，让他先做选择</td>
+<td>按 2MK 会差合（见 §4.2b）</td>
+</tr>
+<tr>
+<td><strong>中距离（2-3 身位）</strong></td>
+<td><strong>2MK</strong> / 6MK / 6HP</td>
+<td>摸到 → 绿冲确认</td>
+<td>2MK 被防 -6</td>
+</tr>
+<tr>
+<td><strong>远距离（4 身位+）</strong></td>
+<td>波（三档）/ 6MK / 空波</td>
+<td>控屏、逼对手行动</td>
+<td>被跳入</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>切换的逻辑</strong>：把对手逼进你<strong>想打的</strong>那一层，而不是被他拖进他想要的层。豪鬼的中距离是全场最强之一，所以默认答案是”守住中距离”，不是”往前冲”。</p>
+</blockquote>
+<h3 id="42-中距离四件套"><a href="#4-2-中距离四件套" class="headerlink" title="4.2 中距离四件套"></a>4.2 中距离四件套</h3><table>
+<thead>
+<tr>
+<th>按钮</th>
+<th>用途</th>
+<th>接什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>5HP（9F，+3/-3）</strong></td>
+<td><strong>主力</strong>：打站姿 / 前走，打空不罚</td>
+<td><code>5HP &gt; 214HP~6P</code>（零斗气 +47 击倒）</td>
+</tr>
+<tr>
+<td><strong>2MK（8F，0/-6）</strong></td>
+<td><strong>唯一的下段</strong>：逼对手蹲</td>
+<td><code>2MK &gt; 236LP</code>（复合）/ <code>2MK &gt; CDR</code></td>
+</tr>
+<tr>
+<td><strong>6MK（10F，+5/-4）</strong></td>
+<td>确定不空时用，射程略长</td>
+<td>单发，命中后走位</td>
+</tr>
+<tr>
+<td><strong>6HP（13F，+4/-3）</strong></td>
+<td><strong>射程最远 + 前冲位移</strong>：追后走</td>
+<td><code>6HP PC &gt; 2MK &gt; CDR</code>（Year 4 加强）</td>
+</tr>
+</tbody></table>
+<p><strong>为什么真正的中枢是 5HP，不是 2MK？</strong></p>
+<blockquote>
+<p><strong>中距离的主力按钮，不是”最快”或”最长”的那一个，是”被防最便宜”的那一个。</strong></p>
+</blockquote>
+<p><code>5HP</code> 是这一排里唯一”三项都便宜”的：9F 不算慢、被防 -3 罚不到、打空不吃额外惩罚、伤害 800。而 2MK 虽然快 1 帧，<strong>被防 -6 意味着你白送 3 帧</strong>。</p>
+<p>完整论证（含与肯 5MK 的对照、以及为什么我上一轮推荐的 6MK 是次优解）见 <strong>§4.2c</strong>。</p>
+<p><strong>2MK 的位置是”唯一的下段”，不是”中枢”。</strong></p>
+<p>它满足三件事：下段（对手必须蹲防）、可取消（能转成连段）、能复合兜底。但它的死穴正是 -6：</p>
+<blockquote>
+<p><strong>2MK 必须复合，不能裸出。</strong><br><code>2MK &gt; 236LP</code> 是标准复合（被防推开后实际无责；命中就是连段）。<br>备忘录写”中距离①：下中脚+轻波动【0~+4】—— 无脑复合，骚扰，怕迸”，说的就是这条。</p>
+</blockquote>
+<p><strong>分工一句话</strong>：2MK 负责让他<strong>蹲</strong>，5HP 负责在他站着的时候<strong>把钱收走</strong>。</p>
+<h3 id="42b-15-格死区为什么这里不该有专属按钮"><a href="#4-2b-1-5-格「死区」：为什么这里不该有专属按钮" class="headerlink" title="4.2b 1.5 格「死区」：为什么这里不该有专属按钮"></a>4.2b 1.5 格「死区」：为什么这里不该有专属按钮</h3><blockquote>
+<p>起因：实战出现一个暧昧距离（约 1.5 格）——<strong>2MK 打不到、波不安全、2MK 会被差合</strong>。对策是用 <code>6MK</code>（有下段回避性能）。</p>
+</blockquote>
+<h4 id="先把这一格的数据摆出来"><a href="#先把这一格的数据摆出来" class="headerlink" title="先把这一格的数据摆出来"></a>先把这一格的数据摆出来</h4><table>
+<thead>
+<tr>
+<th>按钮</th>
+<th>发生</th>
+<th>命中</th>
+<th>被防</th>
+<th><strong>打空时</strong></th>
+<th>段位</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2MK</td>
+<td>8F</td>
+<td>0</td>
+<td>-6</td>
+<td>19F 收招（无额外惩罚）</td>
+<td><strong>下</strong></td>
+</tr>
+<tr>
+<td><strong>6MK</strong></td>
+<td>10F</td>
+<td><strong>+5</strong></td>
+<td><strong>-4</strong></td>
+<td><strong>15F + 4F = 19F 收招</strong></td>
+<td><strong>上</strong></td>
+</tr>
+<tr>
+<td>6HP</td>
+<td>13F</td>
+<td>+4</td>
+<td>-3</td>
+<td>—</td>
+<td>上</td>
+</tr>
+<tr>
+<td>6MP</td>
+<td>20F</td>
+<td>+1</td>
+<td>-3</td>
+<td>—</td>
+<td><strong>中段</strong></td>
+</tr>
+</tbody></table>
+<p><strong>你没看错的地方</strong>：6MK 的账面确实比 2MK 好——射程更长、命中 +5、被防 -4（比 -6 安全 2 帧）。</p>
+<p><strong>你没注意的地方有三处：</strong></p>
+<h4 id="1-6mk-打空时的惩罚比被防更重"><a href="#①-6MK-打空时的惩罚，比被防更重" class="headerlink" title="① 6MK 打空时的惩罚，比被防更重"></a>① 6MK 打空时的惩罚，比被防更重</h4><p>官方表写得很清楚：<code>On whiff: 4F additional recovery. On block: 3F additional recovery.</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">被防：15F + 3F = 18F 收招 → 净值 -4</span><br><span class="line">打空：15F + 4F = 19F 收招 → 完全没有保护</span><br></pre></td></tr></table></figure>
+
+<p>也就是说 <strong>6MK 是一把设计上”惩罚空振”的招</strong>。你在死区按它，赌的是”他正好走进来”；赌输了不是 -4，是 19F 的自由落体。</p>
+<h4 id="2-6mk-是上段它躲下段的同时也躲开了蹲着的人"><a href="#②-6MK-是上段——它躲下段的同时，也躲开了蹲着的人" class="headerlink" title="② 6MK 是上段——它躲下段的同时，也躲开了蹲着的人"></a>② 6MK 是上段——它躲下段的同时，也躲开了蹲着的人</h4><p>你说它有”下段回避”，这个观察和”它是上段”其实是<strong>同一件事的两面</strong>：</p>
+<blockquote>
+<p><strong>一个把身体压低的招，打点必然偏高。</strong> 判定框压低让它躲过对手的下段，但也让它从蹲着的人头上扫过去。</p>
+</blockquote>
+<p>这两条在数据上互相印证，所以这不是”6MK 有缺陷”，是 <strong>6MK 的定位被误解了</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>你以为</th>
+<th>实际</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.5 格的通用答案</td>
+<td><strong>只在”他是站姿”时成立的答案</strong></td>
+</tr>
+</tbody></table>
+<p>而你这个 matchup 的对手恰恰是<strong>蹲防前走</strong>——正好落在 6MK 打空的那一侧。</p>
+<p><strong>⚠️ 待实测</strong>：官方表没有标 low profile，你体感有。这一条进训练场确认（见 §11.2）。</p>
+<h4 id="3-死区只有-03-格宽不值得为它准备专属按钮"><a href="#③-死区只有-0-3-格宽——不值得为它准备专属按钮" class="headerlink" title="③ 死区只有 0.3 格宽——不值得为它准备专属按钮"></a>③ 死区只有 0.3 格宽——不值得为它准备专属按钮</h4><p>粗算一下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2MK 射程 ≈ 1.2~1.4 格</span><br><span class="line">6MK 射程 ≈ 1.5~1.7 格</span><br><span class="line">所以死区 ≈ 1.4 ~ 1.5 格，宽度约 0.2~0.3 格</span><br></pre></td></tr></table></figure>
+
+<p>而前走速度大约每帧走 0.05<del>0.08 格。**也就是说他前走 4</del>6 帧，死区就自己消失了。**</p>
+<blockquote>
+<p><strong>为 0.3 格的窗口准备一个专属按钮，成本高于收益。</strong> 这个窗口的正确解法是「<strong>再等 5 帧</strong>」，不是一个新招。</p>
+</blockquote>
+<h4 id="真正的机制射程是动态的你打的是他进入射程的那一刻"><a href="#真正的机制：射程是动态的，你打的是「他进入射程的那一刻」" class="headerlink" title="真正的机制：射程是动态的，你打的是「他进入射程的那一刻」"></a>真正的机制：射程是动态的，你打的是「他进入射程的那一刻」</h4><p>这是整件事的关键，也是”暧昧距离”这个词的误导之处：</p>
+<table>
+<thead>
+<tr>
+<th>你以为的问题</th>
+<th>实际的问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.5 格用哪个按钮</td>
+<td><strong>1.5 格该不该现在按</strong></td>
+</tr>
+</tbody></table>
+<p>**2MK 打不到”停在 1.5 格的人”，但打得到”正在前走的人”**——因为 8F 发生期间他又前进了半格。</p>
+<p>所以：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">他停住 → 2MK whiff → 被差合     ← 你的&quot;差合&quot;恐惧来源</span><br><span class="line">他前走 → 2MK 命中               ← 同一个按钮，同一个距离</span><br></pre></td></tr></table></figure>
+
+<p><strong>差合的原因从来不是距离，是你在他停住的时候按了键。</strong></p>
+<h4 id="所以-15-格的动作优先级"><a href="#所以-1-5-格的动作优先级" class="headerlink" title="所以 1.5 格的动作优先级"></a>所以 1.5 格的动作优先级</h4><table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>动作</th>
+<th>什么时候</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1</strong></td>
+<td><strong>前走一小步</strong>（压到 1.2 格）</td>
+<td>默认答案。走进去，让他必须做选择</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td><strong>后走半步</strong>（拉开到 2 格）</td>
+<td>想让波变安全时；2 格轻波 -1，4 格 +18</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>出招</strong>（<code>5HP</code> / <code>6HP</code> / 2MK 复合）</td>
+<td><strong>只在他已经开始前走时</strong>。注意：这里用 5HP 而不是 6MK，因为 6MK 打空多罚 4F（见 §4.2c）</td>
+</tr>
+<tr>
+<td>禁止</td>
+<td>对着”停住的人”按 2MK</td>
+<td>这是差合的唯一来源</td>
+</tr>
+</tbody></table>
+<p><strong>他前走 = 他送距离给你。</strong> 你什么都不做，5 帧后 2MK 就够了。在死区按 6MK，等于在他还没进射程时提前出手，把射程优势浪费掉。</p>
+<h4 id="按姿态分类的完整答案这一格真正该背的表"><a href="#按姿态分类的完整答案（这一格真正该背的表）" class="headerlink" title="按姿态分类的完整答案（这一格真正该背的表）"></a>按姿态分类的完整答案（这一格真正该背的表）</h4><table>
+<thead>
+<tr>
+<th>他的状态</th>
+<th>你的答案</th>
+<th>为什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>站姿前走</strong></td>
+<td><strong><code>5HP</code>（9F，被防 -3，打空不罚）</strong>；远距离用 <code>6HP</code>（13F，前冲位移）</td>
+<td>上段能打中站姿；5HP 是这里唯一”打空也不吃亏”的按钮（见 §4.2c）</td>
+</tr>
+<tr>
+<td>站姿前走（确定他会进来）</td>
+<td><code>6MK</code>（10F，射程更长、命中 +5）</td>
+<td>只在”确定不空”时更优；打空要多吃 4F</td>
+</tr>
+<tr>
+<td><strong>蹲防前走</strong></td>
+<td><strong><code>6MP</code>（20F，中段）</strong></td>
+<td><strong>唯一能打开蹲防的非投选项</strong>；蹲防的人不攻击，所以 20F 慢不是问题</td>
+</tr>
+<tr>
+<td>蹲防 + 会拆投</td>
+<td><code>6MP</code> / 前走投</td>
+<td>二选一逼他猜</td>
+</tr>
+<tr>
+<td><strong>停下来不动</strong></td>
+<td><strong>前走一步</strong>，压到 1.2 格</td>
+<td>别按键，这是差合的诱因</td>
+</tr>
+<tr>
+<td>后退</td>
+<td>波（距离变远，自动变安全）</td>
+<td>他帮你解决问题</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>关键的一行是”6MP 20F 慢但不危险”<strong>：你平时不敢用 20F 的招，是因为会被抢。但</strong>蹲防的人不攻击</strong>——他放弃进攻换取防御，所以你的慢招不会被抢。这就是”慢招打防御”的全部逻辑，也是 <code>6MK</code> 和 <code>6MP</code> 的分工：<strong>一个打站姿，一个打蹲姿，两者不可互换。</strong></p>
+</blockquote>
+<h4 id="顺带校准一个判断波不安全"><a href="#顺带校准一个判断：「波不安全」" class="headerlink" title="顺带校准一个判断：「波不安全」"></a>顺带校准一个判断：「波不安全」</h4><p>按 <code>D1</code> 的数据推算，1.5 格轻波被防大约 <strong>-3 ~ -4</strong>。而 SF6 里 <strong>-4 对 5F 招是安全的</strong>（他 5F 招要 5 帧才到，你 -4 有 4 帧就能防）。</p>
+<p>所以 1.5 格的波：</p>
+<table>
+<thead>
+<tr>
+<th>是</th>
+<th>不是</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>不利</strong>（被防后失去主动权）</td>
+<td><strong>不安全</strong>（会被确反）</td>
+</tr>
+</tbody></table>
+<p>这两件事又混了一次。<strong>波在 1.5 格不被罚，只是不赚。</strong> 真正的问题是”被防之后你没有下一步”，而不是”这一发会被确反”。</p>
+<blockquote>
+<p>这也是本系列的第四次同一个结构：<strong>用体感代替读数</strong>。只不过这次不是高估风险，是<strong>给风险起了个过重的名字</strong>，然后为了躲开它去找了一个更差的按钮。</p>
+</blockquote>
+<h3 id="42c-站重拳中距离真正的主力对梅原录像的解读"><a href="#4-2c-站重拳：中距离真正的主力（对梅原录像的解读）" class="headerlink" title="4.2c 站重拳：中距离真正的主力（对梅原录像的解读）"></a>4.2c 站重拳：中距离真正的主力（对梅原录像的解读）</h3><blockquote>
+<p>起因：看梅原录像，发现他中距离按的是 <code>5HP</code>（站重拳）和 <code>6HP</code>（前重拳），很少用 2MK。<br>背景：只玩过肯，对”站重拳当立回按钮”这件事没有概念。</p>
+</blockquote>
+<h4 id="先看数据官方-2026-08-27"><a href="#先看数据（官方-2026-08-27）" class="headerlink" title="先看数据（官方 2026-08-27）"></a>先看数据（官方 2026-08-27）</h4><table>
+<thead>
+<tr>
+<th>按钮</th>
+<th>发生</th>
+<th>命中</th>
+<th>被防</th>
+<th><strong>打空多罚</strong></th>
+<th>伤害</th>
+<th>可取消</th>
+<th>射程</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2MK</td>
+<td>8F</td>
+<td><strong>0</strong></td>
+<td><strong>-6</strong></td>
+<td>0</td>
+<td>500</td>
+<td>✓</td>
+<td>近</td>
+</tr>
+<tr>
+<td><strong>5HP</strong></td>
+<td><strong>9F</strong></td>
+<td><strong>+3</strong></td>
+<td><strong>-3</strong></td>
+<td><strong>0</strong></td>
+<td><strong>800</strong></td>
+<td><strong>✓</strong></td>
+<td>中</td>
+</tr>
+<tr>
+<td>6MK</td>
+<td>10F</td>
+<td>+5</td>
+<td>-4</td>
+<td><strong>+4F</strong></td>
+<td>700</td>
+<td>✓</td>
+<td>中远</td>
+</tr>
+<tr>
+<td>5HK</td>
+<td>13F</td>
+<td>+7</td>
+<td>+3</td>
+<td>+1F</td>
+<td>800</td>
+<td>✗</td>
+<td>中</td>
+</tr>
+<tr>
+<td>6HP</td>
+<td>13F</td>
+<td>+4</td>
+<td>-3</td>
+<td>0</td>
+<td>800</td>
+<td>✗（TC 起手）</td>
+<td><strong>最远</strong></td>
+</tr>
+</tbody></table>
+<p><strong>注意 5HP 的三个数字：9F / +3 / -3 / 800，且可取消，且打空不吃额外惩罚。</strong> 这一排里没有第二行是这样的。</p>
+<blockquote>
+<p><strong>顺带说 5HK</strong>：13F / <strong>+7 / +3</strong> / 800 / 强制站立——<strong>这是全表回报最高的中距离按钮</strong>（被防 +3 比 5MP 还好）。但它有个硬开关：<strong>蹲着能躲</strong>。站着 → 最强；蹲着 → 打空。<br>所以它不是”能不能用”的问题，是”<strong>确认他站着才按</strong>“的问题（他在前走、在收招、在被防硬直里）。旧稿把它记成”被防 -13”是错的，详见 §3.1 的修正说明。</p>
+</blockquote>
+<h4 id="一-它就是豪鬼版的肯-5mk"><a href="#一、它就是”豪鬼版的肯-5MK”" class="headerlink" title="一、它就是”豪鬼版的肯 5MK”"></a>一、它就是”豪鬼版的肯 5MK”</h4><p>你说只玩过肯——那这个类比能省掉很多解释：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>肯 5MK</th>
+<th>豪鬼 5HP</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>发生</td>
+<td>7F</td>
+<td>9F（慢 2 帧）</td>
+</tr>
+<tr>
+<td>命中</td>
+<td>+3</td>
+<td><strong>+3</strong></td>
+</tr>
+<tr>
+<td>被防</td>
+<td><strong>-3</strong></td>
+<td><strong>-3</strong></td>
+</tr>
+<tr>
+<td>伤害</td>
+<td>700</td>
+<td><strong>800</strong></td>
+</tr>
+<tr>
+<td>功能位</td>
+<td>中距离主力脱节</td>
+<td><strong>完全一样</strong></td>
+</tr>
+</tbody></table>
+<p><strong>同一个功能位，同一个帧数结构。</strong> 你对肯 5MK 的直觉可以直接搬过来：站在中距离，用它去碰对手的前走和停住，被防了不吃亏，打中了开始连段。</p>
+<p>**豪鬼多出来的那一项是”可取消”**——5HP 能取消成必杀技，这是肯 5MK 没有的。这一项让它从”试探”升级成”兑现”（见下）。</p>
+<h4 id="二-为什么它该当主力三项都便宜"><a href="#二、为什么它该当主力：三项都便宜" class="headerlink" title="二、为什么它该当主力：三项都便宜"></a>二、为什么它该当主力：三项都便宜</h4><p><strong>① 税低一半：-6 → -3</strong></p>
+<p>先给一个能自己算的公式：</p>
+<blockquote>
+<p><strong>被防 -X，能被「X 帧及以内」的招打中。</strong>（最短的招是 4F，所以 -3 及更好 = 罚不到）</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>被防</th>
+<th>谁能罚到你</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>-3（5HP）</strong></td>
+<td><strong>没有任何招能罚</strong>——最短的 4F 招要 4 帧才到，那时你已经恢复了</td>
+</tr>
+<tr>
+<td><strong>-6（2MK）</strong></td>
+<td><strong>6F 以内的招全能罚</strong>，几乎每个角色的 2LP / 5LP / 5LK 都在这个区间</td>
+</tr>
+</tbody></table>
+<p><strong>2MK 被防是”送礼”，5HP 被防是”白拿”。</strong> 这两个按钮只差 1 帧发生，责任差了一整档。</p>
+<p><strong>② 命中能兑现，不用斗气</strong></p>
+<p>这是最关键的一条：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2MK 命中 0  →  只能取消波（波打中，不给击倒）或绿冲（3 格斗气）</span><br><span class="line">5HP 命中 +3  →  `5HP &gt; 214HP~6P`  2180 伤害，KD +47，零斗气</span><br></pre></td></tr></table></figure>
+
+<p><strong>豪鬼的中距离按钮是唯一”命中即击倒”的免费路径。</strong> 2MK 起手给的是距离优势（+18），5HP 起手给的是<strong>一次压起身</strong>。</p>
+<p>按前面算过的账：豪鬼的伤害 90% 来自压起身循环，不是来自单次伤害。所以 <code>+47 击倒</code> 的价值远大于 <code>+18 距离</code>。</p>
+<p><strong>③ 打空不吃额外惩罚</strong></p>
+<p>这一条直接推翻我上一轮的建议：</p>
+<table>
+<thead>
+<tr>
+<th>按钮</th>
+<th>被防</th>
+<th>打空</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6MK</td>
+<td>-4</td>
+<td><strong>15F + 4F = 19F</strong></td>
+</tr>
+<tr>
+<td><strong>5HP</strong></td>
+<td><strong>-3</strong></td>
+<td><strong>18F，无额外惩罚</strong></td>
+</tr>
+</tbody></table>
+<p><strong>在”有可能打空”的距离上（也就是你说的 1.5 格死区），选打空不吃亏的那一个。</strong> 6MK 是设计上惩罚空振的招，5HP 不是。而且 5HP 比 6MK 还快 1 帧、伤害高 100、被防安全 1 帧。</p>
+<blockquote>
+<p><strong>§4.2b 里”站姿前走 → 6MK”这一行，应改为 <code>5HP</code>。</strong> 6MK 只在”确定他会走进来”时更优（射程略长、命中 +5）。</p>
+</blockquote>
+<h4 id="三-那-2mk-还剩什么用"><a href="#三、那-2MK-还剩什么用" class="headerlink" title="三、那 2MK 还剩什么用"></a>三、那 2MK 还剩什么用</h4><p>只剩一件，但这一件不能省：<strong>它是下段。</strong></p>
+<table>
+<thead>
+<tr>
+<th>他的状态</th>
+<th>用什么</th>
+<th>为什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>蹲防</strong></td>
+<td><strong>2MK</strong>（唯一的下段选择）</td>
+<td>5HP 是上段，蹲着能躲</td>
+</tr>
+<tr>
+<td>站姿 / 前走</td>
+<td><strong>5HP</strong></td>
+<td>税低、伤害高、命中能击倒</td>
+</tr>
+<tr>
+<td>停住不动</td>
+<td><strong>5HP 或前走一步</strong></td>
+<td>别用 2MK：被防 -6 白送 3 帧</td>
+</tr>
+<tr>
+<td>后退</td>
+<td><strong>6HP</strong>（13F，有前冲位移）</td>
+<td>追后走；射程最远</td>
+</tr>
+<tr>
+<td>蹲防 + 会拆投</td>
+<td>投 / <code>6MP</code></td>
+<td>打开蹲防（见 §4.2b）</td>
+</tr>
+</tbody></table>
+<p><strong>所以”站重拳 vs 下中脚”不是上段和下段的二选一，是两件不同的事：</strong></p>
+<blockquote>
+<p><strong>2MK 负责让对手不能一直站着；5HP 负责在你确认他站着的时候把钱收走。</strong></p>
+</blockquote>
+<p>下段的作用从来不是”打伤害”，是<strong>逼对手蹲</strong>；而蹲着的对手不会前走，站着的对手才是 5HP 的猎物。这是一个循环，不是两个选项。</p>
+<h4 id="四-6hp-是另一个用途别和-5hp-混"><a href="#四、6HP-是另一个用途，别和-5HP-混" class="headerlink" title="四、6HP 是另一个用途，别和 5HP 混"></a>四、6HP 是另一个用途，别和 5HP 混</h4><table>
+<thead>
+<tr>
+<th></th>
+<th>5HP</th>
+<th>6HP</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>发生</td>
+<td>9F</td>
+<td><strong>13F</strong></td>
+</tr>
+<tr>
+<td>位移</td>
+<td>原地</td>
+<td><strong>前冲</strong></td>
+</tr>
+<tr>
+<td>打谁</td>
+<td><strong>前走 / 站定</strong>的人</td>
+<td><strong>后退</strong>的人、远距离的人</td>
+</tr>
+<tr>
+<td>用错会怎样</td>
+<td>—</td>
+<td>13F 慢，对手站定会被抢</td>
+</tr>
+</tbody></table>
+<p><strong>6HP 的价值在”位移”，不在”帧数”。</strong> 他后走时，13F 期间他还在退，前冲位移刚好把这段距离吃掉——这是 5HP 做不到的（原地出，他会走出射程）。</p>
+<p>但反过来：<strong>对着停住的人按 6HP，等于用 13F 的招去撞他 4F 的拳。</strong> 被防 -3 不亏，但打空 20F 收招，而且抢不过。</p>
+<h4 id="五-顺带5hp-变成主力之后窜招的代价变大了"><a href="#五、顺带：5HP-变成主力之后，窜招的代价变大了" class="headerlink" title="五、顺带：5HP 变成主力之后，窜招的代价变大了"></a>五、顺带：5HP 变成主力之后，窜招的代价变大了</h4><p>§2.3 那条”<code>6HP</code> / <code>5HP</code> 窜招”从”连段问题”升级成”立回问题”：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">你想要 5HP（税 -3）→ 出成 6HP（13F，被抢）</span><br><span class="line">你想要 6HP（追后走）→ 出成 5HP（原地，够不着）</span><br></pre></td></tr></table></figure>
+
+<p>以前窜招只影响连段，现在<strong>每一次窜招都是一次立回判断失效</strong>。所以 §2.3 那三条修正（回中 1~2 帧、前→停→按、前走中别直接按 HP）的优先级要提到最高——它是这套打法的前提，不是细节。</p>
+<h4 id="六-怎么练10-分钟三步"><a href="#六、怎么练（10-分钟，三步）" class="headerlink" title="六、怎么练（10 分钟，三步）"></a>六、怎么练（10 分钟，三步）</h4><table>
+<thead>
+<tr>
+<th>步</th>
+<th>做法</th>
+<th>验收</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1 读数</strong></td>
+<td>dummy 站着不动，<code>5HP</code> 和 <code>2MK</code> 各打 10 次，看帧数显示</td>
+<td>能说出 <strong>-3 vs -6</strong> 的区别，并说出”多出来的 3 帧是谁的”</td>
+</tr>
+<tr>
+<td><strong>2 兑现</strong></td>
+<td><code>5HP &gt; 214HP~6P</code>，10 次</td>
+<td>成 8，且能报出 KD</td>
+</tr>
+<tr>
+<td><strong>3 分姿态</strong></td>
+<td>dummy 随机播放「站姿前走」和「蹲防前进」，你只能选 <code>5HP</code> 或 <code>2MK</code></td>
+<td>各 10 次，正确 ≥8</td>
+</tr>
+</tbody></table>
+<p><strong>第 3 步是本节的真正考题。</strong> 它测的不是手法，是**你能不能在他跨出第一步时就分辨”他是站着的还是蹲着的”**。</p>
+<blockquote>
+<p>这个判断有视觉锚点：<strong>蹲着走的头顶高度不变，站着走的头顶在上下颠。</strong> 盯头顶，不盯脚。</p>
+</blockquote>
+<p>技术上还有个兜底：<strong>如果你分不清，就发波</strong>。波对两种姿态一视同仁——这是波在立回里的又一个价值：<strong>它不需要你判断对手的姿态。</strong></p>
+<h3 id="43-波的三档蓄力豪鬼的灵魂"><a href="#4-3-波的三档蓄力（豪鬼的灵魂）" class="headerlink" title="4.3 波的三档蓄力（豪鬼的灵魂）"></a>4.3 波的三档蓄力（豪鬼的灵魂）</h3><blockquote>
+<p><strong>这一节已按官方帧数表重写。</strong> 原稿沿用备忘录的「被防 +2 / +21」，与官方表的<strong>贴身值</strong>不符——不是谁错，是<strong>测的不是同一件事</strong>（见下）。完整训练方案见 <code>街霸6豪鬼_波动实验室.md</code>。</p>
+</blockquote>
+<p><strong>官方贴身被防值</strong>（2026-08-27 版）：</p>
+<table>
+<thead>
+<tr>
+<th>波</th>
+<th>蓄力</th>
+<th>发生</th>
+<th>被防</th>
+<th>伤害</th>
+<th>击倒</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Lv1 · L / M / H</strong></td>
+<td>—</td>
+<td>16 / 14 / 12F</td>
+<td><strong>-4 / -6 / -8</strong></td>
+<td>700</td>
+<td>✗</td>
+</tr>
+<tr>
+<td><strong>Lv2</strong></td>
+<td>25F+</td>
+<td>31F</td>
+<td><strong>-2</strong></td>
+<td>1000</td>
+<td>✓</td>
+</tr>
+<tr>
+<td><strong>Lv3</strong></td>
+<td>49F+</td>
+<td>56F</td>
+<td><strong>+1</strong></td>
+<td>1350</td>
+<td>✓</td>
+</tr>
+<tr>
+<td><strong>OD 蓄力</strong></td>
+<td>25F+</td>
+<td>31F</td>
+<td><strong>+1</strong></td>
+<td>1350</td>
+<td>✓</td>
+</tr>
+</tbody></table>
+<p>三条必须记住的机制：</p>
+<ol>
+<li><strong>强度 = 速度 / 责任的取舍</strong>。L 慢但 -4，H 快但 -8。跟 <code>5MK → 2MK → 5HK</code> 是同一个设计逻辑。</li>
+<li><strong>Lv2 / Lv3 与按键无关</strong>（三只手都是 31F / 56F）。选择权从”按哪只手”转移到了”什么时候松手”。</li>
+<li><strong>Lv1 打中不击倒</strong>，700 伤害、无压起身 → **Lv1 的价值 100% 在”我不亏”，0% 在”我打中”**。</li>
+</ol>
+<p><strong>关于「+2 / +21」</strong>：官方表给的是贴身值，备忘录那两个数大概率是<strong>发完之后前冲贴身时的帧数</strong>。两件事都成立，但混用会算错——<code>波动实验室 D1</code> 就是用帧数显示把这个曲线测出来。</p>
+<h4 id="实测曲线2026-11-02训练场-2468-格"><a href="#实测曲线（2026-11-02，训练场-2-4-6-8-格）" class="headerlink" title="实测曲线（2026-11-02，训练场 2/4/6/8 格）"></a>实测曲线（2026-11-02，训练场 2/4/6/8 格）</h4><table>
+<thead>
+<tr>
+<th>波（被防）</th>
+<th>2格</th>
+<th><strong>4格·开场</strong></th>
+<th>6格</th>
+<th>8格</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>轻波</td>
+<td>-1</td>
+<td><strong>+18</strong></td>
+<td>⛔ 过远</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>中波</td>
+<td>-2</td>
+<td>+11</td>
+<td>⛔ 过远</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>重波</td>
+<td>-4</td>
+<td>+5</td>
+<td>+18</td>
+<td><strong>+25</strong></td>
+</tr>
+<tr>
+<td>Lv2</td>
+<td>+7</td>
+<td>+18</td>
+<td>⛔ 过远</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>Lv3</td>
+<td>+23</td>
+<td>+36</td>
+<td><strong>+42</strong></td>
+<td>+37</td>
+</tr>
+<tr>
+<td>OD</td>
+<td>+4</td>
+<td>+14</td>
+<td>+27</td>
+<td>⛔ 过远</td>
+</tr>
+</tbody></table>
+<p>⛔ = 波没到你已经能动了，这一发零收益。完整分析见 <code>波动实验室 D1</code>。</p>
+<h4 id="分工表按实测替代原来的性价比结论"><a href="#分工表（按实测，替代原来的”性价比结论”）" class="headerlink" title="分工表（按实测，替代原来的”性价比结论”）"></a>分工表（按实测，替代原来的”性价比结论”）</h4><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>用哪个</th>
+<th>依据</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>立回 · 4 格（开场距离）</strong></td>
+<td><strong>轻波</strong></td>
+<td>+18，0 成本；前走 18 帧约 1 格多，能从 4 格直接进 2MK 射程</td>
+</tr>
+<tr>
+<td><strong>立回 · 6-8 格</strong></td>
+<td><strong>重波</strong></td>
+<td>轻波在此完全失效，<strong>只有重波能到</strong></td>
+</tr>
+<tr>
+<td><strong>立回 · 2 格</strong></td>
+<td>轻波（-1）</td>
+<td>重波在这里 -4，是全表最差</td>
+</tr>
+<tr>
+<td><strong>击倒后压起身</strong></td>
+<td><strong>Lv3</strong></td>
+<td>+42（6 格）；对手躺着不能跳，56F 不再是问题</td>
+</tr>
+<tr>
+<td><strong>需要 12F 内出波</strong></td>
+<td>OD 波</td>
+<td>最快，6 格 +27</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>修正一处旧结论</strong>：我此前写过”Lv3 和 OD 蓄力伤害都是 1350、被防都是 +1，但 OD 蓄力快 25 帧 → 普通 Lv3 只在斗气 0 格时用”。</p>
+<p><strong>这句话只在贴身距离成立，实际是错的。</strong> 实测显示 Lv3 的帧数收益远高于 OD（6 格 +42 vs +27），差距 15 帧。Lv3 的真正缺陷不是帧数，是 <strong>56F 发生</strong>——立回中出必被跳。</p>
+<p>所以正确分工是：<strong>立回用轻/重波（0 成本），击倒后用 Lv3（对手躺着跳不了）</strong>。Lv3 不是”没钱时的替代品”，是”击倒后的专用工具”。</p>
+</blockquote>
+<h4 id="蓄力的真实成本k1-k2-数据合并"><a href="#蓄力的真实成本（K1-K2-数据合并）" class="headerlink" title="蓄力的真实成本（K1 + K2 数据合并）"></a>蓄力的真实成本（K1 + K2 数据合并）</h4><table>
+<thead>
+<tr>
+<th>档</th>
+<th>发生</th>
+<th>比 Lv1 慢</th>
+<th>被防（4格）</th>
+<th>命中</th>
+<th>你买到的东西</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Lv1</td>
+<td>16F</td>
+<td>—</td>
+<td>+18</td>
+<td>不击倒</td>
+<td>免费接近</td>
+</tr>
+<tr>
+<td>Lv2</td>
+<td>31F</td>
+<td><strong>+15F</strong></td>
+<td><strong>+18</strong></td>
+<td><strong>击倒</strong></td>
+<td><strong>只有击倒</strong></td>
+</tr>
+<tr>
+<td>Lv3</td>
+<td>56F</td>
+<td>+40F</td>
+<td>+36</td>
+<td>击倒</td>
+<td>+18 帧 且 击倒</td>
+</tr>
+</tbody></table>
+<p><strong>关键发现：Lv2 花了 15 帧，帧数收益是 0。</strong></p>
+<p>4 格距离下 Lv1 和 Lv2 都是 <strong>+18</strong>，一模一样；但 Lv2 慢 15 帧。所以 Lv2 多付的 15 帧，**买到的唯一东西是”命中即击倒”**。</p>
+<blockquote>
+<p><strong>Lv2 = 用 15 帧买一个击倒的波。</strong> 它的收益 100% 在命中后，0% 在被防后。</p>
+</blockquote>
+<p>推论很直接：</p>
+<p><strong>Lv2 该对着”会动”的对手发，不是对着”会防”的对手发。</strong> 对手站着防，你白花 15 帧，还不如发轻波（同样 +18，快 15 帧，还不吃斗气）。</p>
+<p>这也是为什么 K2 毫无难度：<strong>蓄力手法从来不是瓶颈，判断”该不该蓄”才是。</strong> 手法是 L1，判断是 L2——你现在刚跨过去。</p>
+<p><strong>中波是冗余档位</strong>：所有距离都不如轻波（2格差 1 帧、4格差 7 帧、6格一样废）。它的唯一理由是弹速快 2 帧，不是帧数。<strong>不要把它当”折中选择”。</strong></p>
+<p><strong>「波动是拳脚的延伸」的机械含义</strong>：普通技射程固定、帧数固定；波<strong>射程可变、被防帧数随距离变、时机可延迟</strong>。普通技是常量，波是函数。Lv3 波就是「一个 +1 的 5MP，射程 100%」——你早就会用 +1 的 5MP 压制了，波只是把它装到了另一个射程。</p>
+<hr>
+<h3 id="43b-波的三个使用纪律"><a href="#4-3b-波的三个使用纪律" class="headerlink" title="4.3b 波的三个使用纪律"></a>4.3b 波的三个使用纪律</h3><table>
+<thead>
+<tr>
+<th>纪律</th>
+<th>内容</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>波-波-停</strong></td>
+<td>连发两波 = 公开你的发射时刻</td>
+<td>连发时被跳率最高，因为他在读你</td>
+</tr>
+<tr>
+<td><strong>发前先想好答案</strong></td>
+<td>手指按下时若不知道”他跳了我用什么”，这一发就是赌</td>
+<td>无责任波的唯一定义：他做对了你也不亏</td>
+</tr>
+<tr>
+<td><strong>Lv2/Lv3 只兑现，不试探</strong></td>
+<td>试探用 Lv1，兑现用蓄力</td>
+<td>Lv1 命中不击倒，赚不到东西</td>
+</tr>
+</tbody></table>
+<p>对手的五个答案与你的五种应答（跳 → <code>623HP</code> / 防 → 前走投 / 迸 → <strong>不发</strong> / 无敌 → 发完就防 / <strong>承受 → 换 Lv2</strong>），见 <code>波动实验室 §5</code> 与 <code>§D3</code> 训练。第五种最特殊：他<strong>不给你任何动作信号</strong>，只能靠”他掉血了但没停”来识别，详见 §8.2d。</p>
+<h3 id="44-豪鬼立回的三个陷阱他自己踩的"><a href="#4-4-豪鬼立回的三个陷阱（他自己踩的）" class="headerlink" title="4.4 豪鬼立回的三个陷阱（他自己踩的）"></a>4.4 豪鬼立回的三个陷阱（他自己踩的）</h3><table>
+<thead>
+<tr>
+<th>陷阱</th>
+<th>表现</th>
+<th>后果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>乱按 5HK</strong></td>
+<td>把它当立回按钮</td>
+<td>对手蹲防 → 打空 → 被 -13 确反</td>
+</tr>
+<tr>
+<td><strong>裸出 2MK</strong></td>
+<td>不复合</td>
+<td>被防 -6 → 吃全套</td>
+</tr>
+<tr>
+<td><strong>跳太多</strong></td>
+<td>看到机会就想跳</td>
+<td>9000 血，一次对空就是 25%</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="五-进攻体系"><a href="#五、进攻体系" class="headerlink" title="五、进攻体系"></a>五、进攻体系</h2><h3 id="51-起手starter按距离分层"><a href="#5-1-起手（Starter）：按距离分层" class="headerlink" title="5.1 起手（Starter）：按距离分层"></a>5.1 起手（Starter）：按距离分层</h3><blockquote>
+<p>格式：<code>连段</code> → 收尾帧 → 用途。<strong>收尾帧决定后面能压什么</strong>（见 5.3）。</p>
+</blockquote>
+<h4 id="贴身0-1-身位"><a href="#贴身（0-1-身位）" class="headerlink" title="贴身（0-1 身位）"></a>贴身（0-1 身位）</h4><table>
+<thead>
+<tr>
+<th>#</th>
+<th>连段</th>
+<th>收尾</th>
+<th>确认点</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><code>2LP &gt; 2LP &gt; 5LK &gt; 重升龙</code></td>
+<td><strong>+30</strong> ⚠️(备忘录 +29)</td>
+<td>三点</td>
+<td><strong>最速抢招</strong>，万能</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>2LK &gt; 2LK &gt; 5LP &gt; 重升龙</code></td>
+<td>+30</td>
+<td>三点</td>
+<td><strong>偷下段</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>2LP &gt; 5LK &gt; 轻灼火</code></td>
+<td>+1 命中</td>
+<td>两点</td>
+<td>短连，被防安全</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>5MP &gt; 2LP &gt; 236LP</code></td>
+<td>-8 但推开</td>
+<td>两点</td>
+<td>压制转骚扰</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>5MP &gt; 5MP(TC) &gt; 214MP~6P</code></td>
+<td>KD+32</td>
+<td>两点</td>
+<td>中段TC，被防 -18</td>
+</tr>
+</tbody></table>
+<p>**第 1 条是豪鬼的”工资”**——轻攻击三点确认接重升龙，无资源、无位置限制、+30 帧压起身。练到闭眼出。</p>
+<h4 id="中距离"><a href="#中距离" class="headerlink" title="中距离"></a>中距离</h4><table>
+<thead>
+<tr>
+<th>#</th>
+<th>连段</th>
+<th>收尾</th>
+<th>确认点</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>6</td>
+<td><code>2MK &gt; 236LP</code></td>
+<td>0~+4</td>
+<td>复合</td>
+<td><strong>无脑复合</strong>，怕迸</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>2MK &gt; CDR &gt; 5MP, 2HP &gt; 收尾</code></td>
+<td>+41</td>
+<td>两点</td>
+<td><strong>主练这条</strong>（波风水门版），3 格斗气</td>
+</tr>
+<tr>
+<td>7b</td>
+<td><code>2MK &gt; CDR &gt; 5HP, 5MK &gt; 收尾</code></td>
+<td>+34~+41</td>
+<td>两点</td>
+<td>高伤变体，<strong>本阶段不练</strong></td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>6HP PC &gt; 2MK &gt; CDR &gt; 2MP, 2HP &gt; 收尾</code></td>
+<td>—</td>
+<td>两点</td>
+<td><strong>Year 4 加强</strong>（PC 击退减少）</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>2MP &gt; 2MP &gt; 214MP~6P</code></td>
+<td>KD+32</td>
+<td>两点</td>
+<td>远距离可靠版</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>2MP &gt; 5MP(TC) &gt; 214MP~6P</code></td>
+<td>KD+32</td>
+<td>两点</td>
+<td>伤害更高</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>第 7 / 7b 条的读法</strong>：<code>5MP, 2HP</code> 和 <code>5HP, 5MK</code> 之间都是<strong>目押</strong>，不是取消。<br><strong>主练 7，不练 7b。</strong> 两条成本一样（3 格），但 7 的目押窗口更宽（+8 对 8F 招，余 1 帧），7b 只有 +7 对 7F 招（也余 1 帧但判定要求更严）。<strong>同样的钱，选稳的那条。</strong><br><strong>斗气不够时两条都别碰</strong>——豪鬼的斗气永远优先给 OD 升龙。</p>
+</blockquote>
+<h4 id="远距离-跳入"><a href="#远距离-跳入" class="headerlink" title="远距离 / 跳入"></a>远距离 / 跳入</h4><table>
+<thead>
+<tr>
+<th>#</th>
+<th>连段</th>
+<th>收尾</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>11</td>
+<td><code>5HK &gt; 2MP &gt; 轻旋风 &gt; 2HK</code></td>
+<td>+37</td>
+<td>5HK 强制站立</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>5HK &gt; 5MP &gt; 5MP &gt; 重旋风</code></td>
+<td>+34</td>
+<td>推板</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>6HP(近) &gt; 6HP &gt; 6HP~HK</code></td>
+<td>KD+35</td>
+<td>前重拳三连 TC</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>j.HK &gt; 5HK &gt; 5MK &gt; 214LK &gt; 2HK/623HP</code></td>
+<td>+37 / +30</td>
+<td><strong>最深跳入，无资源最高</strong></td>
+</tr>
+<tr>
+<td>15</td>
+<td><code>j.MK &gt; 2HP &gt; 收尾</code></td>
+<td>—</td>
+<td>跨身正逆，不用确认</td>
+</tr>
+</tbody></table>
+<h3 id="52-收尾ender决定下一回合的人是你"><a href="#5-2-收尾（Ender）：决定下一回合的人是你" class="headerlink" title="5.2 收尾（Ender）：决定下一回合的人是你"></a>5.2 收尾（Ender）：决定下一回合的人是你</h3><p><strong>这是整份攻略最该背的一张表。</strong> 豪鬼的强度有 70% 来自”击倒后能做什么”，而不是”打了多少伤害”。</p>
+<table>
+<thead>
+<tr>
+<th>收尾</th>
+<th>优势帧</th>
+<th>版中</th>
+<th>版边</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>后投</td>
+<td>+14</td>
+<td>无压起身</td>
+<td>可压</td>
+<td>换边用</td>
+</tr>
+<tr>
+<td><strong>前投</strong></td>
+<td><strong>+28</strong></td>
+<td>前冲 19F → +9</td>
+<td>前冲 → 投循环</td>
+<td>最稳的起攻</td>
+</tr>
+<tr>
+<td>OD 升龙</td>
+<td>+14</td>
+<td>弱</td>
+<td>贴身</td>
+<td>只作保底</td>
+</tr>
+<tr>
+<td>重升龙</td>
+<td><strong>+30</strong></td>
+<td>DR 或投</td>
+<td>前冲 +11</td>
+<td><strong>最常用</strong></td>
+</tr>
+<tr>
+<td>DI 墙崩</td>
+<td>+31</td>
+<td>—</td>
+<td>是</td>
+<td>墙崩后续</td>
+</tr>
+<tr>
+<td>OD旋风+中升龙</td>
+<td>+32</td>
+<td>强</td>
+<td>强</td>
+<td>多花 2 格</td>
+</tr>
+<tr>
+<td><strong>重旋风（地面）</strong></td>
+<td><strong>+34</strong></td>
+<td>6MK 空振 → +4</td>
+<td>同</td>
+<td>推板好</td>
+</tr>
+<tr>
+<td>轻旋风+2HK</td>
+<td><strong>+37</strong> ⚠️(旧攻略 +42)</td>
+<td>空振 2LP → +4</td>
+<td>空振→轻波 → +4</td>
+<td><strong>旧资料全部要改</strong></td>
+</tr>
+<tr>
+<td>版边重灼火+轻升龙</td>
+<td>+37</td>
+<td>—</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>版边轻旋风+轻升龙</td>
+<td>+39</td>
+<td>—</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>中旋风</strong></td>
+<td><strong>+41</strong></td>
+<td>前前×2 → +3</td>
+<td>同</td>
+<td>轻攻击抢 4F</td>
+</tr>
+<tr>
+<td><strong>重灼火</strong></td>
+<td><strong>+47</strong></td>
+<td>百鬼袭落地 → +2</td>
+<td>同</td>
+<td>择最多</td>
+</tr>
+<tr>
+<td><strong>OD 灼火（版中）</strong></td>
+<td><strong>+63</strong></td>
+<td>阿修罗闪空 → +12</td>
+<td>—</td>
+<td>时间极充裕</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>⚠️ <strong>+42 → +37 是本版本最大的资料陷阱。</strong><br>网上所有”轻旋风+下重脚 = +42 安全跳”的攻略全部过期。Year 4 之后是 <strong>+37</strong>，沿用旧设置会<strong>被确反</strong>。</p>
+</blockquote>
+<h3 id="53-压起身okizeme豪鬼真正的火力"><a href="#5-3-压起身（Okizeme）：豪鬼真正的火力" class="headerlink" title="5.3 压起身（Okizeme）：豪鬼真正的火力"></a>5.3 压起身（Okizeme）：豪鬼真正的火力</h3><h4 id="先理解偷帧meaty"><a href="#先理解”偷帧”（Meaty）" class="headerlink" title="先理解”偷帧”（Meaty）"></a>先理解”偷帧”（Meaty）</h4><p>这是豪鬼压起身体系的底层原理，理解了它，备忘录里所有的”卡帧”条目都不用死记。</p>
+<p><strong>原理</strong>：让招式的<strong>最后一帧有效判定</strong>落在对手起身的第 1 帧。因为攻击的判定持续多帧，越晚打中，对手的受击硬直结束得越晚，你剩下的优势就越多。</p>
+<p><strong>数学</strong>：一个 4 帧判定的招式，偷到最晚帧，等于白赚 <strong>3 帧</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>招式</th>
+<th>正常被防</th>
+<th>偷帧被防</th>
+<th>白赚</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5MK</td>
+<td>-3</td>
+<td><strong>+1</strong></td>
+<td>+4</td>
+</tr>
+<tr>
+<td>5HP</td>
+<td>-3</td>
+<td><strong>+1</strong></td>
+<td>+4</td>
+</tr>
+<tr>
+<td>6MK</td>
+<td>-4</td>
+<td><strong>+2</strong></td>
+<td>+6</td>
+</tr>
+</tbody></table>
+<p><strong>怎么卡帧？</strong> 三种手法，按精度递减：</p>
+<table>
+<thead>
+<tr>
+<th>手法</th>
+<th>操作</th>
+<th>精度要求</th>
+<th>适用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>前前卡帧（Dash）</strong></td>
+<td>击倒 → 前前 → 停顿 N 帧 → 出招</td>
+<td>帧级</td>
+<td>主力</td>
+</tr>
+<tr>
+<td><strong>空振卡帧（Whiff）</strong></td>
+<td>击倒 → 空挥一个轻招 → 出招</td>
+<td>帧级</td>
+<td>版边常用</td>
+</tr>
+<tr>
+<td><strong>放帧（Delay）</strong></td>
+<td>击倒 → 招式按住延迟出</td>
+<td>半帧级</td>
+<td>绿冲前重拳等</td>
+</tr>
+</tbody></table>
+<h4 id="通用压起身不记卡帧随手可用"><a href="#通用压起身（不记卡帧，随手可用）" class="headerlink" title="通用压起身（不记卡帧，随手可用）"></a>通用压起身（不记卡帧，随手可用）</h4><p><strong>这套是给”累了 / 不想算”的时候用的，必须有。</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">版边通用：前前 → （等对手起身）5MP &gt; 2LP &gt; 5LK &gt; 任意收尾</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>不需要记任何卡帧</li>
+<li>前前之后可以<strong>后走防凹 / 骗拆</strong></li>
+<li>5MP 就算打防也是 <strong>+1</strong>，继续压</li>
+<li>唯一缺点：伤害低</li>
+</ul>
+<h4 id="按收尾帧数查压法核心决策表"><a href="#按收尾帧数查压法（核心决策表）" class="headerlink" title="按收尾帧数查压法（核心决策表）"></a>按收尾帧数查压法（核心决策表）</h4><table>
+<thead>
+<tr>
+<th>优势帧</th>
+<th>版中压法</th>
+<th>版边压法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>+30（重升龙）</strong></td>
+<td>5MK 空振 → <strong>+4</strong> → 2LP / 2MP / 投 / 后走骗拆</td>
+<td>前冲 → 手动压</td>
+</tr>
+<tr>
+<td><strong>+32</strong></td>
+<td>6MK 空振 → <strong>+2</strong></td>
+<td>5MP 空振 → 5HP meaty（+7/+1）</td>
+</tr>
+<tr>
+<td><strong>+34（重旋风）</strong></td>
+<td>6MK 空振 → <strong>+4</strong></td>
+<td>2MP 空振 → 5HP meaty（+7/+1）</td>
+</tr>
+<tr>
+<td><strong>+37（轻旋风+2HK）</strong></td>
+<td>2LP 空振 → <strong>+4</strong>；版边可空振→轻波</td>
+<td>2LP 空振 → 6MP meaty（+5/+1）</td>
+</tr>
+<tr>
+<td><strong>+41（中旋风）</strong></td>
+<td>前前×2 → <strong>+3</strong> → 4F 轻攻击 / 投</td>
+<td>同</td>
+</tr>
+<tr>
+<td><strong>+47（重灼火）</strong></td>
+<td>重百鬼袭 → 落地 → <strong>+2</strong> → 2LP / 投 / 延迟投</td>
+<td>满蓄波 meaty（Year 4 新增）</td>
+</tr>
+<tr>
+<td><strong>+63（OD 灼火）</strong></td>
+<td>阿修罗闪空 → <strong>+12</strong> → 5HP meaty（+7/+1）</td>
+<td>同（可加胧投）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>记忆钩子</strong>：<code>+30 → 空振 5MK</code>、<code>+34 → 空振 6MK</code>、<code>+41 → 前前×2</code>、<code>+47 → 百鬼袭落地</code>。<br>四组对应四个”档”，剩下的是这四档的变体。</p>
+</blockquote>
+<h4 id="四类压起身选项每次只选一个"><a href="#四类压起身选项（每次只选一个）" class="headerlink" title="四类压起身选项（每次只选一个）"></a>四类压起身选项（每次只选一个）</h4><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>具体动作</th>
+<th>打什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>打（Strike）</strong></td>
+<td>5MP / 2LP / 偷帧 5HP</td>
+<td>打「对手不动」和「对手想拆投」</td>
+</tr>
+<tr>
+<td><strong>投（Throw）</strong></td>
+<td>直接投 / 放帧投</td>
+<td>打「对手死防」</td>
+</tr>
+<tr>
+<td><strong>骗（Shimmy）</strong></td>
+<td>后走 → 等他拆投 → 确反</td>
+<td>打「对手爱拆投」</td>
+</tr>
+<tr>
+<td><strong>防凹（Bait）</strong></td>
+<td>原地蹲下 / 后走</td>
+<td>打「对手爱凹」</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>备忘录里所有”后走可以防凹骗拆”的标注，本质都是同一件事</strong>：把「投」这个选项换成「骗」，用一次投的期望换一次大确反的机会。对手如果不会凹也不会拆，你亏一次投；对手如果会，你赚一整套。</p>
+</blockquote>
+<h3 id="54-百鬼袭demon-raid-236k"><a href="#5-4-百鬼袭（Demon-Raid-236K）" class="headerlink" title="5.4 百鬼袭（Demon Raid / 236K）"></a>5.4 百鬼袭（Demon Raid / 236K）</h3><p><strong>豪鬼的招牌，也是豪鬼最容易送命的招。</strong></p>
+<h4 id="三种派生"><a href="#三种派生" class="headerlink" title="三种派生"></a>三种派生</h4><table>
+<thead>
+<tr>
+<th>派生</th>
+<th>输入</th>
+<th>属性</th>
+<th>被防</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>下段滑（Low Slash）</strong></td>
+<td>236K → 无输入</td>
+<td><strong>下段</strong></td>
+<td>+2</td>
+<td>HKD+39，最安全</td>
+</tr>
+<tr>
+<td><strong>斩（Guillotine）</strong></td>
+<td>236K → P</td>
+<td><strong>中段</strong></td>
+<td>+3~+7</td>
+<td>KD+37~41，伤害</td>
+</tr>
+<tr>
+<td><strong>空箭（Blade Kick）</strong></td>
+<td>236K → K</td>
+<td>俯冲</td>
+<td>-5</td>
+<td>打波、追击</td>
+</tr>
+</tbody></table>
+<h4 id="四种用法备忘录给了三条我补第四条"><a href="#四种用法（备忘录给了三条，我补第四条）" class="headerlink" title="四种用法（备忘录给了三条，我补第四条）"></a>四种用法（备忘录给了三条，我补第四条）</h4><table>
+<thead>
+<tr>
+<th>用法</th>
+<th>操作</th>
+<th>风险评估</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>① 对波时穿波</td>
+<td><code>236K~K</code> 俯冲</td>
+<td>中——对手不发射就白送</td>
+</tr>
+<tr>
+<td>② 复合中段欺负没对空</td>
+<td><code>2MK / 5MP(TC) &gt; 轻百鬼~P</code></td>
+<td>低——被防仍 +3</td>
+</tr>
+<tr>
+<td>③ 按住下不攻击，骗升龙</td>
+<td><code>236K</code> → 落地</td>
+<td>低——纯心理</td>
+</tr>
+<tr>
+<td>④ <strong>击倒后当择用</strong></td>
+<td>收尾 +47 / +41 后放</td>
+<td><strong>最低——这才是它的正确位置</strong></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>核心判断</strong>：百鬼袭裸出是<strong>赌博</strong>，接在击倒后是<strong>择</strong>。<br>差别在于——裸出时对手可以看着你起跳再对空；击倒后他必须先起身，反应时间被砍掉一半。</p>
+<p><strong>规则：百鬼袭只从击倒后出，不从立回中出。</strong> 这一条能直接省掉你 20% 的血量损失。</p>
+</blockquote>
+<h3 id="55-瞬狱杀ca-本阶段封存"><a href="#5-5-瞬狱杀（CA）——-本阶段封存" class="headerlink" title="5.5 瞬狱杀（CA）—— 本阶段封存"></a>5.5 瞬狱杀（CA）—— <strong>本阶段封存</strong></h3><blockquote>
+<p><strong>结论：从训练菜单里删掉。30 天计划不出现，实战不主动用，CA 状态下就打正常连段。</strong></p>
+<p>这条不是”这个招不强”，是”<strong>现在学它，性价比是负的</strong>“。</p>
+</blockquote>
+<h4 id="为什么封存三条按重要性排"><a href="#为什么封存（三条，按重要性排）" class="headerlink" title="为什么封存（三条，按重要性排）"></a>为什么封存（三条，按重要性排）</h4><p><strong>① 决策污染（最关键）</strong></p>
+<p>学会一个高回报选项之后，人会自动<strong>高估它的可用场景</strong>——心理学上叫可得性启发。落到实战里就是：</p>
+<ul>
+<li>你会开始”等”那个机会，而不是打正常连段</li>
+<li>击倒后本来该压起身，你在想”能不能接瞬”</li>
+<li>CA 状态下血量低，你会觉得”必须靠这个翻盘”，于是放弃稳的打法</li>
+</ul>
+<p><strong>真正掉分的不是你按空了，是你为了它放弃了本来会赢的那条路。</strong> 这一条比按空严重得多，而且不会显示在战绩里。</p>
+<p><strong>② 失误代价不对称</strong></p>
+<table>
+<thead>
+<tr>
+<th>结果</th>
+<th>收益</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>按中</td>
+<td>+4700 伤害</td>
+</tr>
+<tr>
+<td>按空</td>
+<td><strong>-47 被确反</strong> → 吃一套 3000+，而豪鬼只有 9000 血</td>
+</tr>
+</tbody></table>
+<p>按空一次等于<strong>三分之一条命</strong>。而且瞬狱杀<strong>只有 1F 无敌</strong>，所以按空的方式有很多种：对手跳了、对手后走了、对手出招比你快 1 帧——全都会变成送。</p>
+<p><strong>③ 它是”读”的技能，不是”执行”的技能</strong></p>
+<p>输入 <code>LP·LP·6LK·HP</code> 十分钟就能练熟。但<strong>什么时候按</strong>——那是要读懂对手习惯、读起身、读拆投时机——属于段位级判断，不是手法。</p>
+<blockquote>
+<p>手法可以练，判断只能攒。<strong>在没有判断力的时候拥有这个招式，只会让你更早地做出错误决定。</strong></p>
+</blockquote>
+<h4 id="本阶段-ca-状态怎么打"><a href="#本阶段-CA-状态怎么打" class="headerlink" title="本阶段 CA 状态怎么打"></a>本阶段 CA 状态怎么打</h4><p><strong>打正常连段，用 CA 版 SA3 收尾（伤害 +500）。</strong> 就这么简单。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">CA 状态 = 正常打 + 收尾时按 236236K（自动变成 CA 版，4500 伤害）</span><br></pre></td></tr></table></figure>
+
+<p>不需要记任何额外东西。这就是”少一个选项，反而更强”。</p>
+<h4 id="解锁条件三条全满足再学"><a href="#解锁条件（三条全满足再学）" class="headerlink" title="解锁条件（三条全满足再学）"></a>解锁条件（三条全满足再学）</h4><ul>
+<li><input disabled type="checkbox"> 30 天计划全部完成，结业标准达标</li>
+<li><input disabled type="checkbox"> 能连打 10 局，CA 状态下<strong>一次都没尝试按瞬狱杀</strong></li>
+<li><input disabled type="checkbox"> 击倒后压起身执行率稳定 ≥90%（说明你已经没有”空窗期”去等花招）</li>
+</ul>
+<h4 id="知识存档以后再看现在跳过"><a href="#知识存档（以后再看，现在跳过）" class="headerlink" title="知识存档（以后再看，现在跳过）"></a>知识存档（以后再看，现在跳过）</h4><blockquote>
+<p>保留在这里只是免得以后重新查。<strong>本阶段不要读下面的表。</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>用法</th>
+<th>操作</th>
+<th>原理</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>① 地面连段带入</td>
+<td><code>... &gt; 轻灼火 &gt; 瞬狱杀</code></td>
+<td>取消窗口</td>
+</tr>
+<tr>
+<td>② 凹安全跳</td>
+<td>对手安全跳 → 瞬</td>
+<td>1F 无敌刚好卡安全跳空隙</td>
+</tr>
+<tr>
+<td>③ 前前瞬</td>
+<td>前前 → 贴身 → 瞬</td>
+<td>必须贴脸，否则被跳开</td>
+</tr>
+<tr>
+<td>④ 轻脚 + 绿冲取消 + 瞬</td>
+<td><code>5LK &gt; CDR &gt; 瞬</code></td>
+<td>打防/打康都中</td>
+</tr>
+<tr>
+<td>⑤ 偷修正</td>
+<td>灼火只打第一段 → 瞬</td>
+<td>减少伤害修正</td>
+</tr>
+<tr>
+<td>⑥ 假装掉招</td>
+<td>连段故意停 → 瞬</td>
+<td>套路自研</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>②是它唯一不可替代的价值：<strong>豪鬼能惩罚安全跳</strong>，别人不行。但这属于”额外知识量”，等你把基础打完再说。</p>
+</blockquote>
+<hr>
+<h2 id="六-确反体系"><a href="#六、确反体系" class="headerlink" title="六、确反体系"></a>六、确反体系</h2><h3 id="61-自己这边按帧数选起手"><a href="#6-1-自己这边：按帧数选起手" class="headerlink" title="6.1 自己这边：按帧数选起手"></a>6.1 自己这边：按帧数选起手</h3><table>
+<thead>
+<tr>
+<th>破绽</th>
+<th>起手</th>
+<th>后续</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>4F</strong></td>
+<td><code>2LP PC &gt; 5HP &gt; 重灼火</code></td>
+<td>近身更优：<code>2LP PC &gt; 2HP</code></td>
+</tr>
+<tr>
+<td><strong>5F</strong></td>
+<td><code>5LK PC &gt; 214MP~6P</code></td>
+<td>需要更远：<code>5LK &gt; 214MK / 214LK &gt; 2HK</code></td>
+</tr>
+<tr>
+<td><strong>6F</strong></td>
+<td><code>2MP PC &gt; 5HP &gt; 重灼火</code></td>
+<td>远距离：<code>2MP &gt; 214HP~6P</code></td>
+</tr>
+<tr>
+<td><strong>7F</strong></td>
+<td>用 6F 的，没有更好的</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>8F</strong></td>
+<td><code>2MK PC &gt; 214HP~6P</code></td>
+<td>远距离惩罚专用</td>
+</tr>
+<tr>
+<td><strong>升龙 / 大破绽</strong></td>
+<td><code>5HK PC &gt; 2HP &gt; 重灼火</code></td>
+<td>高伤：<code>214HP PC &gt; 4HK &gt; 轻波 &gt; DR 5HP &gt; 中旋风</code></td>
+</tr>
+</tbody></table>
+<p><strong>“反转惩罚”（Reversal Punish）</strong>：对手凹招被你防住时，用 <code>214HP</code> 第一段起手：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">214HP PC &gt; 2HP &gt; CDR 或任意必杀收尾</span><br></pre></td></tr></table></figure>
+
+<p>为什么用 214HP 而不是更快的招？因为<strong>凹招的收尾硬直通常很长</strong>，而 214HP 的第一段可以取消——它是”高伤害 + 可取消”的最优解。</p>
+<h3 id="62-对手那边破绽表自己填"><a href="#6-2-对手那边：破绽表（自己填）" class="headerlink" title="6.2 对手那边：破绽表（自己填）"></a>6.2 对手那边：破绽表（自己填）</h3><p><strong>这是最值钱的一张空表。</strong> 豪鬼的立回强，意味着你<strong>经常会把对手挡在 -6 ~ -10 的位置</strong>，但你不知道能不能罚。</p>
+<blockquote>
+<p><strong>填表方法</strong>：训练场 → 录对手常用招 → 固定重复 → 自己防住 → 试 <code>2LP</code> / <code>2MP</code> / <code>2MK</code> 哪个能连上。能连上的最小起手 = 那个招的破绽下限。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>招式</th>
+<th>我防住后能罚吗</th>
+<th>起手</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>（待填）</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>优先级</strong>：只填你最常输的 2-3 个角色，别贪多。</p>
+<h3 id="63-特殊场景确反"><a href="#6-3-特殊场景确反" class="headerlink" title="6.3 特殊场景确反"></a>6.3 特殊场景确反</h3><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>连段</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>打拆投</strong></td>
+<td><code>2MP &gt; 5HP &gt; 收尾</code>（距离感好）/ <code>6HP &gt; 5MK &gt; 收尾</code>（伤害高，但 6HP 贴身被防 -3）</td>
+</tr>
+<tr>
+<td><strong>反迸（远）</strong></td>
+<td><code>5HK &gt; 2MP &gt; 2MP &gt; 中旋风</code> → +41</td>
+</tr>
+<tr>
+<td><strong>反迸（近）</strong></td>
+<td><code>前前 &gt; 4HK &gt; 中旋风 &gt; 重升龙/重旋风</code></td>
+</tr>
+<tr>
+<td><strong>反迸（版边）</strong></td>
+<td><code>2HP &gt; 重灼火 &gt; 重旋风</code> → +31</td>
+</tr>
+<tr>
+<td><strong>墙崩（防住）</strong></td>
+<td><code>2HP &gt; 轻波 &gt; 重旋风</code> → +31</td>
+</tr>
+<tr>
+<td><strong>墙崩（命中）</strong></td>
+<td><code>4HK &gt; 蓄力一段波 &gt; 重旋风</code> → +34</td>
+</tr>
+<tr>
+<td><strong>晕连</strong></td>
+<td><code>j.HP &gt; 2HP &gt; 重灼火 &gt; 重旋风</code> → +31</td>
+</tr>
+<tr>
+<td><strong>确反斗反</strong></td>
+<td><code>2MP &gt; 5HP &gt; 收尾</code></td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="七-连段库"><a href="#七、连段库" class="headerlink" title="七、连段库"></a>七、连段库</h2><blockquote>
+<p>按「起手 → 位置 → 资源」三维归组。<strong>先看资源，再看位置，最后选伤害。</strong></p>
+</blockquote>
+<h3 id="71-零斗气保底-高频"><a href="#7-1-零斗气（保底-高频）" class="headerlink" title="7.1 零斗气（保底 / 高频）"></a>7.1 零斗气（保底 / 高频）</h3><table>
+<thead>
+<tr>
+<th>起手</th>
+<th>连段</th>
+<th>收尾</th>
+<th>伤害</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>轻攻击</td>
+<td><code>2LP &gt; 2LP &gt; 5LK &gt; 重升龙</code></td>
+<td>+30</td>
+<td>1650</td>
+</tr>
+<tr>
+<td>轻攻击</td>
+<td><code>2LP &gt; 2LP &gt; 5LK &gt; 轻旋风 &gt; 2HK</code></td>
+<td>+37</td>
+<td>~1900</td>
+</tr>
+<tr>
+<td>中攻击</td>
+<td><code>2MP &gt; 2MP &gt; 214MP~6P</code></td>
+<td>+32</td>
+<td>2260</td>
+</tr>
+<tr>
+<td>中攻击</td>
+<td><code>2MP &gt; 5MP(TC) &gt; 214MP~6P</code></td>
+<td>+32</td>
+<td>2540</td>
+</tr>
+<tr>
+<td>重攻击</td>
+<td><code>5HK &gt; 5MK &gt; 214LK &gt; 2HK</code></td>
+<td>+37</td>
+<td>2520</td>
+</tr>
+<tr>
+<td>重攻击</td>
+<td><code>5HP &gt; 214HP~6P</code></td>
+<td>+47</td>
+<td>2180</td>
+</tr>
+<tr>
+<td>跳入</td>
+<td><code>j.HK &gt; 5HK &gt; 5MK &gt; 214LK &gt; 623HP</code></td>
+<td>+30</td>
+<td>3050</td>
+</tr>
+</tbody></table>
+<h3 id="72-绿冲drive-rush"><a href="#7-2-绿冲（Drive-Rush）" class="headerlink" title="7.2 绿冲（Drive Rush）"></a>7.2 绿冲（Drive Rush）</h3><blockquote>
+<p>⚠️ <strong>记号纪律</strong>：绿冲段里的 <code>,</code>（目押）和 <code>&gt;</code>（取消）<strong>不能混用</strong>。<br><code>2MK &gt; CDR &gt; 5HP, 5MK</code> 里，<code>5HP</code> 到 <code>5MK</code> 是<strong>目押</strong>——5HP 不能取消成普通技。<br>写成 <code>5HP &gt; 5MK</code> 是错误记号，照这个练会以为自己手法有问题。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>起手</th>
+<th>连段</th>
+<th>斗气</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>2MK</code></td>
+<td><code>2MK &gt; CDR &gt; 5MP, 2HP &gt; 收尾</code></td>
+<td><strong>3</strong></td>
+<td><strong>主练</strong>（波风水门版），目押窗口最宽</td>
+</tr>
+<tr>
+<td><code>2MK</code></td>
+<td><code>2MK &gt; CDR &gt; 5HP, 5MK &gt; 收尾</code></td>
+<td><strong>3</strong></td>
+<td>高伤变体，<strong>本阶段不练</strong>（见下）</td>
+</tr>
+<tr>
+<td><code>2MP</code></td>
+<td><code>2MP &gt; CDR &gt; 6HP, 2HP &gt; 收尾</code></td>
+<td>3</td>
+<td>中攻击首选（能接 6HP）</td>
+</tr>
+<tr>
+<td><code>5HP / 2HP</code></td>
+<td><code>CDR &gt; 6HP, 2HP &gt; 收尾</code></td>
+<td>3</td>
+<td>同上</td>
+</tr>
+<tr>
+<td>中段</td>
+<td><code>6MP &gt; CDR &gt; 5MK &gt; 214LK &gt; 623HP</code></td>
+<td>1</td>
+<td>2680，KD+29</td>
+</tr>
+<tr>
+<td>中段</td>
+<td><code>6MP &gt; CDR &gt; 5MK &gt; 214HK</code></td>
+<td>1</td>
+<td>2580，推板更好 KD+33</td>
+</tr>
+</tbody></table>
+<p><strong>被防时</strong>：<code>2MK &gt; CDR &gt; 2LP</code> → 投 / 骗拆 / 打，三种择。</p>
+<h4 id="为什么成立机制"><a href="#为什么成立（机制）" class="headerlink" title="为什么成立（机制）"></a>为什么成立（机制）</h4><p><code>2MK</code> 命中是 <strong>0 帧</strong>，本身接不了任何招。能接是因为绿冲取消同时做了两件事：</p>
+<ol>
+<li><strong>取消掉 19F 收招</strong> —— 你比对手早恢复</li>
+<li><strong>DRC 中的普通技额外获得 +4 帧</strong> —— 所以 <code>5MP</code> 的 +4 变成 <strong>+8</strong></li>
+</ol>
+<p>于是主练这条：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2MK(hit 0) &gt; DRC(+10) → 5MP 6F 接得上（余 5 帧，宽）</span><br><span class="line">5MP(hit +4，DRC 中 +8) , 2HP 8F 接得上（余 1 帧，比 7b 宽）</span><br><span class="line">2HP 取消旋风 → +41</span><br></pre></td></tr></table></figure>
+
+<p>而被我划掉的 7b 是这样：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2MK(hit 0) &gt; DRC(+10) → 5HP 9F 接得上（余 2 帧，紧）</span><br><span class="line">5HP(hit +3，DRC 中 +7) , 5MK 7F 接得上（余 1 帧）</span><br><span class="line">5MK 强制站立 → 旋风全中</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>两条都成立，成本都是 3 格。区别只在余量</strong>（算式见 §2.3b）：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>7（5MP 版）</th>
+<th>7b（5HP 版）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第一处</td>
+<td>余 <strong>5</strong> 帧</td>
+<td>余 <strong>2</strong> 帧</td>
+</tr>
+<tr>
+<td>第二处</td>
+<td>余 <strong>1</strong> 帧</td>
+<td>余 <strong>1</strong> 帧</td>
+</tr>
+</tbody></table>
+<p><strong>两条的第二处都是 1 帧</strong>，那才是真正要目押的地方；第一处 7 明显更稳。<br>一样的钱，先买稳的。等你把 7 练到 10 次成 9，再考虑 7b——那时候你的目押手感已经能撑住 1 帧窗口了。</p>
+</blockquote>
+<p>这也是为什么 wiki 说”这两个中攻击接不了 6HP（13F）”：<code>2MK &gt; DRC</code> 只有 +10，13F 的 6HP 接不上，所以只能退而用 5MP 或 5HP。</p>
+<h4 id="为什么录像里很少见"><a href="#为什么录像里很少见" class="headerlink" title="为什么录像里很少见"></a>为什么录像里很少见</h4><p><strong>3 格斗气。</strong> 豪鬼是全游戏最缺斗气的角色之一（第 9.1 节），3 格换一个连段，等于把 OD 升龙的机会押上去。而且 2MK 是<strong>下段</strong>——被防了也是花 3 格换个 +4。</p>
+<p>波风水门的笔记不收录 <code>5HP, 5MK</code> 那条，不是因为不存在，而是因为<strong>他的笔记记的是”实战会打的”，不是”训练场能打的”<strong>。他笔记里那条 <code>下中脚+绿冲取消中拳+下重拳+中旋风</code>（= <code>2MK &gt; CDR &gt; 5MP, 2HP &gt; 214MK</code>）才是他真用的版本——</strong>同一体系，换了终点，也换了容错。</strong></p>
+<p><strong>实务建议</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>用哪条</th>
+<th>理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>斗气 ≥4，正常打</strong></td>
+<td><code>5MP, 2HP &gt; 收尾</code></td>
+<td>稳，主练</td>
+</tr>
+<tr>
+<td>斗气 ≥4，且 7 已 10 成 9</td>
+<td><code>5HP, 5MK &gt; 收尾</code></td>
+<td>伤害最高，但要 1 帧手感</td>
+</tr>
+<tr>
+<td><strong>斗气 ≤3</strong></td>
+<td><strong>别用 DRC</strong>，用 <code>2MK &gt; 236LP</code> 复合</td>
+<td>斗气要留给 OD 升龙</td>
+</tr>
+<tr>
+<td>想练 DRC 手感</td>
+<td><code>6MP &gt; CDR &gt; 5MK</code>（只 1 格）</td>
+<td>成本最低，中段收益高</td>
+</tr>
+</tbody></table>
+<h3 id="73-一-二斗气板边高伤"><a href="#7-3-一-二斗气（板边高伤）" class="headerlink" title="7.3 一 / 二斗气（板边高伤）"></a>7.3 一 / 二斗气（板边高伤）</h3><table>
+<thead>
+<tr>
+<th>连段</th>
+<th>位置</th>
+<th>伤害</th>
+<th>斗气</th>
+<th>超必</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>2MP &gt; 214PP~6P &gt; SA2, 4HK &gt; 236KK~K, 214HK</code></td>
+<td>版边</td>
+<td>4240</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td><code>5HP &gt; SA2, 4HK &gt; 236KK~K, 2HK / 214HK</code></td>
+<td>版边</td>
+<td>4460 / 4600</td>
+<td>—</td>
+<td>2</td>
+</tr>
+<tr>
+<td><code>5HP &gt; SA2, 4HK &gt; 214KK, 214HK</code></td>
+<td>版边</td>
+<td>4880</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td><code>214PP~6P &gt; 4HK &gt; 236&#123;P&#125;(Lv2), 214HK</code></td>
+<td>版边</td>
+<td>3060</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td><code>214PP~6P &gt; 4HK &gt; 236&#123;P&#125;, DR 2HP &gt; 214MK, 623LP &gt; SA3</code></td>
+<td>版边</td>
+<td><strong>5064</strong></td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td><code>PC 214HP &gt; 2HP &gt; 214PP~6P, 2HP &gt; 214MK, 623LP &gt; SA3</code></td>
+<td>版边</td>
+<td><strong>6400</strong></td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td><code>PC 214HP &gt; 2HP &gt; 214PP~6P, 4HK &gt; 236KK~236P, 214KK, 623LP &gt; SA3</code></td>
+<td>版边</td>
+<td><strong>6690</strong></td>
+<td>5.8</td>
+<td>3</td>
+</tr>
+</tbody></table>
+<h3 id="74-sa2-sa3-收尾"><a href="#7-4-SA2-SA3-收尾" class="headerlink" title="7.4 SA2 / SA3 收尾"></a>7.4 SA2 / SA3 收尾</h3><table>
+<thead>
+<tr>
+<th>连段</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>2HP &gt; 中旋风 &gt; 轻升龙 &gt; SA3</code></td>
+<td>基础</td>
+</tr>
+<tr>
+<td><code>2HP &gt; 重灼火 &gt; SA3</code></td>
+<td>最简</td>
+</tr>
+<tr>
+<td><code>2HP &gt; OD灼火 &gt; 4HK &gt; OD百鬼袭 &gt; OD波 &gt; 中旋风 &gt; SA3</code></td>
+<td>高伤</td>
+</tr>
+</tbody></table>
+<p><strong>SA2 的上墙条件</strong>：只有对手站位距版边 ≤10-15% 屏幕时才成立。版中打 SA2 是<strong>纯伤害</strong>（HKD+29），不上墙。</p>
+<h3 id="75-斩杀按斗气数"><a href="#7-5-斩杀（按斗气数）" class="headerlink" title="7.5 斩杀（按斗气数）"></a>7.5 斩杀（按斗气数）</h3><blockquote>
+<p>格式：<code>连段</code> 【伤害】。起手”重灼火/重脚”指 <code>214HP</code> 或 <code>5HK</code>。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>斗气</th>
+<th>连段</th>
+<th>伤害</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>0</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; 重灼火 &gt; <strong>三气</strong></td>
+<td>5120 / 5060</td>
+</tr>
+<tr>
+<td><strong>0</strong></td>
+<td>重灼火 &gt; 2HP &gt; <strong>三气</strong>（最高）</td>
+<td>5180</td>
+</tr>
+<tr>
+<td><strong>0（版边）</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; 重灼火 &gt; 轻升龙 &gt; 三气</td>
+<td>5560 / 5440</td>
+</tr>
+<tr>
+<td><strong>1</strong></td>
+<td>重灼火 &gt; 4HK &gt; 满蓄OD波 &gt; <strong>一气</strong></td>
+<td>4280</td>
+</tr>
+<tr>
+<td><strong>1（版边）</strong></td>
+<td>重灼火 &gt; 4HK &gt; 满蓄OD波 &gt; 空中一气 &gt; 重旋风</td>
+<td>4880</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; OD灼火 &gt; <strong>二气</strong></td>
+<td>4710 / 4590</td>
+</tr>
+<tr>
+<td><strong>2（版边）</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; 二气 &gt; 2HP &gt; OD旋风 &gt; OD升龙</td>
+<td>5220 / 5100</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>重灼火 &gt; 4HK &gt; 满蓄OD波 &gt; 绿冲放帧2HP &gt; 重灼火 &gt; 三气</td>
+<td>6001</td>
+</tr>
+<tr>
+<td><strong>2（版边）</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; OD灼火 &gt; 4HK &gt; 满蓄OD波 &gt; 中旋风 &gt; 轻升龙 &gt; 三气</td>
+<td><strong>6595</strong> / 6475</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>重灼火/重脚 &gt; 2HP &gt; CDR 6HP &gt; 2HP &gt; CDR 6HP &gt; 2HP &gt; 重灼火 &gt; 三气</td>
+<td>6297 / 6177</td>
+</tr>
+<tr>
+<td><strong>3（版边）</strong></td>
+<td>5HK &gt; 2HP &gt; OD灼火 &gt; 4HK &gt; 满蓄OD波 &gt; OD空波 &gt; 中旋风 &gt; 轻升龙 &gt; 三气</td>
+<td><strong>6645</strong></td>
+</tr>
+<tr>
+<td><strong>4（版边）</strong></td>
+<td>重灼火 &gt; 2HP &gt; OD灼火 &gt; 4HK &gt; 满蓄OD波 &gt; OD空波 &gt; 中旋风 &gt; 轻升龙 &gt; 三气</td>
+<td><strong>6765</strong></td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>重灼火 &gt; 4HK &gt; 满蓄OD波 &gt; 绿冲4HK &gt; OD百鬼~空波 &gt; 绿冲放帧重拳 &gt; 重灼火 &gt; <strong>祸坏</strong></td>
+<td>6345</td>
+</tr>
+<tr>
+<td><del>通用</del></td>
+<td><del>重灼火/重脚 &gt; 2HP &gt; CDR 6HP &gt; 2HP &gt; CDR 6HP &gt; 2HP &gt; 轻灼火 &gt; 瞬狱杀</del></td>
+<td>⛔ <strong>封存</strong>（见 5.5）</td>
+</tr>
+</tbody></table>
+<p><strong>⚠️ 存疑项</strong>（训练场核实）：</p>
+<ul>
+<li>“五斗气…祸坏【6345】”：三气和祸坏都是 SA3 系，需确认这里是否指 CA 版。</li>
+<li>“低斗气版边②…蓄力一段波仅有零帧容错”：备忘录自己说”不建议用”，本文保留但不推荐。</li>
+</ul>
+<blockquote>
+<p><strong>瞬狱杀收尾那条划掉了。</strong> CA 状态下用 <code>祸坏</code>（CA 版 SA3）收尾，伤害少约 200，但<strong>不需要任何时机判断</strong>。少 200 伤害换掉一次送命的风险，这笔交易永远划算。</p>
+</blockquote>
+<h3 id="76-连段选择的四层决策实战用"><a href="#7-6-连段选择的四层决策（实战用）" class="headerlink" title="7.6 连段选择的四层决策（实战用）"></a>7.6 连段选择的四层决策（实战用）</h3><table>
+<thead>
+<tr>
+<th>优先级</th>
+<th>条件</th>
+<th>走哪条</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>1</strong></td>
+<td>打死 / 打残即可赢</td>
+<td>查 7.5 斩杀表，按斗气数直接抄</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>版边 + 斗气 ≥2</td>
+<td><code>2HP &gt; OD灼火 &gt; ...</code> 高伤线</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>版中 + 斗气 ≥3</td>
+<td>绿冲路线（<code>CDR &gt; 6HP &gt; 2HP</code>）</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>其他一切情况</strong></td>
+<td><strong>零斗气保底线</strong>（7.1）</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>第 4 层出场率最高。<strong>先把它练到闭眼出，再谈上面三层。</strong></p>
+</blockquote>
+<hr>
+<h2 id="八-防守"><a href="#八、防守" class="headerlink" title="八、防守"></a>八、防守</h2><h3 id="81-凹招清单只有三个是真的"><a href="#8-1-凹招清单（只有三个是真的）" class="headerlink" title="8.1 凹招清单（只有三个是真的）"></a>8.1 凹招清单（只有三个是真的）</h3><table>
+<thead>
+<tr>
+<th>凹招</th>
+<th>无敌</th>
+<th>代价</th>
+<th>什么时候用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>OD 升龙（623PP）</strong></td>
+<td>1-8F 全无敌</td>
+<td>2 格斗气</td>
+<td><strong>默认凹</strong>，发生 6F</td>
+</tr>
+<tr>
+<td>SA2（214214P）</td>
+<td>1-11F 全无敌</td>
+<td>2 气</td>
+<td>对手压制很紧、赌一把</td>
+</tr>
+<tr>
+<td>SA3（236236K）</td>
+<td>1-11F 全无敌</td>
+<td>3 气</td>
+<td>能打死人的时候</td>
+</tr>
+</tbody></table>
+<p><strong>不能凹的</strong>：</p>
+<ul>
+<li><strong>SA1</strong>：只有打击/投无敌，会被跳入打穿，也会被中段打穿。它是连段件。</li>
+<li><strong>瞬狱杀</strong>：只有 1F 无敌。<strong>看到这行字就记住，别拿它防守。</strong>（本阶段封存，见 5.5）</li>
+<li><strong>百鬼袭</strong>：不是无敌招。</li>
+</ul>
+<h3 id="82-对空体系"><a href="#8-2-对空体系" class="headerlink" title="8.2 对空体系"></a>8.2 对空体系</h3><table>
+<thead>
+<tr>
+<th>招</th>
+<th>适用</th>
+<th>优劣</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>623P（升龙）</strong></td>
+<td>默认对空</td>
+<td>最快最稳；LP 版无敌最多、适合近身和跨身，HP 版射程最远</td>
+</tr>
+<tr>
+<td>2HP</td>
+<td>近距离跳入</td>
+<td>判定框 11F 才出，比帧数显示的慢</td>
+</tr>
+<tr>
+<td>5HK</td>
+<td>DR 后抓中距离跳</td>
+<td>慢且不稳，但能起连段</td>
+</tr>
+<tr>
+<td>4HK</td>
+<td>赌博式对空</td>
+<td>前段受击框大，中了回报高（接 Lv2 波 / OD 百鬼）</td>
+</tr>
+<tr>
+<td>j.MP</td>
+<td>空对空</td>
+<td>能取消空旋风/空波/空中 SA1</td>
+</tr>
+</tbody></table>
+<p><strong>对空决策（简化版）</strong>：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">对手跳 → 先按 623LP</span><br><span class="line">  ├─ 命中 → 走常规击倒路线</span><br><span class="line">  └─ 打空 / 被跳过头 → 别追，回中立</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>别练”根据距离选三个对空招”，那是 1800MR 的事。<strong>先做到「看到他跳就出升龙」</strong>，这一条能让你少掉 300MR。</p>
+</blockquote>
+<h3 id="82b-发波后的对空为什么按了没效果是个误会"><a href="#8-2b-发波后的对空：为什么「按了没效果」是个误会" class="headerlink" title="8.2b 发波后的对空：为什么「按了没效果」是个误会"></a>8.2b 发波后的对空：为什么「按了没效果」是个误会</h3><blockquote>
+<p>起因：习惯是发波时不摇升龙，理由是”都还在后摇里，按了也没效果”。<br>这个信念的问题不在于对错，而在于<strong>它永远不会被证伪</strong>——因为不试，就永远不知道。</p>
+<p><strong>✅ 2026-11-02 实测：摇得出来，升龙能出。信念已证伪。</strong>（<code>波动实验室 D3b</code>）</p>
+</blockquote>
+<p><strong>要拆开的两件事</strong>：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>能不能早</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>摇杆动作</strong>（623 的三个方向）</td>
+<td><strong>可以早，而且必须早</strong></td>
+<td><strong>实测成立</strong>：动作在恢复里走完，出招正常</td>
+</tr>
+<tr>
+<td><strong>按键</strong>（P）</td>
+<td>不能太早</td>
+<td>落在”恢复结束的那一帧”附近才对</td>
+</tr>
+</tbody></table>
+<p>所以正确做法不是”等恢复完再摇”，是<strong>在恢复里把动作摇完，让按键卡在恢复结束</strong>。你觉得”按了没效果”，很可能是因为你连动作都等到恢复结束才开始——那时候已经晚了 3~5 帧。</p>
+<blockquote>
+<p><strong>代价有多大</strong>：过去每一局里”发波时被跳”的场面，你都是在<strong>主动放弃防守</strong>的状态下输掉的。你没输给对手的跳，输给了一句没验证过的话。而这句话之所以活了这么久，只因为<strong>它从不产生数据</strong>。</p>
+</blockquote>
+<p><strong>然后是最反直觉的一步：算一下反应跳到底来不来得及。</strong></p>
+<p>以 Lv1·L 为例：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">波：发生 16F + 全体 46F → 放出去后还有 30F 后摇</span><br><span class="line">对手反应跳：看到出招 ≈16F + 人类反应 15F + 起跳前摇 ≈5F + 上升段 ≈20F</span><br><span class="line">                                        ≈ 56F</span><br></pre></td></tr></table></figure>
+
+<p><strong>56F &gt; 46F。</strong> 也就是说，<strong>纯反应跳永远惩罚不了你的波</strong>——他跳到你头上的时候，你早就恢复完了。</p>
+<blockquote>
+<p>这条推翻了「波怕跳」的通俗说法。真正的情况是：<br><strong>能惩罚你的不是反应跳，是预判跳</strong>——他在你按下 236P 之前就已经起跳了。<br>换句话说，**”被跳波”不是距离问题，是节奏被读到了**。这也正好解释了为什么连发两波最危险：不是因为第二发更好反应，是第二发的时刻可预测。</p>
+</blockquote>
+<p><strong>唯一的真危险情形</strong>：他已经在你按下之前起跳，你放波时他正在空中 → 你的 30F 后摇刚好覆盖他落地的时间。这就是”安全波”要处理的事。</p>
+<h4 id="所以安全波有两个定义别混"><a href="#所以”安全波”有两个定义，别混" class="headerlink" title="所以”安全波”有两个定义，别混"></a>所以”安全波”有两个定义，别混</h4><table>
+<thead>
+<tr>
+<th>意义</th>
+<th>定义</th>
+<th>失效时的表现</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>立回安全</strong></td>
+<td>被防不亏，对手不能确反</td>
+<td>被 <code>2MK</code> / <code>5MK</code> 罚</td>
+</tr>
+<tr>
+<td><strong>对空安全</strong></td>
+<td>对手<strong>预判跳</strong>也赶不上你的恢复结束</td>
+<td>被跳入打中</td>
+</tr>
+</tbody></table>
+<p><strong>这两个是独立的。</strong> 一个波完全可以”被防 -4、完全安全”，同时”对空极不安全”——因为你在后摇里，什么都做不了。</p>
+<p>所以真正该记的不是”这波几帧”，是：</p>
+<blockquote>
+<p><strong>安全波 = 站在”他预判跳过来也落不进我后摇”的距离之外发。</strong></p>
+</blockquote>
+<p>这条就是 <code>波动实验室 D8</code> 要测的东西。</p>
+<p><strong>行动项</strong>：发完波，<strong>眼睛立刻回到对手身上，手上开始摇 623</strong>。不是等看到跳再摇——那时候你已经慢在动作上了。</p>
+<h3 id="82c-古烈点豪鬼有没有一个安全波距离"><a href="#8-2c-「古烈点」：豪鬼有没有一个安全波距离" class="headerlink" title="8.2c 「古烈点」：豪鬼有没有一个安全波距离"></a>8.2c 「古烈点」：豪鬼有没有一个安全波距离</h3><blockquote>
+<p>起因：安全波（safe fireball）这个概念确实出自古烈——特定距离的轻波，对手防住后跳入，古烈来得及脚刀。<br>这个判断是对的，但它的<strong>机制经常被说反</strong>。</p>
+</blockquote>
+<h4 id="古烈点真正成立的原因不是他快是波慢"><a href="#古烈点真正成立的原因：不是他快，是波慢" class="headerlink" title="古烈点真正成立的原因：不是他快，是波慢"></a>古烈点真正成立的原因：不是他快，是波慢</h4><p>常见说法是”古烈恢复快所以能对空”。不对。真正的因果是：</p>
+<blockquote>
+<p><strong>慢波强迫对手的起跳必须晚。</strong></p>
+</blockquote>
+<p>对手要跳过波，必须等到波快要打到他时才起跳——跳早了，落地时波还没到，反而被波打中。所以他被<strong>弹速</strong>卡在一个很晚的起跳时刻上；而古烈早在这个时刻之前就恢复完了，于是脚刀成立。</p>
+<p><strong>所以”古烈点” = 弹速把对手的起跳时刻推到你恢复之后的那个距离。</strong> 关键变量是弹速，不是恢复帧。</p>
+<h4 id="豪鬼的结构差异这条很重要"><a href="#豪鬼的结构差异（这条很重要）" class="headerlink" title="豪鬼的结构差异（这条很重要）"></a>豪鬼的结构差异（这条很重要）</h4><p>豪鬼 Lv1 的三只手<strong>全体都是 46F</strong>，蓄力到 Lv2/Lv3 才是 60F / 82F。也就是说：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>古烈</th>
+<th>豪鬼</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>恢复时间</td>
+<td>长，且随版本变动</td>
+<td><strong>固定 46F（Lv1）</strong></td>
+</tr>
+<tr>
+<td>弹速</td>
+<td>慢</td>
+<td><strong>未知</strong></td>
+</tr>
+<tr>
+<td>安全距离由什么决定</td>
+<td>恢复长 + 弹速慢</td>
+<td><strong>几乎只由弹速决定</strong></td>
+</tr>
+</tbody></table>
+<p>结论：<strong>豪鬼有没有古烈点，答案完全押在弹速上</strong>。而弹速恰好是官方帧数表<strong>唯一没给</strong>的那一项。</p>
+<p><strong>好消息</strong>：你不需要单独去测弹速。<code>波动实验室 D1</code> 那条曲线（被防帧数 vs 距离）的<strong>斜率就是弹速</strong>——距离每远一格，你多赚的帧数越多，赚得快就说明弹速慢。<strong>D1 做完，弹速自动就有了。</strong></p>
+<h4 id="可操作的定义不用公式"><a href="#可操作的定义（不用公式）" class="headerlink" title="可操作的定义（不用公式）"></a>可操作的定义（不用公式）</h4><blockquote>
+<p><strong>安全波距离 = 在这个距离上，对手的一次起跳无法同时完成「躲过波」和「打到你」。</strong></p>
+</blockquote>
+<p>他只能二选一：要么跳早了被波打中，要么跳晚了被你升龙。<strong>只要这个”二选一”成立，这个距离就是你的古烈点。</strong></p>
+<p>反过来，如果你发波的距离上他能”一跳两得”，那这一发就是纯赌。</p>
+<h4 id="怎么找10-分钟扫描"><a href="#怎么找：10-分钟扫描" class="headerlink" title="怎么找：10 分钟扫描"></a>怎么找：10 分钟扫描</h4><p>见 <code>波动实验室 D3c</code>。做法很朴素：dummy 设「防御后最速前跳」，然后从贴身到全屏逐格测。</p>
+<h4 id="实测结果2026-11-02豪鬼有古烈点就在-4-格"><a href="#实测结果（2026-11-02）：豪鬼有古烈点，就在-4-格" class="headerlink" title="实测结果（2026-11-02）：豪鬼有古烈点，就在 4 格"></a>实测结果（2026-11-02）：<strong>豪鬼有古烈点，就在 4 格</strong></h4><blockquote>
+<p><strong>4 格发轻波 → 对手防住 → 起跳 → <code>623LP</code> 能打中。</strong> ✅</p>
+</blockquote>
+<p>算开是这样的（你恢复记为 t=0）：</p>
+<table>
+<thead>
+<tr>
+<th>t</th>
+<th>发生了什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>你恢复</td>
+</tr>
+<tr>
+<td>0~18</td>
+<td><strong>对手还在硬直里，动不了</strong>（+18 就是这 18 帧）</td>
+</tr>
+<tr>
+<td>18</td>
+<td>对手硬直结束，最速起跳</td>
+</tr>
+<tr>
+<td>22</td>
+<td>对手离地</td>
+</tr>
+<tr>
+<td>45~50</td>
+<td>对手的攻击才落到你身上</td>
+</tr>
+</tbody></table>
+<p>你的升龙约 t=20 就能出（反应 12F + 摇 3F + 发生 5F）。<strong>余量 25 帧以上，不是勉强。</strong></p>
+<h4 id="由此修正一个理解偏差古烈点不是帧数高"><a href="#由此修正一个理解偏差：古烈点不是”帧数高”" class="headerlink" title="由此修正一个理解偏差：古烈点不是”帧数高”"></a>由此修正一个理解偏差：古烈点不是”帧数高”</h4><p>很多人以为古烈点的关键是”被防帧数够大”。<strong>真正的条件是三条同时成立：</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>条件</th>
+<th>谁提供</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>波能打到对手</td>
+<td><code>D1</code> 的有效射程</td>
+</tr>
+<tr>
+<td>2</td>
+<td>距离够远，他跳过来要够久</td>
+<td>距离本身</td>
+</tr>
+<tr>
+<td>3</td>
+<td>他是<strong>防住/挨打之后</strong>才跳，不是预判跳</td>
+<td>波是否命中或防住</td>
+</tr>
+</tbody></table>
+<p><strong>条件 3 是核心。</strong> 只要波被防住，对手就进了硬直，起跳时刻必然晚于你恢复。而”预判跳”能打到你，是因为他起跳时你还在 46F 收招里——<strong>这才是”被跳波”的真正来源，不是距离，是时机暴露。</strong></p>
+<p>三档距离因此各有失败原因：</p>
+<table>
+<thead>
+<tr>
+<th>距离</th>
+<th>判定</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2 格</td>
+<td>条件 1 ✓、3 ✓，但<strong>条件 2 ✗</strong>：太近，他跳过来只要十几帧，你反应不过来</td>
+</tr>
+<tr>
+<td><strong>4 格</strong></td>
+<td><strong>三条全 ✓ → 古烈点</strong></td>
+</tr>
+<tr>
+<td>6 格</td>
+<td>条件 1 ✓（重波）、2 ✓、3 ✓，但<strong>他跳不过来</strong>——落点根本够不到你</td>
+</tr>
+</tbody></table>
+<p><strong>所以古烈点是”距离 × 波种”的乘积，不是某一个距离。</strong></p>
+<h4 id="6-格实测不是第二个古烈点是免跳区"><a href="#6-格实测：不是第二个古烈点，是免跳区" class="headerlink" title="6 格实测：不是第二个古烈点，是免跳区"></a>6 格实测：不是第二个古烈点，是<strong>免跳区</strong></h4><p>我原来预测”6 格重波是第二个古烈点”。<strong>实测推翻</strong>：对手从 6 格起跳，<strong>落点到不了你身上</strong>。</p>
+<p>但这不是失败，而是第三类安全：</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>类型</th>
+<th>机制</th>
+<th>你要做什么</th>
+<th>收益</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong>立回安全</strong></td>
+<td>被防不亏、不被确反</td>
+<td>无</td>
+<td>不亏</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>古烈点</strong>（主动对空安全）</td>
+<td>他跳得到，但我来得及升</td>
+<td><strong>摇 623</strong></td>
+<td><strong>罚他一次</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>免跳区</strong>（被动对空安全）</td>
+<td><strong>他跳过来打不到我</strong></td>
+<td><strong>什么都不用做</strong></td>
+<td>省反应，零收益</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>免跳区 ≠ 安全区。</strong> 他跳不过来，但绿冲过来只要十几帧。<strong>6 格发重波的风险不在跳，在绿冲和前走。</strong></p>
+</blockquote>
+<h4 id="真正的结构古烈点是一条被夹在两侧的窄带"><a href="#真正的结构：古烈点是一条被夹在两侧的窄带" class="headerlink" title="真正的结构：古烈点是一条被夹在两侧的窄带"></a>真正的结构：古烈点是一条被夹在两侧的窄带</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">太近 ──✗── 他跳过来太快，你反应不及</span><br><span class="line">          ↓</span><br><span class="line">        ✓ 4 格 · 轻波（他能跳到你，你也来得及罚）</span><br><span class="line">          ↓</span><br><span class="line">太远 ──✗── 他跳过来打不到你 → 免跳区，无跳可罚</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>约束</th>
+<th>需要</th>
+<th>失效表现</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>他<strong>跳得到</strong>你</td>
+<td>要<strong>近</strong></td>
+<td>太远 → 免跳区</td>
+</tr>
+<tr>
+<td>你<strong>来得及</strong>反应</td>
+<td>要<strong>远</strong></td>
+<td>太近 → 他落地你还在收招</td>
+</tr>
+</tbody></table>
+<p><strong>一个要近、一个要远，所以窗口必然很窄。</strong> 4 格能成立不是运气，是这两条线刚好在那里交叉。<strong>这也解释了为什么古烈点这么稀有——它是几何上必然窄，不是运气问题。找到一个就够用，不用指望第二个。</strong></p>
+<p><strong>当前的分工</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>距离</th>
+<th>波</th>
+<th>性质</th>
+<th>怎么打</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>4 格</td>
+<td><strong>轻波</strong></td>
+<td><strong>古烈点</strong></td>
+<td>发 → 手摇 623，他跳就罚</td>
+</tr>
+<tr>
+<td>6 格</td>
+<td>重波</td>
+<td><strong>免跳区</strong></td>
+<td>随便发（对跳免费），但<strong>防绿冲</strong></td>
+</tr>
+<tr>
+<td>6 格以上</td>
+<td>重波 / Lv3</td>
+<td>骚扰</td>
+<td>他不绿冲就是白赚</td>
+</tr>
+</tbody></table>
+<p><strong>待测的一格是 5 格</strong>——它是免跳区的边界。知道边界在哪，你就知道”从哪一格开始可以完全不管他的跳”，这比找第二个古烈点有用得多。</p>
+<blockquote>
+<p>⚠️ 跳入射程<strong>随角色变化</strong>（有的角色前跳特别远）。5 格只对标准跳跃距离成立。</p>
+</blockquote>
+<p><strong>顺带一个反直觉的</strong>：同样是 4 格，<strong>重波只有 +5</strong>，对手几乎立刻能起跳，<strong>不是</strong>古烈点。所以”射程内”不等于”安全”——这两件事必须分开看。</p>
+<h4 id="回看当初的三种预案落在第一种"><a href="#回看当初的三种预案：落在第一种" class="headerlink" title="回看当初的三种预案：落在第一种"></a>回看当初的三种预案：落在第一种</h4><table>
+<thead>
+<tr>
+<th>预案</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>有明确的边界格</td>
+<td><strong>✅ 命中</strong>（4 格轻波）</td>
+</tr>
+<tr>
+<td>边界贴在全屏（有但用不上）</td>
+<td>✗</td>
+</tr>
+<tr>
+<td>所有距离都打不到（没有古烈点）</td>
+<td>✗</td>
+</tr>
+</tbody></table>
+<p>第三种预案当初说”完全可能，且对豪鬼未必是坏事”。现在回头看：<strong>没走那条路是好事，因为它说明豪鬼同时拥有主动（古烈点）和被动（免跳区）两层对空安全。</strong></p>
+<blockquote>
+<p><strong>古烈点的正确用法不是一套操作，是一张「距离白名单」</strong>：站在这些格子上发波免费，站在别的格子上发波就是赌。你不需要”打进去”，只需要”认出它”。</p>
+</blockquote>
+<h3 id="82d-波的第三种失败被承受"><a href="#8-2d-波的第三种失败：被「承受」" class="headerlink" title="8.2d 波的第三种失败：被「承受」"></a>8.2d 波的第三种失败：被「承受」</h3><blockquote>
+<p>起因：对杰米实战发现，<strong>前走快的角色会选择「边前走边蹲防」，甘愿吃几发波掉血，也要把距离推回中距离。</strong></p>
+</blockquote>
+<h4 id="波有三种失败方式性质完全不同"><a href="#波有三种失败方式，性质完全不同" class="headerlink" title="波有三种失败方式，性质完全不同"></a>波有三种失败方式，性质完全不同</h4><table>
+<thead>
+<tr>
+<th>#</th>
+<th>失败方式</th>
+<th>对手做了什么</th>
+<th>性质</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong>被跳</strong></td>
+<td>预判跳，落进你后摇</td>
+<td>他<strong>赌对了</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>被穿</strong></td>
+<td>OD 波、无敌技、抗波技</td>
+<td>他<strong>用资源换</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>被承受</strong></td>
+<td><strong>吃伤害，继续前走</strong></td>
+<td>他<strong>算清楚了，主动付钱</strong></td>
+</tr>
+</tbody></table>
+<p>前两种是”他做对了一件事”，你可以改。第三种是<strong>他在做交易</strong>——而且这笔交易他认为划算。<strong>这是最难受的一种，因为它不产生”错误”，只产生”账单”。</strong></p>
+<h4 id="先分清他到底在做什么两种技术两种对策"><a href="#先分清他到底在做什么（两种技术，两种对策）" class="headerlink" title="先分清他到底在做什么（两种技术，两种对策）"></a>先分清他到底在做什么（两种技术，两种对策）</h4><table>
+<thead>
+<tr>
+<th>表现</th>
+<th>技术</th>
+<th>血</th>
+<th>对策方向</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>不掉血</strong>，慢慢推进</td>
+<td><strong>蹲防前走</strong>（walking block）</td>
+<td>0（SF6 普通波被防无 chip）</td>
+<td>投 / 中段</td>
+</tr>
+<tr>
+<td><strong>掉血</strong>，继续推进</td>
+<td><strong>吃波前走</strong>（absorb）</td>
+<td>每发 700</td>
+<td><strong>换 Lv2</strong></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>你说”虽然他们掉血了”——<strong>那就是第二种</strong>：他不是防住了，是<strong>明知会中还是往前走</strong>。</p>
+</blockquote>
+<p>这个区分很重要，因为两者的答案不一样。下面两条都给。</p>
+<h4 id="为什么这笔交易对他划算对你亏损"><a href="#为什么这笔交易对他划算，对你亏损" class="headerlink" title="为什么这笔交易对他划算，对你亏损"></a>为什么这笔交易对他划算，对你亏损</h4><table>
+<thead>
+<tr>
+<th></th>
+<th>豪鬼</th>
+<th>杰米</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>血量</td>
+<td><strong>9000</strong></td>
+<td>10000（+11%）</td>
+</tr>
+<tr>
+<td>他付的</td>
+<td>700/发</td>
+<td>—</td>
+</tr>
+<tr>
+<td>他换到的</td>
+<td>—</td>
+<td><strong>2 格距离</strong></td>
+</tr>
+</tbody></table>
+<p>算一下就明白了：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">吃 3 发轻波 = 2100 血（豪鬼总血量的 23%）</span><br><span class="line">换到      = 从 6 格走到 2 格</span><br></pre></td></tr></table></figure>
+
+<p><strong>对 10000 血的角色，用 21% 的血买一个”进入舒适距离”，是划算的</strong>——尤其杰米这种靠近距离喝酒/流速吃饭的角色。</p>
+<p>而对你：<strong>波收的是”时间税”，他选择付”伤害税”。</strong> 你要的是”他停下来”，他给你的是”他掉血”。<strong>这两件事不等价，而血量是可以换回来的（下一局），时间不能。</strong></p>
+<h4 id="真正的错误波在他能走的时刻发"><a href="#真正的错误：波在”他能走”的时刻发" class="headerlink" title="真正的错误：波在”他能走”的时刻发"></a>真正的错误：波在”他能走”的时刻发</h4><p>他前走的时候，你的波<strong>没有剥夺任何东西</strong>——他本来就要往前，吃一发不掉节奏，反而更接近目的地。</p>
+<p><strong>波必须发在”他不能走”的时刻</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>时机</th>
+<th>为什么有效</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>击倒后</strong>（压起身）</td>
+<td>他躺着，走不了</td>
+</tr>
+<tr>
+<td><strong>他收招后</strong></td>
+<td>他在 recovery，动不了</td>
+</tr>
+<tr>
+<td><strong>他落地时</strong></td>
+<td>落地硬直</td>
+</tr>
+<tr>
+<td><strong>他被防后</strong></td>
+<td>他在格挡硬直里，前走被锁</td>
+</tr>
+</tbody></table>
+<p><strong>波的价值 = 剥夺他的行动时机，不是造成伤害。</strong> 他愿意吃，说明你没剥夺到任何东西。</p>
+<h4 id="对策他蹲防你就投他吃你就-lv2"><a href="#对策：他蹲防，你就投；他吃，你就-Lv2" class="headerlink" title="对策：他蹲防，你就投；他吃，你就 Lv2"></a>对策：他蹲防，你就投；他吃，你就 Lv2</h4><p>这是完整的一圈，四个按钮各打一种反应：</p>
+<table>
+<thead>
+<tr>
+<th>他的选择</th>
+<th>你的答案</th>
+<th>为什么</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>前走，不防</td>
+<td><strong>2MK</strong>（8F，下段）</td>
+<td>打移动中的脚</td>
+</tr>
+<tr>
+<td><strong>蹲防前走</strong></td>
+<td><strong>投</strong>（走过去投）</td>
+<td><strong>防御挡不住投</strong></td>
+</tr>
+<tr>
+<td>蹲防 + 拆投</td>
+<td><strong>6MP</strong>（20F，唯一常规中段）</td>
+<td>打开蹲防</td>
+</tr>
+<tr>
+<td><strong>吃波推进</strong></td>
+<td><strong>Lv2 波</strong></td>
+<td>命中即<strong>击倒</strong></td>
+</tr>
+<tr>
+<td>站着等</td>
+<td>波</td>
+<td>正常兑现</td>
+</tr>
+</tbody></table>
+<p><strong>最关键的一条是投。</strong> 他为了吃波而选择蹲防，等于<strong>主动交出防御姿态</strong>——而防御姿态的唯一天敌是投。<strong>他选的这个策略，正好落在投能解决的那一格。</strong></p>
+<blockquote>
+<p><strong>波在这里的正确用法变了</strong>：不是”打他”，是<strong>逼他进入防御</strong>。他一旦决定防，投就打开了。这就是”波动是拳脚的延伸”的另一层——波不是伤害手段，是<strong>让对手二选一的工具</strong>，而二选一里必有一边是投。</p>
+</blockquote>
+<p><strong>为什么不建议用 6MK / 5HK 打蹲防</strong>（容易误判的地方）：</p>
+<table>
+<thead>
+<tr>
+<th>按钮</th>
+<th>段位</th>
+<th>对蹲防</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>6MK</strong></td>
+<td><strong>上段</strong></td>
+<td><strong>蹲着能躲，直接 whiff</strong></td>
+</tr>
+<tr>
+<td><strong>5HK</strong></td>
+<td><strong>上段</strong></td>
+<td>同上；但<strong>被防 +3</strong>（不是 -13，旧稿错），蹲空了才亏</td>
+</tr>
+<tr>
+<td>6MP</td>
+<td><strong>中段</strong></td>
+<td>✓ 唯一能打开蹲防</td>
+</tr>
+</tbody></table>
+<p><code>6MK</code> 看起来像中段（踢腿、10F、脱节好），<strong>但它标的是上段，蹲着打空</strong>。对着蹲防的人按 6MK，等于免费送一个 whiff。</p>
+<h4 id="为什么-lv2-是这里的最优解"><a href="#为什么-Lv2-是这里的最优解" class="headerlink" title="为什么 Lv2 是这里的最优解"></a>为什么 Lv2 是这里的最优解</h4><p>他不怕掉血，但他<strong>怕被击倒</strong>。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>掉血</th>
+<th>击倒</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>收益性质</td>
+<td><strong>线性</strong>（每次 700）</td>
+<td><strong>复利</strong>（多一轮压起身）</td>
+</tr>
+<tr>
+<td>对豪鬼</td>
+<td>磨到死</td>
+<td><strong>真正的伤害来源</strong></td>
+</tr>
+</tbody></table>
+<p>豪鬼的伤害从来不是波打出来的，是<strong>压起身循环</strong>打出来的。所以对付”吃波推进”的人，正确的交换不是”我多打他 700”，是”<strong>我换一个击倒</strong>“。</p>
+<p>Lv2 之前分析过：多花 15 帧，4 格帧数收益为 0，唯一买到的就是”命中即击倒”。<strong>这个”唯一”正好是这里最需要的东西。</strong> 他不愿停，那就让他躺下。</p>
+<blockquote>
+<p>⚠️ 前提：Lv2 发生 31F，他前走时你发得出来吗？如果距离已经推到 2 格，31F 足够他走到你面前。所以 <strong>Lv2 要在 4 格以上用</strong>，配合 <code>D1</code> 的射程表。</p>
+</blockquote>
+<h4 id="一个反直觉的重读"><a href="#一个反直觉的重读" class="headerlink" title="一个反直觉的重读"></a>一个反直觉的重读</h4><p>你说”他们还是回到了中距离的立回”。<strong>但换个角度看：他不是抢回了立回，他是用血量买了一个防御姿态。</strong></p>
+<ul>
+<li>他推进时是<strong>蹲防状态</strong> → 不能进攻，只能防</li>
+<li>他到达中距离时你<strong>刚发完波</strong> → 你也不是主动状态</li>
+<li>所以这个局面不是”他赢回了立回”，是”<strong>双方都回到了中性，但他付了血</strong>“</li>
+</ul>
+<p>在这个中性局面里，<strong>先动的人吃亏</strong>（会被 whiff punish）。他连续前走已经暴露了意图，所以<strong>该动的是你</strong>——不是发波，是走过去投。</p>
+<h4 id="统计指标判断这笔交易谁在赚"><a href="#统计指标：判断这笔交易谁在赚" class="headerlink" title="统计指标：判断这笔交易谁在赚"></a>统计指标：判断这笔交易谁在赚</h4><p>一局结束后看两个数：</p>
+<table>
+<thead>
+<tr>
+<th>数</th>
+<th>怎么记</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>波造成的<strong>总伤害</strong></td>
+<td>命中次数 × 700</td>
+</tr>
+<tr>
+<td>他因此<strong>推进的格数</strong></td>
+<td>目测，从发波位置到他贴身</td>
+</tr>
+</tbody></table>
+<p><strong>如果伤害 &lt; 1500 而他推到了贴身，说明波在亏</strong>——这一局应该停发波，改打 2MK 和投。</p>
+<p>反过来，如果他用血量换了 3 次贴身、每次都被你投或 2MK 打回去，<strong>那这笔交易是你在赚</strong>，可以继续发。</p>
+<blockquote>
+<p><strong>一句话</strong>：不怕他吃波，怕的是他吃完之后你没有下一步。</p>
+</blockquote>
+<h3 id="83-反波"><a href="#8-3-反波" class="headerlink" title="8.3 反波"></a>8.3 反波</h3><table>
+<thead>
+<tr>
+<th>手段</th>
+<th>操作</th>
+<th>适用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>对波</td>
+<td><code>236PP</code>（OD 波）穿普通波</td>
+<td>最稳</td>
+</tr>
+<tr>
+<td>蓄力穿波</td>
+<td>Lv2 / Lv3 预读穿波</td>
+<td>需要预判</td>
+</tr>
+<tr>
+<td>空箭</td>
+<td><code>236K~K</code> 俯冲</td>
+<td>已在空中时</td>
+</tr>
+<tr>
+<td>前闪</td>
+<td><code>6KKK</code>（1-37F 无敌）</td>
+<td>过波 + 贴身</td>
+</tr>
+<tr>
+<td>SA2</td>
+<td>半屏反应</td>
+<td>难，但可行</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="九-资源与风险管理"><a href="#九、资源与风险管理" class="headerlink" title="九、资源与风险管理"></a>九、资源与风险管理</h2><h3 id="91-斗气drive-gauge的定价"><a href="#9-1-斗气（Drive-Gauge）的定价" class="headerlink" title="9.1 斗气（Drive Gauge）的定价"></a>9.1 斗气（Drive Gauge）的定价</h3><p><strong>豪鬼的斗气不该用来”加伤害”，该用来”买击倒”。</strong></p>
+<table>
+<thead>
+<tr>
+<th>花法</th>
+<th>得到什么</th>
+<th>值不值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>OD 升龙（防御）</td>
+<td>活下来</td>
+<td><strong>绝对值</strong></td>
+</tr>
+<tr>
+<td>绿冲取消（起手）</td>
+<td>一次连段</td>
+<td>值</td>
+</tr>
+<tr>
+<td>OD 灼火（连段中）</td>
+<td>板边上墙 + 高伤</td>
+<td>值（版边）</td>
+</tr>
+<tr>
+<td>OD旋风 / OD百鬼</td>
+<td>伤害</td>
+<td>看情况</td>
+</tr>
+<tr>
+<td>乱迸</td>
+<td>大概率被打</td>
+<td><strong>不值</strong></td>
+</tr>
+</tbody></table>
+<p><strong>Burnout 风险</strong>：豪鬼 Burnout 后失去 OD 升龙——<strong>唯一的常规无敌凹没了</strong>。所以他比任何角色都怕 Burnout。</p>
+<blockquote>
+<p><strong>规则：斗气剩 2 格以下时，停止一切”为了伤害”的花费，只留给 OD 升龙。</strong></p>
+</blockquote>
+<h3 id="92-sa-槽的定价"><a href="#9-2-SA-槽的定价" class="headerlink" title="9.2 SA 槽的定价"></a>9.2 SA 槽的定价</h3><table>
+<thead>
+<tr>
+<th>槽位</th>
+<th>最佳用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1 气</td>
+<td>很少单独用。留着凑 2 气</td>
+</tr>
+<tr>
+<td>2 气</td>
+<td>SA2（板边上墙）或 SA3（斩杀）</td>
+</tr>
+<tr>
+<td>3 气</td>
+<td>SA3 斩杀</td>
+</tr>
+<tr>
+<td>CA</td>
+<td><strong>CA 版 SA3（+500 伤害）</strong>。瞬狱杀本阶段封存，见 5.5</td>
+</tr>
+</tbody></table>
+<p><strong>SA1 的定位</strong>：它不是伤害技，是<strong>压制技</strong>（+9 击倒后贴身）和<strong>连段填充</strong>。有 1 气时不要急着用，除非能确反收尾。</p>
+<h3 id="93-风险分级每次出手前问自己"><a href="#9-3-风险分级（每次出手前问自己）" class="headerlink" title="9.3 风险分级（每次出手前问自己）"></a>9.3 风险分级（每次出手前问自己）</h3><table>
+<thead>
+<tr>
+<th>动作</th>
+<th>风险</th>
+<th>收益</th>
+<th>什么时候做</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>5MP / 2MK 复合</td>
+<td>极低</td>
+<td>中</td>
+<td>随时</td>
+</tr>
+<tr>
+<td>6MK / 6HP</td>
+<td>低</td>
+<td>中</td>
+<td>中距离</td>
+</tr>
+<tr>
+<td>绿冲起手</td>
+<td>中</td>
+<td>高</td>
+<td>有斗气 + 读准</td>
+</tr>
+<tr>
+<td>百鬼袭</td>
+<td>中高</td>
+<td>高</td>
+<td><strong>只在击倒后</strong></td>
+</tr>
+<tr>
+<td>跳入</td>
+<td>高</td>
+<td>高</td>
+<td>读准对空习惯</td>
+</tr>
+<tr>
+<td>裸凹</td>
+<td>极高</td>
+<td>极高</td>
+<td>快死了</td>
+</tr>
+<tr>
+<td>满蓄波</td>
+<td>低</td>
+<td>中</td>
+<td>击倒后 / 远距离</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>9000 血的决策原则</strong>：把「中高」以上的动作，从”想做就做”降级成”有条件才做”。条件是什么？<strong>对手已经证明他不会应对它。</strong></p>
+</blockquote>
+<hr>
+<h2 id="十-30-天训练计划"><a href="#十、30-天训练计划" class="headerlink" title="十、30 天训练计划"></a>十、30 天训练计划</h2><blockquote>
+<p>每天 30-45 分钟。结构同毒蛇计划：目标 → 练习项 → 验收标准。<br><strong>与前作最大的差别</strong>：豪鬼的练习重点在<strong>决策</strong>，不在<strong>手法</strong>。所以本计划的验收标准大量使用”次数/正确率”，而不是”能不能出”。</p>
+</blockquote>
+<h3 id="101-先分清三层什么现在学什么以后学"><a href="#10-1-先分清三层：什么现在学，什么以后学" class="headerlink" title="10.1 先分清三层：什么现在学，什么以后学"></a>10.1 先分清三层：什么现在学，什么以后学</h3><p>这一节比后面 30 天的日程更重要。<strong>学错了顺序，练得越多越乱。</strong></p>
+<table>
+<thead>
+<tr>
+<th>层</th>
+<th>内容</th>
+<th>作用</th>
+<th>什么时候学</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>L1 地基</strong></td>
+<td>立回（2MK/6MK/6HP）、<strong>波</strong>、确认、击倒→压起身、对空、OD 升龙</td>
+<td>决定<strong>能不能赢</strong></td>
+<td><strong>现在</strong></td>
+</tr>
+<tr>
+<td><strong>L2 扩展</strong></td>
+<td>百鬼袭择、绿冲连段、SA 接入、确反表、偷帧精修</td>
+<td>决定<strong>赢得有多快</strong></td>
+<td>第 3 周起</td>
+</tr>
+<tr>
+<td><strong>L3 知识量</strong></td>
+<td><strong>瞬狱杀</strong>、极限帧陷阱、角色专属套路、花式斩杀</td>
+<td>决定<strong>上限在哪</strong></td>
+<td>结业后</td>
+</tr>
+</tbody></table>
+<p><strong>核心原则：L3 不是”更难”，是”更花”。</strong></p>
+<p>它不会提高你的基础胜率，只在<strong>特定情境</strong>里多给一个选择。而每一个新选择都会<strong>抢走一点注意力</strong>——注意力是有限的，在你还没把 L1 变成无意识动作之前，L3 只会让你的决策变慢、变差。</p>
+<blockquote>
+<p><strong>判断某个内容属于哪一层，只看一个问题：</strong><br><strong>“如果我这局完全不用它，会不会输？”</strong><br>会 → L1/L2，现在学。<br>不会 → L3，先放着。</p>
+</blockquote>
+<p>瞬狱杀就是标准的 L3：不用它，一局都不会因此输；但用了它，一局可能因此输。所以它被单独封存（见 5.5）。</p>
+<h3 id="102-日课每天开工前-15-分钟不计入当日科目"><a href="#10-2-日课（每天开工前-15-分钟，不计入当日科目）" class="headerlink" title="10.2 日课（每天开工前 15 分钟，不计入当日科目）"></a>10.2 日课（每天开工前 15 分钟，不计入当日科目）</h3><table>
+<thead>
+<tr>
+<th>#</th>
+<th>科目</th>
+<th>练的本质</th>
+<th>合格线</th>
+<th>时长</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><strong>2MK 复合</strong></td>
+<td>立回自动化</td>
+<td>10 次全出，且能在移动中出</td>
+<td>4 min</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>对空</strong></td>
+<td>反应</td>
+<td>CPU 随机跳 10 次，623LP 命中 ≥8</td>
+<td>4 min</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>偷帧压起身</strong></td>
+<td>帧数感觉</td>
+<td><code>+30 → 空振5MK → 5HP</code> 命中 +7，10 次成 7</td>
+<td>5 min</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>波</strong></td>
+<td><strong>换节拍器</strong></td>
+<td><code>波动实验室 D2</code>：Lv1/Lv2 各 ≥18/20；<code>D3</code> 应答矩阵 C 项 ≥18/20</td>
+<td>8 min</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>只留三项，不多加。</strong> 日课的作用是维持地基，不是补短板——短板去当日科目里补。</p>
+<p>第 4 项是<strong>唯一豁免项</strong>：它不是”锦上添花”，是因为你过去所有角色都不发波，这一项是<strong>空白地基</strong>（详见 <code>街霸6豪鬼_波动实验室.md</code>）。<br><strong>第 1 周它本身就是关卡内容，日课 A 段跳过第 4 项</strong>（避免重复练同一件事）；第 2 周起再作为维持项放回来，补齐之后并回第 1 项。</p>
+<p>日课里<strong>没有</strong>瞬狱杀、没有 DRC、没有百鬼袭。它们都不是地基，加了只会让每天开工变累。</p>
+<p>三项练顺了（约 13 分钟），再考虑加第四项。<strong>加什么，由你自己的输局记录决定，不由攻略决定。</strong></p>
+</blockquote>
+<h3 id="第-1-周把波发明白关卡制"><a href="#第-1-周：把波发明白（关卡制）" class="headerlink" title="第 1 周：把波发明白（关卡制）"></a>第 1 周：把波发明白（关卡制）</h3><blockquote>
+<p><strong>改成关卡制，不排日期。</strong> 原因：原第 1 周的确认、零斗气连段、2MK 复合你都提前练过，按天排会让你练完还剩半小时、然后空转。<br>规则只有一句：<strong>过不了就停在这一关，过了当天就进下一关。</strong></p>
+</blockquote>
+<p><strong>每天固定三段</strong>（长度可变，顺序不变）：</p>
+<table>
+<thead>
+<tr>
+<th>段</th>
+<th>内容</th>
+<th>时长</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>A</strong></td>
+<td>日课（10.2 的第 1、2、3 项）</td>
+<td>13 min</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>当前关卡</td>
+<td>15-25 min</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>实战 3 局（带当日配额，见下）</td>
+<td>20 min</td>
+</tr>
+</tbody></table>
+<p><strong>关卡表</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>关</th>
+<th>内容</th>
+<th>出口条件</th>
+<th>预计</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>K0</strong> ✅</td>
+<td><strong>验货</strong>：原第 1 周四项各打一遍（2MK 复合 / 轻攻击确认 <code>2LP&gt;2LP&gt;5LK&gt;重升龙</code> / 零斗气连段 / 三个必杀左右各 10 次）</td>
+<td>达原本合格线 → 直接进 K1；任一项不过 → 只补那一项，不往下走</td>
+<td>10 min</td>
+</tr>
+<tr>
+<td><strong>K0.5</strong></td>
+<td><strong>link 基线（只测不练）</strong>：<code>DR 2HP, 2MP</code> 单按 10 次 + 刷键 10 次，记成功数</td>
+<td><strong>无出口条件</strong>，填完两个数就进 K1</td>
+<td>2 min</td>
+</tr>
+<tr>
+<td><strong>K1</strong> ✅</td>
+<td>建档（<code>波动实验室 D1</code>）</td>
+<td>表填满 ✅；能报出「轻波 4 格 +18、6 格起失效」</td>
+<td>已过</td>
+</tr>
+<tr>
+<td><strong>K2</strong> ✅</td>
+<td>蓄力阈值（<code>D2</code>）</td>
+<td>Lv1 / Lv2 各 ≥18/20；实测「毫无难度」一次过</td>
+<td>已过</td>
+</tr>
+<tr>
+<td><strong>K3</strong></td>
+<td>应答矩阵（<code>D3</code>）+ 后摇升龙（<code>D3b</code> ✅）+ 古烈点（<code>D3c</code> ✅）</td>
+<td><code>D3b</code>/<code>D3c</code> 已过（后摇能摇 / 4 格轻波 / 6 格免跳区）；<strong>只剩 <code>D3</code> 矩阵</strong>：A ≥16、B ≥14、C ≥18、D ≥14（各 /20）</td>
+<td>1 天</td>
+</tr>
+<tr>
+<td><strong>K4</strong></td>
+<td>节奏（<code>D4</code>）</td>
+<td>能说出「为什么停比发有用」，且实战中主动停 ≥3 次/局</td>
+<td>1 天</td>
+</tr>
+<tr>
+<td><strong>K5</strong></td>
+<td>实战（<code>D7</code>）</td>
+<td>被跳率 &lt; 20%，连发两波 ≤ 2 次/局</td>
+<td>1-2 天</td>
+</tr>
+</tbody></table>
+<h4 id="k0-实测记录2026-11-02-已过"><a href="#K0-实测记录（2026-11-02-已过）" class="headerlink" title="K0 实测记录（2026-11-02 已过）"></a>K0 实测记录（2026-11-02 已过）</h4><table>
+<thead>
+<tr>
+<th>项</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2MK 复合 / 轻攻击确认 / 零斗气连段 / 三个必杀</td>
+<td>✅ 全部达标</td>
+</tr>
+<tr>
+<td>额外试了 <code>623LP &gt; SA3</code>、<code>214LK &gt; SA1</code></td>
+<td>✅ 能按出来</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>⚠️ <strong>但这几项验的是 cancel 层，不是 link 层。</strong></p>
+<p><code>623LP &gt; SA3</code> 和 <code>214LK &gt; SA1</code> 都是 <strong>cancel</strong>（取消窗口覆盖整个收招期，十几帧），性质上和毒蛇的 HJC、低空火腿同源——<strong>它们恰好是你从毒蛇带过来的资产，所以一次就过。</strong></p>
+<p>K0 的四项也主要是 cancel 和确认，没有一项要求帧对齐。所以「K0 通过」的正确读法是：<strong>输入层完好，link 层未测</strong>——这才有了 K0.5。</p>
+</blockquote>
+<h4 id="k05-link-基线2-分钟只测不练"><a href="#K0-5-·-link-基线（2-分钟，只测不练）" class="headerlink" title="K0.5 · link 基线（2 分钟，只测不练）"></a>K0.5 · link 基线（2 分钟，只测不练）</h4><p><strong>目的</strong>：在花时间练之前，先知道空白区有多大。这是唯一一处提前豁免「本周不碰绿冲」的地方——用<strong>裸绿冲</strong>（1 格），不是 DRC（3 格），帧数关系完全相同。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">裸绿冲 &gt; 2HP , 2MP     ← 单按 10 次：__/10</span><br><span class="line">裸绿冲 &gt; 2HP , 2MP     ← 刷两下 10 次：__/10</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>基线</th>
+<th>含义</th>
+<th>后续安排</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>≥8/10</strong></td>
+<td>link 层没坏，你的手感比预想的好</td>
+<td>目押类连段直接练，不单独排时间</td>
+</tr>
+<tr>
+<td><strong>4~7/10</strong></td>
+<td>典型的 cancel 迁移者</td>
+<td>每条 0 帧目押按 §2.3b 的视觉锚点法，每条单独 10 分钟</td>
+</tr>
+<tr>
+<td><strong>≤3/10</strong></td>
+<td>刷键在替你完成大部分工作</td>
+<td><strong>先做 §2.3 的 A/B 对照</strong>，确认单按是否真的更低</td>
+</tr>
+</tbody></table>
+<p><strong>这个数的作用不是打分，是定价。</strong> 它决定后面每遇到一条 0 帧目押，你该给它 2 分钟还是 20 分钟。测完就进 K1，不必为它停留。</p>
+<p><strong>本周不碰</strong>：百鬼袭、瞬狱杀、DRC、绿冲。</p>
+<blockquote>
+<p><strong>防漂移规则</strong>：任一关最多停 <strong>2 天</strong>。2 天过不了 → 先往下走，在实战里补，回头再来一次。<br>理由：卡在同一关的边际收益掉得很快，而且”波”这种东西本来就得在真实对局里长出来——训练场的正确率再高，也不敢用等于零。</p>
+</blockquote>
+<p><strong>实战配额</strong>（C 段，按关卡递增）——<strong>配额不是禁令，是强制你把它用出来</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>关卡</th>
+<th>每局配额</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>K1</td>
+<td>≥ 10 次 Lv1 波</td>
+</tr>
+<tr>
+<td>K2</td>
+<td>≥ 3 次 Lv2 蓄力波</td>
+</tr>
+<tr>
+<td>K3</td>
+<td>≥ 1 次「发波后成功对空」</td>
+</tr>
+<tr>
+<td>K4</td>
+<td>≥ 3 次完整的「波-波-停」</td>
+</tr>
+<tr>
+<td>K5</td>
+<td>无配额，只看 <code>D7</code> 的 5 个数字</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>为什么用配额而不是禁令</strong>：禁令只告诉你别做什么，配额逼你把新东西塞进真实对局。第一周真正的风险不是「乱用波」，是<strong>压根不敢用</strong>。</p>
+</blockquote>
+<p><strong>本周复盘</strong>：直接用 <code>波动实验室 D7</code> 的 5 列（发波数 / 被跳 / 命中 / 波后压制 / 连发两次），不另建表。</p>
+<h4 id="附这一周同时是对空压力测试"><a href="#附：这一周同时是对空压力测试" class="headerlink" title="附：这一周同时是对空压力测试"></a>附：这一周同时是对空压力测试</h4><p><strong>「盯的时候对手跳就升」已经比大多数人强了</strong>，对空确实不需要单独排科目。但它成立有个前提：<strong>你正盯着他</strong>。</p>
+<p>发波恰好制造了「无法完整盯住他」的那一刻——手在出招、眼睛在看弹道。所以对空不是独立科目，它是<strong>波的验收项</strong>：<code>D3 的 A 项</code>（dummy 最速前跳 + 你应答 <code>623HP</code>）测的就是这件事。</p>
+<p>唯一的升级是把判据从「看到跳 → 升」提前到「看到前摇 → 升」。前摇只有三个：<strong>前走半步、蹲一下、起身瞬间抖</strong>。这一条不用专门练，K3 的 A 项里自然会撞上。</p>
+<blockquote>
+<p>第 2 周起的 <code>Day 8-14</code> 只是<strong>参考日序</strong>。以关卡实际完成日为准，不追日历——第 1 周提前结束是好事，直接进第 2 周。</p>
+</blockquote>
+<h3 id="第-2-周击倒与压起身day-8-14"><a href="#第-2-周：击倒与压起身（Day-8-14）" class="headerlink" title="第 2 周：击倒与压起身（Day 8-14）"></a>第 2 周：击倒与压起身（Day 8-14）</h3><p><strong>本周目标</strong>：把”击倒 → 压起身”变成条件反射。<strong>这是豪鬼的核心竞争力。</strong></p>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>主题</th>
+<th>练习项</th>
+<th>验收</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>8</td>
+<td>收尾帧数</td>
+<td>背 5.2 的表；每种收尾打一次，看击倒后能做什么</td>
+<td>能说出 +30/+34/+41/+47 各接什么</td>
+</tr>
+<tr>
+<td>9</td>
+<td>通用压起身</td>
+<td><code>前前 &gt; 5MP &gt; 2LP &gt; 5LK &gt; 收尾</code> 循环 20 次</td>
+<td>5MP 打防后能立刻接下一个动作</td>
+</tr>
+<tr>
+<td>10</td>
+<td>偷帧入门</td>
+<td><code>+30 → 空振5MK → 5HP</code>；<code>+34 → 空振6MK → 5HP</code></td>
+<td>5HP 命中 +7、被防 +1（看帧数显示）</td>
+</tr>
+<tr>
+<td>11</td>
+<td>前前卡帧</td>
+<td><code>+41 → 前前×2 → 2LP</code> 命中 +3</td>
+<td>10 次成 6</td>
+</tr>
+<tr>
+<td>12</td>
+<td>打投骗三择</td>
+<td>贴身：5MP / 投 / 后走骗拆，各 20 次</td>
+<td>三种都能自然切换，不卡顿</td>
+</tr>
+<tr>
+<td>13</td>
+<td>实战</td>
+<td>排位 10 局，<strong>每局要求：每次击倒都必须压起身</strong></td>
+<td>压起身执行率 ≥80%</td>
+</tr>
+<tr>
+<td>14</td>
+<td>复盘</td>
+<td>统计”击倒后我做了什么”</td>
+<td>填表</td>
+</tr>
+</tbody></table>
+<p><strong>Day 14 统计表</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>击倒后选择</th>
+<th>次数</th>
+<th>成功率</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>打（5MP/2LP）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>投</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>骗拆（后走）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>防凹（蹲下）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>什么都没做</strong></td>
+<td></td>
+<td>← 这项要压到 0</td>
+</tr>
+</tbody></table>
+<h3 id="第-3-周进攻扩展day-15-21"><a href="#第-3-周：进攻扩展（Day-15-21）" class="headerlink" title="第 3 周：进攻扩展（Day 15-21）"></a>第 3 周：进攻扩展（Day 15-21）</h3><p><strong>本周目标</strong>：百鬼袭、绿冲、SA 接入。</p>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>主题</th>
+<th>练习项</th>
+<th>验收</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>15</td>
+<td>百鬼袭三派生</td>
+<td>236K 接三个派生各 20 次，看落地位置</td>
+<td>能说出三个派生各自被防多少帧</td>
+</tr>
+<tr>
+<td>16</td>
+<td>百鬼袭择</td>
+<td><code>+47 → 重百鬼袭 → 落地 +2 → 2LP/投</code></td>
+<td>落地后能立刻出招，不僵</td>
+</tr>
+<tr>
+<td>17</td>
+<td>绿冲起手</td>
+<td><code>2MK &gt; CDR &gt; 5MP, 2HP &gt; 收尾</code>（3 格，目押）；<code>6MP &gt; CDR &gt; 5MK &gt; 214LK</code>（<strong>只 1 格</strong>，最优性价比）</td>
+<td>各 10 次成 8；说得出”为什么 DRC 是奢侈品”</td>
+</tr>
+<tr>
+<td>18</td>
+<td>SA2 上墙</td>
+<td>版边 <code>2HP &gt; OD灼火 &gt; 4HK &gt; Lv2波 &gt; 214HK</code></td>
+<td>上墙后能接上</td>
+</tr>
+<tr>
+<td>19</td>
+<td>SA3 斩杀</td>
+<td>查斩杀表，练 3 条最常用的</td>
+<td>伤害数字对上（±100 内）</td>
+</tr>
+<tr>
+<td>20</td>
+<td>实战</td>
+<td>排位 12 局，允许用百鬼袭（只从击倒后）</td>
+<td>百鬼袭裸出次数 = 0</td>
+</tr>
+<tr>
+<td>21</td>
+<td>复盘</td>
+<td>统计”百鬼袭用了多少次 / 几次是从击倒后”</td>
+<td>填表</td>
+</tr>
+</tbody></table>
+<h3 id="第-4-周风险管理day-22-28"><a href="#第-4-周：风险管理（Day-22-28）" class="headerlink" title="第 4 周：风险管理（Day 22-28）"></a>第 4 周：风险管理（Day 22-28）</h3><p><strong>本周目标</strong>：这是豪鬼真正的毕业考——<strong>少送</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>主题</th>
+<th>练习项</th>
+<th>验收</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>22</td>
+<td>防守体系</td>
+<td>凹招只有三个（OD升龙/SA2/SA3）；练 OD 升龙凹</td>
+<td>10 次凹中 6（对手固定压制）</td>
+</tr>
+<tr>
+<td>23</td>
+<td>对空升级：读前摇</td>
+<td>CPU 设「前走半步后起跳」；只在看到前摇时出 <code>623LP</code>，纯反应出的不算</td>
+<td>10 次里 ≥6 次是<strong>预判</strong>出的</td>
+</tr>
+<tr>
+<td>24</td>
+<td>反波</td>
+<td>OD 波穿波、6KKK 过波、空箭打波</td>
+<td>各 10 次成 7</td>
+</tr>
+<tr>
+<td>25</td>
+<td>确反专项</td>
+<td>反击练习：录 3 个对手常用招，练 <code>2LP PC</code></td>
+<td>每个招 100 次不出错</td>
+</tr>
+<tr>
+<td>26</td>
+<td>实战（完整）</td>
+<td>排位 15 局，全角色内容</td>
+<td>记录 MR 变化</td>
+</tr>
+<tr>
+<td>27</td>
+<td>复盘</td>
+<td>看输的局，分类：被凹 / 被确反 / 被跳入 / 自己送</td>
+<td>填表</td>
+</tr>
+<tr>
+<td>28</td>
+<td>结业测试</td>
+<td>排位 15 局</td>
+<td>见下方结业标准</td>
+</tr>
+</tbody></table>
+<p><strong>Day 27 输局分类表</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>输因</th>
+<th>局数</th>
+<th>占比</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>被对手凹中</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>被确反（我按了不该按的）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>被跳入 / 被百鬼袭骗</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>自己掉连</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>血量差被磨死（没送，就是打不过）</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>最后一项是关键</strong>：如果”血量差被磨死”占多数，说明你打得没问题，是段位到了。如果前三项占多数，说明<strong>还有得救</strong>。</p>
+</blockquote>
+<p><strong>结业标准</strong>：能在一整局里做到——</p>
+<ol>
+<li>每次击倒都压起身（≥90%）</li>
+<li>百鬼袭裸出 = 0</li>
+<li>凹的次数 ≤ 2 次/局</li>
+<li>被跳入 ≤ 1 次/局</li>
+<li><strong>瞬狱杀尝试次数 = 0</strong>（这是”没被高回报选项带跑”的证明）</li>
+</ol>
+<hr>
+<h2 id="十一-数据校准与待实测清单"><a href="#十一、数据校准与待实测清单" class="headerlink" title="十一、数据校准与待实测清单"></a>十一、数据校准与待实测清单</h2><h3 id="111-备忘录-vs-官方已核对"><a href="#11-1-备忘录-vs-官方（已核对）" class="headerlink" title="11.1 备忘录 vs 官方（已核对）"></a>11.1 备忘录 vs 官方（已核对）</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>备忘录</th>
+<th>官方 Year 4</th>
+<th>结论</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>轻攻击+重升龙收尾</td>
+<td>+29</td>
+<td><strong>+30</strong></td>
+<td>差 1 帧，用 +30</td>
+</tr>
+<tr>
+<td>轻旋风+2HK</td>
+<td>（未提）</td>
+<td><strong>+37</strong>（旧资料 +42）</td>
+<td><strong>必须用 +37</strong></td>
+</tr>
+<tr>
+<td>OD 旋风打蹲姿</td>
+<td>（未提）</td>
+<td><strong>Year 4 起可打</strong></td>
+<td>不用再确认站蹲</td>
+</tr>
+<tr>
+<td>6HP PC 后续</td>
+<td>（未提）</td>
+<td><strong>击退减少，更好接</strong></td>
+<td>Year 4 加强</td>
+</tr>
+<tr>
+<td>满蓄波被防</td>
+<td>+2 / +21</td>
+<td><strong>贴身 +1</strong></td>
+<td><strong>测的不是同一件事</strong>：官方是贴身值，备忘录应是”前冲贴身”读数。见 4.3</td>
+</tr>
+<tr>
+<td>中旋风收尾</td>
+<td>+41</td>
+<td>+41</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>重旋风（地面）</td>
+<td>+34</td>
+<td>+34</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>前投 / 后投</td>
+<td>+28 / +14</td>
+<td>+28 / +14</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>二气 / 三气</td>
+<td>+29 / +18</td>
+<td>+29 / +18</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>地面 OD 升龙</td>
+<td>+14</td>
+<td>+14</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>斗反</td>
+<td>+23</td>
+<td>+23</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>胧命中</td>
+<td>+20</td>
+<td>+20</td>
+<td>✓</td>
+</tr>
+<tr>
+<td><strong>DRC 2MK 路线</strong></td>
+<td><code>下中脚+绿冲取消中拳+下重拳+中旋风【+41】</code></td>
+<td>= <code>2MK &gt; CDR &gt; 5MP, 2HP &gt; 214MK</code></td>
+<td><strong>备忘录已收录，主练这条</strong></td>
+</tr>
+<tr>
+<td>DRC 后 <code>5HP, 5MK</code></td>
+<td>（未收录）</td>
+<td>成立，3 格，目押连接</td>
+<td>高伤变体，暂不练</td>
+</tr>
+</tbody></table>
+<p><strong>结论：这份备忘录的数据质量很高，只有个别 1 帧误差。</strong> 但所有<strong>基于 +42 的旧压起身设置在 Year 4 全部失效</strong>——这是最需要注意的一条。</p>
+<blockquote>
+<p><strong>补一条关于”备忘录没收录”的判断原则</strong>：<br>波风水门的笔记是<strong>实战套路集</strong>（他真会打的），不是<strong>连段百科</strong>（训练场能打的）。<br>所以「他没写」≠「不存在」，只说明<strong>性价比不够进他的常用表</strong>。<br>判断一条连段该不该练，看三个成本：<strong>斗气 / 位置 / 确认难度</strong>——不是看它能不能连。</p>
+</blockquote>
+<h3 id="112-必须去训练场实测的我无法从资料确认"><a href="#11-2-必须去训练场实测的（我无法从资料确认）" class="headerlink" title="11.2 必须去训练场实测的（我无法从资料确认）"></a>11.2 必须去训练场实测的（我无法从资料确认）</h3><ul>
+<li><input disabled type="checkbox"> <strong>5HK 的蹲姿判定</strong>：备忘录大量用”重脚”起手，但 5HK 蹲着能躲。确认哪些连段在对手蹲防下会崩。</li>
+<li><input checked disabled type="checkbox"> <strong>波的完整曲线</strong> ✅（2026-11-02，<code>D1</code>）：轻/中/Lv2 到 4 格止，OD 到 6 格，**重波与 Lv3 到 8 格+**；<br>并得到外推判据「被防帧数 ≥ 总硬直 = 必然过远」。</li>
+<li><input disabled type="checkbox"> <strong>6MK 的 low profile 是否真实</strong>（§4.2b）：官方表未标。dummy 出 2MK / 2HK，看能否躲过。</li>
+<li><input disabled type="checkbox"> <strong>6MK 对蹲姿的实际表现</strong>：确认它是「蹲着 whiff」还是「蹲防能防」。这条决定它在本 matchup 能不能用。</li>
+<li><input disabled type="checkbox"> <strong><code>5HP</code> 与 <code>2MK</code> 的射程差</strong>（§4.2c）：站在哪一格 5HP 打得中 2MK 打不中？这决定「用哪个按钮」之前要问的第一个问题。</li>
+<li><input disabled type="checkbox"> <strong><code>5HP</code> 蹲着会不会 whiff</strong>：官方标上段，但站立重拳的判定框可能仍能打到蹲防。这条决定它能不能当无条件主力。</li>
+<li><input disabled type="checkbox"> <strong><code>5HK</code> 蹲空后的实际责任</strong>：官方标上段 + 打空 1F。确认蹲防下的 5HK 是完全空振还是打到防御（两者后果差很多）。</li>
+<li><input disabled type="checkbox"> <strong>5 格：免跳区边界</strong>（<code>D3c</code> 收尾一格）：从哪一格起他跳不到你。比找第二个古烈点有用。</li>
+<li><input disabled type="checkbox"> <strong>6 格被防后，对手绿冲要几帧贴脸</strong>：免跳区把风险从跳换成了绿冲，这一格要单独算。</li>
+<li><input checked disabled type="checkbox"> <strong>弹速已由曲线斜率反推</strong> ✅：每 2 格涨幅 轻19 / 中13 / Lv2 11 / OD10 / 重9。涨得越猛飞得越慢，不用另测。</li>
+<li><input disabled type="checkbox"> <strong>普通 Lv3（56F）在压起身时会不会被跳</strong>：如果会，就从实战里删掉（<code>D6</code> 验证）。</li>
+<li><input disabled type="checkbox"> <strong>+47 后重百鬼袭落地 +2 的落点</strong>：会不会因为距离不同而落到不同位置？</li>
+<li><input disabled type="checkbox"> <strong>斩杀表里”祸坏”的准确含义</strong>：是不是 CA 版 SA3？</li>
+<li><input disabled type="checkbox"> <strong>2MK 被防 -6 后对手的确反上限</strong>：不同角色能罚到什么程度（进 6.2 的破阵表）。</li>
+<li><input disabled type="checkbox"> <strong><code>2MK &gt; CDR &gt; 5MP, 2HP</code> 的稳定性</strong>：波风水门用的这条，目押窗口够不够宽？20 次计数。</li>
+<li><input disabled type="checkbox"> ⏸ <del>瞬狱杀凹安全跳的时机</del> → <strong>封存，解锁后再测</strong>（见 5.5）</li>
+</ul>
+<h3 id="113-与毒蛇笔记的迁移对照学习路径"><a href="#11-3-与毒蛇笔记的迁移对照（学习路径）" class="headerlink" title="11.3 与毒蛇笔记的迁移对照（学习路径）"></a>11.3 与毒蛇笔记的迁移对照（学习路径）</h3><table>
+<thead>
+<tr>
+<th>毒蛇的能力</th>
+<th>迁移到豪鬼</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>轻攻击三点确认</td>
+<td><strong>直接迁移</strong></td>
+<td>完全一样的技能，甚至更简单（豪鬼不用确认站蹲）</td>
+</tr>
+<tr>
+<td>距离管理</td>
+<td><strong>直接迁移</strong></td>
+<td>老桑局学到的”不让他进距离”完全适用</td>
+</tr>
+<tr>
+<td>确认（打没打到）</td>
+<td><strong>直接迁移</strong></td>
+<td>豪鬼的确认窗口更宽（5HP 19F、6HP 20F）</td>
+</tr>
+<tr>
+<td>HJC / 低空火腿 / 假电取消</td>
+<td><strong>作废</strong></td>
+<td>豪鬼没有这套机制</td>
+</tr>
+<tr>
+<td>抗压心态</td>
+<td><strong>反向迁移</strong></td>
+<td>毒蛇是”没凹只能守”，豪鬼是”有凹但会被读”</td>
+</tr>
+<tr>
+<td>立回节拍器（数脚步）</td>
+<td><strong>必须重建</strong></td>
+<td>无波角色用位移换接触，有波角色用波换接触 → 时间单位从”步伐”换成”弹道飞行”。见 <code>波动实验室</code></td>
+</tr>
+<tr>
+<td>输入纪律（cancel 惯性）</td>
+<td><strong>必须重建</strong></td>
+<td>毒蛇连段以 <strong>cancel</strong> 为主（窗口十几帧，连打天然正确）；豪鬼以 <strong>link</strong> 为主（0~1 帧余量，连打遮住反馈）。<strong>刷键不是坏习惯，是过期习惯</strong>，见 §2.3b</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p><strong>两处真空白区</strong>：节拍器、输入纪律。它们的共同点是——<strong>旧角色不会惩罚你</strong>，所以从来没被暴露过。</p>
+<p>所以你的实际起点不是”从零学豪鬼”，而是”<strong>带着两项核心资产换角色</strong>“。这比从零快很多，但也容易高估自己——因为豪鬼的失败模式不同（不是掉连，是送），旧经验反而会误导。</p>
+</blockquote>
+<hr>
+<h2 id="附录-a一句话记住的-62-条"><a href="#附录-A：一句话记住的-62-条" class="headerlink" title="附录 A：一句话记住的 62 条"></a>附录 A：一句话记住的 62 条</h2><ol>
+<li>9000 血，两套就死，所以<strong>每次交互的质量 &gt; 次数</strong>。</li>
+<li><strong>5MP 被防 +1</strong>，这是你最好的压制按钮。</li>
+<li><strong>2MK 必须复合</strong>，裸出 -6 会被打全套。</li>
+<li><strong>5HK 蹲着能躲</strong>；被防 <strong>+3</strong>（旧稿 -13 是错的），站着打是极强回报，蹲着打是空振。</li>
+<li>波有三档，<strong>贴身被防 -4 / -2 / +1</strong>；<strong>优势随距离上升</strong>，所以”波是几帧”这个问题本身是错的。</li>
+<li>击倒后的 +帧，<strong>决定你下一回合是不是主动</strong>。</li>
+<li><strong>+30 → 空振 5MK → +4</strong>。</li>
+<li><strong>+34 → 空振 6MK → +4</strong>。</li>
+<li><strong>+41 → 前前×2 → +3</strong>。</li>
+<li><strong>+47 → 百鬼袭落地 → +2</strong>。</li>
+<li>偷帧 = 让最后一帧判定打中起身第一帧，<strong>白赚 3-4 帧</strong>。</li>
+<li><strong>百鬼袭只从击倒后出</strong>，不从立回中出。</li>
+<li>能凹的只有 <strong>OD 升龙 / SA2 / SA3</strong>。</li>
+<li><strong>SA1 不能凹</strong>（只有打击/投无敌）。</li>
+<li><strong>瞬狱杀本阶段封存</strong>——不是它弱，是它会污染你的决策。</li>
+<li>CA 状态下就打正常连段，收尾用 CA 版 SA3，够了。</li>
+<li>斗气剩 2 格以下，只留给 OD 升龙。</li>
+<li><strong>DRC 连段是奢侈品（3 格）</strong>，不是基本功；要练绿冲就先练 1 格的 <code>6MP &gt; CDR</code>。</li>
+<li>连段里的 <code>,</code> 和 <code>&gt;</code> 是两种东西，<strong>目押不能当取消打</strong>。</li>
+<li><strong>Burnout = 没有凹</strong>，豪鬼最怕的状态。</li>
+<li>中距离是你最强的一层，<strong>守住它，别往前冲</strong>。</li>
+<li><strong>“少一个选项”经常比”多一个选项”更强</strong>——前提是你还分不清什么时候该用。</li>
+<li>豪鬼输的局，多半不是”打不过”，是”<strong>按多了</strong>“。</li>
+<li><strong>波不是打人的，是给对手设一个行动截止时间</strong>；收益来自他超时，不来自命中。</li>
+<li><strong>Lv1 命中不击倒</strong>——它的价值 100% 在”我不亏”，0% 在”我打中”。兑现要用 Lv2/Lv3。</li>
+<li>波体系真正的武器是「波-波-<strong>停</strong>」中间那个停：连发时他在读你，停顿的时候你在读他。</li>
+<li><strong>反应跳惩罚不了波</strong>（56F &gt; 46F）——被跳波不是距离问题，是<strong>节奏被读到了</strong>。</li>
+<li><strong>安全波有两个定义</strong>：立回安全（被防不亏）≠ 对空安全（预判跳也落不进后摇）。</li>
+<li><strong>发完波手就开始摇升龙</strong>：动作在恢复里走完，按键卡在恢复结束。别把”动作”也等到恢复完。</li>
+<li><strong>古烈点成立的原因不是古烈快，是波慢</strong>——慢波逼对手晚跳，晚跳到不了。所以关键是<strong>弹速</strong>，不是恢复帧。</li>
+<li>豪鬼 Lv1 全体固定 46F，<strong>安全距离几乎只由弹速决定</strong>；而弹速就是 <code>D1</code> 曲线的斜率，不用另测。</li>
+<li><strong>目押单按，TC 连打</strong>——这两件事混用是掉招的主因。</li>
+<li>0 帧目押在 SF6 是 <strong>5 帧窗口</strong>（4F 提前 + 本帧）。<strong>刷键不扩大窗口，只抹掉反馈</strong>；没有反馈就没有学习。</li>
+<li><code>6HP</code> / <code>5HP</code> 窜招是<strong>方向残留</strong>，不是按得不够快；解法是回中 1~2 帧，不是加大力度。</li>
+<li><strong>余量 = 命中优势 −（发生 − 1）</strong>，绿冲中的招 +4。自己算，别背表。</li>
+<li><code>DR 2HP, 2MP</code> 是 <strong>0 帧</strong>：<code>2HP(+1+4=5)</code> vs <code>2MP(6F)</code>，只有一条缝。</li>
+<li><strong>刷键不是坏习惯，是过期习惯</strong>——毒蛇的连段全是 cancel（窗口宽），豪鬼的是 link（0~1 帧）。毒蛇不惩罚它，所以它从没被暴露。</li>
+<li>0 帧目押的验收标准不是”20 次全成”，是”<strong>说得出你在看什么</strong>“。</li>
+<li><strong>Lv2 花 15 帧，4 格的帧数收益是 0</strong>（同为 +18）；它买到的只有”击倒”。对着”会防”的人发 Lv2 = 白花 15 帧。</li>
+<li><strong>古烈点不是”帧数高”，是三条同时成立</strong>：波能打到 + 距离够远 + 他是防住之后才跳。豪鬼的点在 <strong>4 格轻波</strong>（已验证）。</li>
+<li>4 格重波只有 +5，<strong>在射程内 ≠ 安全</strong>——这两件事必须分开看。</li>
+<li><strong>发完波摇得出生龙</strong>（已实测）。过去每次”发波被跳”，都是主动放弃防守输掉的，不是打不过。</li>
+<li><strong>对空安全有两种</strong>：古烈点（他跳得到，我罚他）与<strong>免跳区</strong>（他跳过来打不到我）。后者不用反应，但收益为零。</li>
+<li>古烈点被<strong>两侧夹住</strong>——太近反应不及、太远跳不过来。<strong>窗口必然很窄</strong>，所以找到一个就够，别指望第二个。</li>
+<li><strong>免跳区 ≠ 安全区</strong>：6 格他跳不过来，但绿冲过来只要十几帧。风险换了个形式，不是消失了。</li>
+<li><strong>波的第三种失败是「被承受」</strong>——他吃 700 继续前走。前两种是他做错，这一种是他<strong>算清楚了</strong>。</li>
+<li>波收的是<strong>时间税</strong>，他付的是<strong>伤害税</strong>。这两者不等价，而血量下局能换回来，时间不能。</li>
+<li><strong>波只在「他不能走」时发</strong>：击倒后、收招后、落地、被防硬直中。他前走时发波，等于没剥夺任何东西。</li>
+<li><strong>他蹲防，你就投</strong>——防御挡不住投。波在这里的作用不是打他，是<strong>逼他进入防御</strong>。</li>
+<li><strong>对付吃波推进的人用 Lv2</strong>：他不怕掉血（线性），他怕被击倒（复利）。</li>
+<li><strong>6MK 是上段，蹲着能躲</strong>——别拿它打蹲防，那是免费 whiff。打开蹲防只有 <code>6MP</code>（20F 中段）和投。</li>
+<li><strong>6MK 打空惩罚 19F</strong>（15F + 4F），比被防 -4 更重。它是设计上「惩罚空振」的招。</li>
+<li><strong>1.5 格死区只有 0.3 格宽</strong>，他前走 4~6 帧就消失。<strong>解法是等 5 帧，不是找新按钮。</strong></li>
+<li><strong>射程是动态的</strong>：2MK 打不到停住的人，但打得到前走的人。<strong>差合的原因不是距离，是你在他停住时按了键。</strong></li>
+<li><strong>6MK 打站姿，6MP 打蹲姿</strong>——两者不可互换。蹲防的人不攻击，所以 20F 的 6MP 慢但不危险。</li>
+<li><strong>「不利」不等于「不安全」</strong>：1.5 格轻波被防约 -3~-4，不被确反，只是失去主动。</li>
+<li><strong>中距离的主力不是最快的招，是被防最便宜的招</strong>——<code>5HP</code> 被防 -3，<code>2MK</code> 被防 -6，只差 1 帧发生。</li>
+<li><strong><code>5HP</code> 命中 +3 能零斗气换一次击倒</strong>（<code>5HP &gt; 214HP~6P</code>，2180 / KD+47）；<code>2MK</code> 命中 0 只能取消波或烧 3 格绿冲。</li>
+<li><strong>在可能打空的距离上，选打空不吃罚的招</strong>：5HP（0）而不是 6MK（+4F）。这是 1.5 格真正的答案。</li>
+<li><strong>站重拳 ≈ 肯的 5MK</strong>（同为 +3/-3），只是慢 2 帧、多 100 伤害、多了「可取消」。</li>
+<li><strong><code>6HP</code> 的价值在位移不在帧数</strong>——它打后退的人，不是站定的人；对站定的人用 13F 是送抢先。</li>
+<li><strong><code>5HK</code> 被防 +3，不是 -13</strong>（官方数据修正）。它是全表最强的中距离回报，开关只有「他蹲不蹲」。</li>
+</ol>
+<hr>
+<h2 id="附录-b资料源"><a href="#附录-B：资料源" class="headerlink" title="附录 B：资料源"></a>附录 B：资料源</h2><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>骨架 / 实战套路 / 压起身细节</td>
+<td>波风水门《街霸6备忘录》豪鬼篇</td>
+</tr>
+<tr>
+<td>官方帧数</td>
+<td>Capcom 官方 Frame Data（Year 4，2026-08-03 更新）</td>
+</tr>
+<tr>
+<td>连段 / 压起身 / 收尾帧</td>
+<td>SF6 Lab — AKUMA Combos &amp; Okizeme（2026-08-31 更新）</td>
+</tr>
+<tr>
+<td>立回 / 优势弱点 / 对空</td>
+<td>SuperCombo Wiki — SF6 Akuma</td>
+</tr>
+<tr>
+<td>中文术语 / 连段对照</td>
+<td>街霸6 Wiki（vi-ko.cn）</td>
+</tr>
+</tbody></table>
+<hr>
+<p><em>本文档基于 Year 4（2026-08-03）版本。补丁调整后需重新核对第 3、5、7 章的数字。</em><br><em>训练场实测结果请回填到 11.2 的清单，不要只记在脑子里。</em></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%A1%97%E9%9C%B86/" rel="tag"># 街霸6</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2026/10/11/%E5%9F%BA%E6%9C%AC%E4%B9%90%E7%90%86%E6%95%99%E7%A8%8B/" rel="prev" title="">
+      <i class="fa fa-chevron-left"></i> 
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="valine-comments"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A1%97%E9%9C%B86-%E8%B1%AA%E9%AC%BCakuma-%E3%82%B4%E3%82%A6%E3%82%AD%E5%A4%A7%E5%9E%8B%E6%94%BB%E7%95%A5-year-4"><span class="nav-number">1.</span> <span class="nav-text">街霸6 豪鬼（Akuma &#x2F; ゴウキ）大型攻略 · Year 4</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%80%87-%E8%BF%99%E4%BB%BD%E6%96%87%E6%A1%A3%E6%80%8E%E4%B9%88%E7%94%A8"><span class="nav-number">1.1.</span> <span class="nav-text">〇、这份文档怎么用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E9%98%B6%E6%AE%B5%E5%B0%81%E5%AD%98%E6%B8%85%E5%8D%95%E5%85%88%E7%9C%8B%E8%BF%99%E4%B8%AA%E7%9C%81%E6%97%B6%E9%97%B4"><span class="nav-number">1.1.1.</span> <span class="nav-text">本阶段封存清单（先看这个，省时间）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80-%E8%A7%92%E8%89%B2%E5%AE%9A%E4%BD%8D%E7%94%A8-1000-%E8%A1%80%E4%B9%B0%E6%9D%A5%E7%9A%84%E5%B7%A5%E5%85%B7%E7%AE%B1"><span class="nav-number">1.2.</span> <span class="nav-text">一、角色定位：用 1000 血买来的工具箱</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#11-%E4%B8%80%E5%8F%A5%E8%AF%9D%E7%BB%93%E8%AE%BA"><span class="nav-number">1.2.1.</span> <span class="nav-text">1.1 一句话结论</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-%E5%BC%BA%E5%BC%B1%E7%BB%93%E6%9E%84"><span class="nav-number">1.2.2.</span> <span class="nav-text">1.2 强弱结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E4%B8%8E%E6%B7%B1%E7%BA%A2%E6%AF%92%E8%9B%87%E7%9A%84%E7%BB%93%E6%9E%84%E5%AF%B9%E6%AF%94%E8%BF%81%E7%A7%BB%E7%94%A8"><span class="nav-number">1.2.3.</span> <span class="nav-text">1.3 与深红毒蛇的结构对比（迁移用）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-9000-%E8%A1%80%E7%9A%84%E7%9C%9F%E5%AE%9E%E5%90%AB%E4%B9%89%E5%8F%8D%E7%9B%B4%E8%A7%89"><span class="nav-number">1.2.4.</span> <span class="nav-text">1.4 9000 血的真实含义（反直觉）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C-%E6%9C%AF%E8%AF%AD%E4%B8%8E%E6%8B%9B%E5%BC%8F%E9%80%9F%E6%9F%A5"><span class="nav-number">1.3.</span> <span class="nav-text">二、术语与招式速查</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#21-%E5%91%BD%E5%90%8D%E5%AF%B9%E7%85%A7%E4%BF%97%E7%A7%B0-%E5%AE%98%E6%96%B9-%E6%8C%87%E4%BB%A4"><span class="nav-number">1.3.1.</span> <span class="nav-text">2.1 命名对照（俗称 ↔ 官方 ↔ 指令）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-%E6%95%B0%E5%AD%97%E8%AE%B0%E5%8F%B7"><span class="nav-number">1.3.2.</span> <span class="nav-text">2.2 数字记号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-%E8%BE%93%E5%85%A5%E5%B1%825-%E5%B8%A7%E7%BC%93%E5%86%B2-%E7%AA%9C%E6%8B%9B%E4%BB%A5%E5%8F%8A%E5%88%B7%E9%94%AE%E8%AF%A5%E4%B8%8D%E8%AF%A5%E7%94%A8"><span class="nav-number">1.3.3.</span> <span class="nav-text">2.3 输入层：5 帧缓冲、窜招，以及「刷键该不该用」</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%88%E6%8A%8A%E6%95%B0%E5%AD%97%E8%AF%B4%E5%87%86"><span class="nav-number">1.3.3.1.</span> <span class="nav-text">先把数字说准</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA%E5%85%88%E8%A1%8C%E7%9B%AE%E6%8A%BC%E5%8D%95%E6%8C%89tc-%E8%BF%9E%E6%89%93"><span class="nav-number">1.3.3.2.</span> <span class="nav-text">结论先行：目押单按，TC 连打</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%B7%E9%94%AE%E5%9C%A8%E7%9B%AE%E6%8A%BC%E4%B8%8A%E6%B2%A1%E6%9C%89%E5%A5%BD%E5%A4%84%E4%B8%89%E6%9D%A1"><span class="nav-number">1.3.3.3.</span> <span class="nav-text">为什么刷键在目押上没有好处（三条）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%86-6hp-5hp-%E7%AA%9C%E6%8B%9B%E6%98%AF%E5%8F%A6%E4%B8%80%E4%BB%B6%E4%BA%8B"><span class="nav-number">1.3.3.4.</span> <span class="nav-text">但 6HP &#x2F; 5HP 窜招是另一件事</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E9%AA%8C%E8%AF%81%E5%88%AB%E4%BF%A1%E6%88%91%E4%BF%A1%E4%BD%A0%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A1%A8"><span class="nav-number">1.3.3.5.</span> <span class="nav-text">怎么验证（别信我，信你自己的表）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%BE%E6%97%B6%E6%9C%BA%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%B7%A5%E5%85%B7%E6%AF%94%E5%88%B7%E9%94%AE%E6%9C%89%E7%94%A8%E4%B8%80%E4%B8%87%E5%80%8D"><span class="nav-number">1.3.3.6.</span> <span class="nav-text">找时机的正确工具（比刷键有用一万倍）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23b-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E4%B8%AA%E4%B9%A0%E6%83%AF%E5%9C%A8%E6%AF%92%E8%9B%87%E8%BA%AB%E4%B8%8A%E4%BB%8E%E6%B2%A1%E8%A2%AB%E6%83%A9%E7%BD%9A"><span class="nav-number">1.3.4.</span> <span class="nav-text">2.3b 为什么这个习惯在毒蛇身上从没被惩罚</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%8D%E6%98%AF%E6%AF%92%E8%9B%87%E4%B8%8D%E9%9C%80%E8%A6%81%E7%B2%BE%E5%BA%A6%E6%98%AF%E6%AF%92%E8%9B%87%E7%9A%84%E9%94%99%E8%AF%AF%E7%9C%8B%E5%BE%97%E8%A7%81"><span class="nav-number">1.3.4.1.</span> <span class="nav-text">不是”毒蛇不需要精度”，是”毒蛇的错误看得见”</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%A0%E4%B8%BE%E7%9A%84%E9%82%A3%E6%9D%A1dr-2hp-2mp-%E7%A1%AE%E5%AE%9E%E6%98%AF-0-%E5%B8%A7"><span class="nav-number">1.3.4.2.</span> <span class="nav-text">你举的那条：DR 2HP, 2MP 确实是 0 帧</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%99%E9%87%8F%E5%85%AC%E5%BC%8F%E8%87%AA%E5%B7%B1%E7%AE%97%E4%BB%BB%E4%BD%95%E4%B8%80%E6%9D%A1%E8%BF%9E%E6%AE%B5"><span class="nav-number">1.3.4.3.</span> <span class="nav-text">余量公式（自己算任何一条连段）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%86%E5%85%88%E9%97%AE%E4%B8%80%E5%8F%A5%E8%BF%99%E6%9D%A1-0-%E5%B8%A7%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E7%BB%83"><span class="nav-number">1.3.4.4.</span> <span class="nav-text">但先问一句：这条 0 帧值不值得练</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E6%8A%8A%E7%A2%B0%E6%94%B9%E6%88%90%E7%9C%8B%E9%92%88%E5%AF%B9-0-%E5%B8%A7"><span class="nav-number">1.3.4.5.</span> <span class="nav-text">怎么把”碰”改成”看”（针对 0 帧）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89-%E5%B8%A7%E6%95%B0%E5%9F%BA%E5%BA%A7"><span class="nav-number">1.4.</span> <span class="nav-text">三、帧数基座</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#31-%E6%99%AE%E9%80%9A%E6%8A%80%E5%8F%AA%E5%88%97%E4%BC%9A%E7%94%A8%E7%9A%84"><span class="nav-number">1.4.1.</span> <span class="nav-text">3.1 普通技（只列会用的）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#32-%E5%BF%85%E6%9D%80%E6%8A%80"><span class="nav-number">1.4.2.</span> <span class="nav-text">3.2 必杀技</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#33-%E8%B6%85%E5%BF%85%E6%9D%80"><span class="nav-number">1.4.3.</span> <span class="nav-text">3.3 超必杀</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B-%E7%AB%8B%E5%9B%9E%E8%B1%AA%E9%AC%BC%E7%9A%84%E5%9C%B0%E9%9D%A2"><span class="nav-number">1.5.</span> <span class="nav-text">四、立回：豪鬼的地面</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#41-%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9E%8B%E4%B8%89%E6%AE%B5%E8%B7%9D%E7%A6%BB"><span class="nav-number">1.5.1.</span> <span class="nav-text">4.1 核心模型：三段距离</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#42-%E4%B8%AD%E8%B7%9D%E7%A6%BB%E5%9B%9B%E4%BB%B6%E5%A5%97"><span class="nav-number">1.5.2.</span> <span class="nav-text">4.2 中距离四件套</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#42b-15-%E6%A0%BC%E6%AD%BB%E5%8C%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E9%87%8C%E4%B8%8D%E8%AF%A5%E6%9C%89%E4%B8%93%E5%B1%9E%E6%8C%89%E9%92%AE"><span class="nav-number">1.5.3.</span> <span class="nav-text">4.2b 1.5 格「死区」：为什么这里不该有专属按钮</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%88%E6%8A%8A%E8%BF%99%E4%B8%80%E6%A0%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E6%91%86%E5%87%BA%E6%9D%A5"><span class="nav-number">1.5.3.1.</span> <span class="nav-text">先把这一格的数据摆出来</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-6mk-%E6%89%93%E7%A9%BA%E6%97%B6%E7%9A%84%E6%83%A9%E7%BD%9A%E6%AF%94%E8%A2%AB%E9%98%B2%E6%9B%B4%E9%87%8D"><span class="nav-number">1.5.3.2.</span> <span class="nav-text">① 6MK 打空时的惩罚，比被防更重</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-6mk-%E6%98%AF%E4%B8%8A%E6%AE%B5%E5%AE%83%E8%BA%B2%E4%B8%8B%E6%AE%B5%E7%9A%84%E5%90%8C%E6%97%B6%E4%B9%9F%E8%BA%B2%E5%BC%80%E4%BA%86%E8%B9%B2%E7%9D%80%E7%9A%84%E4%BA%BA"><span class="nav-number">1.5.3.3.</span> <span class="nav-text">② 6MK 是上段——它躲下段的同时，也躲开了蹲着的人</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E6%AD%BB%E5%8C%BA%E5%8F%AA%E6%9C%89-03-%E6%A0%BC%E5%AE%BD%E4%B8%8D%E5%80%BC%E5%BE%97%E4%B8%BA%E5%AE%83%E5%87%86%E5%A4%87%E4%B8%93%E5%B1%9E%E6%8C%89%E9%92%AE"><span class="nav-number">1.5.3.4.</span> <span class="nav-text">③ 死区只有 0.3 格宽——不值得为它准备专属按钮</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%9C%BA%E5%88%B6%E5%B0%84%E7%A8%8B%E6%98%AF%E5%8A%A8%E6%80%81%E7%9A%84%E4%BD%A0%E6%89%93%E7%9A%84%E6%98%AF%E4%BB%96%E8%BF%9B%E5%85%A5%E5%B0%84%E7%A8%8B%E7%9A%84%E9%82%A3%E4%B8%80%E5%88%BB"><span class="nav-number">1.5.3.5.</span> <span class="nav-text">真正的机制：射程是动态的，你打的是「他进入射程的那一刻」</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%80%E4%BB%A5-15-%E6%A0%BC%E7%9A%84%E5%8A%A8%E4%BD%9C%E4%BC%98%E5%85%88%E7%BA%A7"><span class="nav-number">1.5.3.6.</span> <span class="nav-text">所以 1.5 格的动作优先级</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%89%E5%A7%BF%E6%80%81%E5%88%86%E7%B1%BB%E7%9A%84%E5%AE%8C%E6%95%B4%E7%AD%94%E6%A1%88%E8%BF%99%E4%B8%80%E6%A0%BC%E7%9C%9F%E6%AD%A3%E8%AF%A5%E8%83%8C%E7%9A%84%E8%A1%A8"><span class="nav-number">1.5.3.7.</span> <span class="nav-text">按姿态分类的完整答案（这一格真正该背的表）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%A1%BA%E5%B8%A6%E6%A0%A1%E5%87%86%E4%B8%80%E4%B8%AA%E5%88%A4%E6%96%AD%E6%B3%A2%E4%B8%8D%E5%AE%89%E5%85%A8"><span class="nav-number">1.5.3.8.</span> <span class="nav-text">顺带校准一个判断：「波不安全」</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#42c-%E7%AB%99%E9%87%8D%E6%8B%B3%E4%B8%AD%E8%B7%9D%E7%A6%BB%E7%9C%9F%E6%AD%A3%E7%9A%84%E4%B8%BB%E5%8A%9B%E5%AF%B9%E6%A2%85%E5%8E%9F%E5%BD%95%E5%83%8F%E7%9A%84%E8%A7%A3%E8%AF%BB"><span class="nav-number">1.5.4.</span> <span class="nav-text">4.2c 站重拳：中距离真正的主力（对梅原录像的解读）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%88%E7%9C%8B%E6%95%B0%E6%8D%AE%E5%AE%98%E6%96%B9-2026-08-27"><span class="nav-number">1.5.4.1.</span> <span class="nav-text">先看数据（官方 2026-08-27）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80-%E5%AE%83%E5%B0%B1%E6%98%AF%E8%B1%AA%E9%AC%BC%E7%89%88%E7%9A%84%E8%82%AF-5mk"><span class="nav-number">1.5.4.2.</span> <span class="nav-text">一、它就是”豪鬼版的肯 5MK”</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%8C-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AE%83%E8%AF%A5%E5%BD%93%E4%B8%BB%E5%8A%9B%E4%B8%89%E9%A1%B9%E9%83%BD%E4%BE%BF%E5%AE%9C"><span class="nav-number">1.5.4.3.</span> <span class="nav-text">二、为什么它该当主力：三项都便宜</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89-%E9%82%A3-2mk-%E8%BF%98%E5%89%A9%E4%BB%80%E4%B9%88%E7%94%A8"><span class="nav-number">1.5.4.4.</span> <span class="nav-text">三、那 2MK 还剩什么用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B-6hp-%E6%98%AF%E5%8F%A6%E4%B8%80%E4%B8%AA%E7%94%A8%E9%80%94%E5%88%AB%E5%92%8C-5hp-%E6%B7%B7"><span class="nav-number">1.5.4.5.</span> <span class="nav-text">四、6HP 是另一个用途，别和 5HP 混</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BA%94-%E9%A1%BA%E5%B8%A65hp-%E5%8F%98%E6%88%90%E4%B8%BB%E5%8A%9B%E4%B9%8B%E5%90%8E%E7%AA%9C%E6%8B%9B%E7%9A%84%E4%BB%A3%E4%BB%B7%E5%8F%98%E5%A4%A7%E4%BA%86"><span class="nav-number">1.5.4.6.</span> <span class="nav-text">五、顺带：5HP 变成主力之后，窜招的代价变大了</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%AD-%E6%80%8E%E4%B9%88%E7%BB%8310-%E5%88%86%E9%92%9F%E4%B8%89%E6%AD%A5"><span class="nav-number">1.5.4.7.</span> <span class="nav-text">六、怎么练（10 分钟，三步）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#43-%E6%B3%A2%E7%9A%84%E4%B8%89%E6%A1%A3%E8%93%84%E5%8A%9B%E8%B1%AA%E9%AC%BC%E7%9A%84%E7%81%B5%E9%AD%82"><span class="nav-number">1.5.5.</span> <span class="nav-text">4.3 波的三档蓄力（豪鬼的灵魂）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E6%B5%8B%E6%9B%B2%E7%BA%BF2026-11-02%E8%AE%AD%E7%BB%83%E5%9C%BA-2468-%E6%A0%BC"><span class="nav-number">1.5.5.1.</span> <span class="nav-text">实测曲线（2026-11-02，训练场 2&#x2F;4&#x2F;6&#x2F;8 格）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E5%B7%A5%E8%A1%A8%E6%8C%89%E5%AE%9E%E6%B5%8B%E6%9B%BF%E4%BB%A3%E5%8E%9F%E6%9D%A5%E7%9A%84%E6%80%A7%E4%BB%B7%E6%AF%94%E7%BB%93%E8%AE%BA"><span class="nav-number">1.5.5.2.</span> <span class="nav-text">分工表（按实测，替代原来的”性价比结论”）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%93%84%E5%8A%9B%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%88%90%E6%9C%ACk1-k2-%E6%95%B0%E6%8D%AE%E5%90%88%E5%B9%B6"><span class="nav-number">1.5.5.3.</span> <span class="nav-text">蓄力的真实成本（K1 + K2 数据合并）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#43b-%E6%B3%A2%E7%9A%84%E4%B8%89%E4%B8%AA%E4%BD%BF%E7%94%A8%E7%BA%AA%E5%BE%8B"><span class="nav-number">1.5.6.</span> <span class="nav-text">4.3b 波的三个使用纪律</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#44-%E8%B1%AA%E9%AC%BC%E7%AB%8B%E5%9B%9E%E7%9A%84%E4%B8%89%E4%B8%AA%E9%99%B7%E9%98%B1%E4%BB%96%E8%87%AA%E5%B7%B1%E8%B8%A9%E7%9A%84"><span class="nav-number">1.5.7.</span> <span class="nav-text">4.4 豪鬼立回的三个陷阱（他自己踩的）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%94-%E8%BF%9B%E6%94%BB%E4%BD%93%E7%B3%BB"><span class="nav-number">1.6.</span> <span class="nav-text">五、进攻体系</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#51-%E8%B5%B7%E6%89%8Bstarter%E6%8C%89%E8%B7%9D%E7%A6%BB%E5%88%86%E5%B1%82"><span class="nav-number">1.6.1.</span> <span class="nav-text">5.1 起手（Starter）：按距离分层</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B4%B4%E8%BA%AB0-1-%E8%BA%AB%E4%BD%8D"><span class="nav-number">1.6.1.1.</span> <span class="nav-text">贴身（0-1 身位）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%AD%E8%B7%9D%E7%A6%BB"><span class="nav-number">1.6.1.2.</span> <span class="nav-text">中距离</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9C%E8%B7%9D%E7%A6%BB-%E8%B7%B3%E5%85%A5"><span class="nav-number">1.6.1.3.</span> <span class="nav-text">远距离 &#x2F; 跳入</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#52-%E6%94%B6%E5%B0%BEender%E5%86%B3%E5%AE%9A%E4%B8%8B%E4%B8%80%E5%9B%9E%E5%90%88%E7%9A%84%E4%BA%BA%E6%98%AF%E4%BD%A0"><span class="nav-number">1.6.2.</span> <span class="nav-text">5.2 收尾（Ender）：决定下一回合的人是你</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#53-%E5%8E%8B%E8%B5%B7%E8%BA%ABokizeme%E8%B1%AA%E9%AC%BC%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%81%AB%E5%8A%9B"><span class="nav-number">1.6.3.</span> <span class="nav-text">5.3 压起身（Okizeme）：豪鬼真正的火力</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%88%E7%90%86%E8%A7%A3%E5%81%B7%E5%B8%A7meaty"><span class="nav-number">1.6.3.1.</span> <span class="nav-text">先理解”偷帧”（Meaty）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%9A%E7%94%A8%E5%8E%8B%E8%B5%B7%E8%BA%AB%E4%B8%8D%E8%AE%B0%E5%8D%A1%E5%B8%A7%E9%9A%8F%E6%89%8B%E5%8F%AF%E7%94%A8"><span class="nav-number">1.6.3.2.</span> <span class="nav-text">通用压起身（不记卡帧，随手可用）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8C%89%E6%94%B6%E5%B0%BE%E5%B8%A7%E6%95%B0%E6%9F%A5%E5%8E%8B%E6%B3%95%E6%A0%B8%E5%BF%83%E5%86%B3%E7%AD%96%E8%A1%A8"><span class="nav-number">1.6.3.3.</span> <span class="nav-text">按收尾帧数查压法（核心决策表）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B%E7%B1%BB%E5%8E%8B%E8%B5%B7%E8%BA%AB%E9%80%89%E9%A1%B9%E6%AF%8F%E6%AC%A1%E5%8F%AA%E9%80%89%E4%B8%80%E4%B8%AA"><span class="nav-number">1.6.3.4.</span> <span class="nav-text">四类压起身选项（每次只选一个）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#54-%E7%99%BE%E9%AC%BC%E8%A2%ADdemon-raid-236k"><span class="nav-number">1.6.4.</span> <span class="nav-text">5.4 百鬼袭（Demon Raid &#x2F; 236K）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%89%E7%A7%8D%E6%B4%BE%E7%94%9F"><span class="nav-number">1.6.4.1.</span> <span class="nav-text">三种派生</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B%E7%A7%8D%E7%94%A8%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95%E7%BB%99%E4%BA%86%E4%B8%89%E6%9D%A1%E6%88%91%E8%A1%A5%E7%AC%AC%E5%9B%9B%E6%9D%A1"><span class="nav-number">1.6.4.2.</span> <span class="nav-text">四种用法（备忘录给了三条，我补第四条）</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#55-%E7%9E%AC%E7%8B%B1%E6%9D%80ca-%E6%9C%AC%E9%98%B6%E6%AE%B5%E5%B0%81%E5%AD%98"><span class="nav-number">1.6.5.</span> <span class="nav-text">5.5 瞬狱杀（CA）—— 本阶段封存</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%81%E5%AD%98%E4%B8%89%E6%9D%A1%E6%8C%89%E9%87%8D%E8%A6%81%E6%80%A7%E6%8E%92"><span class="nav-number">1.6.5.1.</span> <span class="nav-text">为什么封存（三条，按重要性排）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%AC%E9%98%B6%E6%AE%B5-ca-%E7%8A%B6%E6%80%81%E6%80%8E%E4%B9%88%E6%89%93"><span class="nav-number">1.6.5.2.</span> <span class="nav-text">本阶段 CA 状态怎么打</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A7%A3%E9%94%81%E6%9D%A1%E4%BB%B6%E4%B8%89%E6%9D%A1%E5%85%A8%E6%BB%A1%E8%B6%B3%E5%86%8D%E5%AD%A6"><span class="nav-number">1.6.5.3.</span> <span class="nav-text">解锁条件（三条全满足再学）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9F%A5%E8%AF%86%E5%AD%98%E6%A1%A3%E4%BB%A5%E5%90%8E%E5%86%8D%E7%9C%8B%E7%8E%B0%E5%9C%A8%E8%B7%B3%E8%BF%87"><span class="nav-number">1.6.5.4.</span> <span class="nav-text">知识存档（以后再看，现在跳过）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AD-%E7%A1%AE%E5%8F%8D%E4%BD%93%E7%B3%BB"><span class="nav-number">1.7.</span> <span class="nav-text">六、确反体系</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#61-%E8%87%AA%E5%B7%B1%E8%BF%99%E8%BE%B9%E6%8C%89%E5%B8%A7%E6%95%B0%E9%80%89%E8%B5%B7%E6%89%8B"><span class="nav-number">1.7.1.</span> <span class="nav-text">6.1 自己这边：按帧数选起手</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#62-%E5%AF%B9%E6%89%8B%E9%82%A3%E8%BE%B9%E7%A0%B4%E7%BB%BD%E8%A1%A8%E8%87%AA%E5%B7%B1%E5%A1%AB"><span class="nav-number">1.7.2.</span> <span class="nav-text">6.2 对手那边：破绽表（自己填）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#63-%E7%89%B9%E6%AE%8A%E5%9C%BA%E6%99%AF%E7%A1%AE%E5%8F%8D"><span class="nav-number">1.7.3.</span> <span class="nav-text">6.3 特殊场景确反</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%83-%E8%BF%9E%E6%AE%B5%E5%BA%93"><span class="nav-number">1.8.</span> <span class="nav-text">七、连段库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#71-%E9%9B%B6%E6%96%97%E6%B0%94%E4%BF%9D%E5%BA%95-%E9%AB%98%E9%A2%91"><span class="nav-number">1.8.1.</span> <span class="nav-text">7.1 零斗气（保底 &#x2F; 高频）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#72-%E7%BB%BF%E5%86%B2drive-rush"><span class="nav-number">1.8.2.</span> <span class="nav-text">7.2 绿冲（Drive Rush）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E7%AB%8B%E6%9C%BA%E5%88%B6"><span class="nav-number">1.8.2.1.</span> <span class="nav-text">为什么成立（机制）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BD%95%E5%83%8F%E9%87%8C%E5%BE%88%E5%B0%91%E8%A7%81"><span class="nav-number">1.8.2.2.</span> <span class="nav-text">为什么录像里很少见</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#73-%E4%B8%80-%E4%BA%8C%E6%96%97%E6%B0%94%E6%9D%BF%E8%BE%B9%E9%AB%98%E4%BC%A4"><span class="nav-number">1.8.3.</span> <span class="nav-text">7.3 一 &#x2F; 二斗气（板边高伤）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#74-sa2-sa3-%E6%94%B6%E5%B0%BE"><span class="nav-number">1.8.4.</span> <span class="nav-text">7.4 SA2 &#x2F; SA3 收尾</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#75-%E6%96%A9%E6%9D%80%E6%8C%89%E6%96%97%E6%B0%94%E6%95%B0"><span class="nav-number">1.8.5.</span> <span class="nav-text">7.5 斩杀（按斗气数）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#76-%E8%BF%9E%E6%AE%B5%E9%80%89%E6%8B%A9%E7%9A%84%E5%9B%9B%E5%B1%82%E5%86%B3%E7%AD%96%E5%AE%9E%E6%88%98%E7%94%A8"><span class="nav-number">1.8.6.</span> <span class="nav-text">7.6 连段选择的四层决策（实战用）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%AB-%E9%98%B2%E5%AE%88"><span class="nav-number">1.9.</span> <span class="nav-text">八、防守</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#81-%E5%87%B9%E6%8B%9B%E6%B8%85%E5%8D%95%E5%8F%AA%E6%9C%89%E4%B8%89%E4%B8%AA%E6%98%AF%E7%9C%9F%E7%9A%84"><span class="nav-number">1.9.1.</span> <span class="nav-text">8.1 凹招清单（只有三个是真的）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#82-%E5%AF%B9%E7%A9%BA%E4%BD%93%E7%B3%BB"><span class="nav-number">1.9.2.</span> <span class="nav-text">8.2 对空体系</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#82b-%E5%8F%91%E6%B3%A2%E5%90%8E%E7%9A%84%E5%AF%B9%E7%A9%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8C%89%E4%BA%86%E6%B2%A1%E6%95%88%E6%9E%9C%E6%98%AF%E4%B8%AA%E8%AF%AF%E4%BC%9A"><span class="nav-number">1.9.3.</span> <span class="nav-text">8.2b 发波后的对空：为什么「按了没效果」是个误会</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%80%E4%BB%A5%E5%AE%89%E5%85%A8%E6%B3%A2%E6%9C%89%E4%B8%A4%E4%B8%AA%E5%AE%9A%E4%B9%89%E5%88%AB%E6%B7%B7"><span class="nav-number">1.9.3.1.</span> <span class="nav-text">所以”安全波”有两个定义，别混</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#82c-%E5%8F%A4%E7%83%88%E7%82%B9%E8%B1%AA%E9%AC%BC%E6%9C%89%E6%B2%A1%E6%9C%89%E4%B8%80%E4%B8%AA%E5%AE%89%E5%85%A8%E6%B3%A2%E8%B7%9D%E7%A6%BB"><span class="nav-number">1.9.4.</span> <span class="nav-text">8.2c 「古烈点」：豪鬼有没有一个安全波距离</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%A4%E7%83%88%E7%82%B9%E7%9C%9F%E6%AD%A3%E6%88%90%E7%AB%8B%E7%9A%84%E5%8E%9F%E5%9B%A0%E4%B8%8D%E6%98%AF%E4%BB%96%E5%BF%AB%E6%98%AF%E6%B3%A2%E6%85%A2"><span class="nav-number">1.9.4.1.</span> <span class="nav-text">古烈点真正成立的原因：不是他快，是波慢</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%B1%AA%E9%AC%BC%E7%9A%84%E7%BB%93%E6%9E%84%E5%B7%AE%E5%BC%82%E8%BF%99%E6%9D%A1%E5%BE%88%E9%87%8D%E8%A6%81"><span class="nav-number">1.9.4.2.</span> <span class="nav-text">豪鬼的结构差异（这条很重要）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%8F%AF%E6%93%8D%E4%BD%9C%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8D%E7%94%A8%E5%85%AC%E5%BC%8F"><span class="nav-number">1.9.4.3.</span> <span class="nav-text">可操作的定义（不用公式）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E6%89%BE10-%E5%88%86%E9%92%9F%E6%89%AB%E6%8F%8F"><span class="nav-number">1.9.4.4.</span> <span class="nav-text">怎么找：10 分钟扫描</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E6%B5%8B%E7%BB%93%E6%9E%9C2026-11-02%E8%B1%AA%E9%AC%BC%E6%9C%89%E5%8F%A4%E7%83%88%E7%82%B9%E5%B0%B1%E5%9C%A8-4-%E6%A0%BC"><span class="nav-number">1.9.4.5.</span> <span class="nav-text">实测结果（2026-11-02）：豪鬼有古烈点，就在 4 格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%B1%E6%AD%A4%E4%BF%AE%E6%AD%A3%E4%B8%80%E4%B8%AA%E7%90%86%E8%A7%A3%E5%81%8F%E5%B7%AE%E5%8F%A4%E7%83%88%E7%82%B9%E4%B8%8D%E6%98%AF%E5%B8%A7%E6%95%B0%E9%AB%98"><span class="nav-number">1.9.4.6.</span> <span class="nav-text">由此修正一个理解偏差：古烈点不是”帧数高”</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-%E6%A0%BC%E5%AE%9E%E6%B5%8B%E4%B8%8D%E6%98%AF%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%8F%A4%E7%83%88%E7%82%B9%E6%98%AF%E5%85%8D%E8%B7%B3%E5%8C%BA"><span class="nav-number">1.9.4.7.</span> <span class="nav-text">6 格实测：不是第二个古烈点，是免跳区</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9C%9F%E6%AD%A3%E7%9A%84%E7%BB%93%E6%9E%84%E5%8F%A4%E7%83%88%E7%82%B9%E6%98%AF%E4%B8%80%E6%9D%A1%E8%A2%AB%E5%A4%B9%E5%9C%A8%E4%B8%A4%E4%BE%A7%E7%9A%84%E7%AA%84%E5%B8%A6"><span class="nav-number">1.9.4.8.</span> <span class="nav-text">真正的结构：古烈点是一条被夹在两侧的窄带</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9E%E7%9C%8B%E5%BD%93%E5%88%9D%E7%9A%84%E4%B8%89%E7%A7%8D%E9%A2%84%E6%A1%88%E8%90%BD%E5%9C%A8%E7%AC%AC%E4%B8%80%E7%A7%8D"><span class="nav-number">1.9.4.9.</span> <span class="nav-text">回看当初的三种预案：落在第一种</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#82d-%E6%B3%A2%E7%9A%84%E7%AC%AC%E4%B8%89%E7%A7%8D%E5%A4%B1%E8%B4%A5%E8%A2%AB%E6%89%BF%E5%8F%97"><span class="nav-number">1.9.5.</span> <span class="nav-text">8.2d 波的第三种失败：被「承受」</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A2%E6%9C%89%E4%B8%89%E7%A7%8D%E5%A4%B1%E8%B4%A5%E6%96%B9%E5%BC%8F%E6%80%A7%E8%B4%A8%E5%AE%8C%E5%85%A8%E4%B8%8D%E5%90%8C"><span class="nav-number">1.9.5.1.</span> <span class="nav-text">波有三种失败方式，性质完全不同</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%88%E5%88%86%E6%B8%85%E4%BB%96%E5%88%B0%E5%BA%95%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88%E4%B8%A4%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%B8%A4%E7%A7%8D%E5%AF%B9%E7%AD%96"><span class="nav-number">1.9.5.2.</span> <span class="nav-text">先分清他到底在做什么（两种技术，两种对策）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%99%E7%AC%94%E4%BA%A4%E6%98%93%E5%AF%B9%E4%BB%96%E5%88%92%E7%AE%97%E5%AF%B9%E4%BD%A0%E4%BA%8F%E6%8D%9F"><span class="nav-number">1.9.5.3.</span> <span class="nav-text">为什么这笔交易对他划算，对你亏损</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%94%99%E8%AF%AF%E6%B3%A2%E5%9C%A8%E4%BB%96%E8%83%BD%E8%B5%B0%E7%9A%84%E6%97%B6%E5%88%BB%E5%8F%91"><span class="nav-number">1.9.5.4.</span> <span class="nav-text">真正的错误：波在”他能走”的时刻发</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AF%B9%E7%AD%96%E4%BB%96%E8%B9%B2%E9%98%B2%E4%BD%A0%E5%B0%B1%E6%8A%95%E4%BB%96%E5%90%83%E4%BD%A0%E5%B0%B1-lv2"><span class="nav-number">1.9.5.5.</span> <span class="nav-text">对策：他蹲防，你就投；他吃，你就 Lv2</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88-lv2-%E6%98%AF%E8%BF%99%E9%87%8C%E7%9A%84%E6%9C%80%E4%BC%98%E8%A7%A3"><span class="nav-number">1.9.5.6.</span> <span class="nav-text">为什么 Lv2 是这里的最优解</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E5%8F%8D%E7%9B%B4%E8%A7%89%E7%9A%84%E9%87%8D%E8%AF%BB"><span class="nav-number">1.9.5.7.</span> <span class="nav-text">一个反直觉的重读</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%9F%E8%AE%A1%E6%8C%87%E6%A0%87%E5%88%A4%E6%96%AD%E8%BF%99%E7%AC%94%E4%BA%A4%E6%98%93%E8%B0%81%E5%9C%A8%E8%B5%9A"><span class="nav-number">1.9.5.8.</span> <span class="nav-text">统计指标：判断这笔交易谁在赚</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#83-%E5%8F%8D%E6%B3%A2"><span class="nav-number">1.9.6.</span> <span class="nav-text">8.3 反波</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B9%9D-%E8%B5%84%E6%BA%90%E4%B8%8E%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86"><span class="nav-number">1.10.</span> <span class="nav-text">九、资源与风险管理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#91-%E6%96%97%E6%B0%94drive-gauge%E7%9A%84%E5%AE%9A%E4%BB%B7"><span class="nav-number">1.10.1.</span> <span class="nav-text">9.1 斗气（Drive Gauge）的定价</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#92-sa-%E6%A7%BD%E7%9A%84%E5%AE%9A%E4%BB%B7"><span class="nav-number">1.10.2.</span> <span class="nav-text">9.2 SA 槽的定价</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#93-%E9%A3%8E%E9%99%A9%E5%88%86%E7%BA%A7%E6%AF%8F%E6%AC%A1%E5%87%BA%E6%89%8B%E5%89%8D%E9%97%AE%E8%87%AA%E5%B7%B1"><span class="nav-number">1.10.3.</span> <span class="nav-text">9.3 风险分级（每次出手前问自己）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81-30-%E5%A4%A9%E8%AE%AD%E7%BB%83%E8%AE%A1%E5%88%92"><span class="nav-number">1.11.</span> <span class="nav-text">十、30 天训练计划</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#101-%E5%85%88%E5%88%86%E6%B8%85%E4%B8%89%E5%B1%82%E4%BB%80%E4%B9%88%E7%8E%B0%E5%9C%A8%E5%AD%A6%E4%BB%80%E4%B9%88%E4%BB%A5%E5%90%8E%E5%AD%A6"><span class="nav-number">1.11.1.</span> <span class="nav-text">10.1 先分清三层：什么现在学，什么以后学</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#102-%E6%97%A5%E8%AF%BE%E6%AF%8F%E5%A4%A9%E5%BC%80%E5%B7%A5%E5%89%8D-15-%E5%88%86%E9%92%9F%E4%B8%8D%E8%AE%A1%E5%85%A5%E5%BD%93%E6%97%A5%E7%A7%91%E7%9B%AE"><span class="nav-number">1.11.2.</span> <span class="nav-text">10.2 日课（每天开工前 15 分钟，不计入当日科目）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC-1-%E5%91%A8%E6%8A%8A%E6%B3%A2%E5%8F%91%E6%98%8E%E7%99%BD%E5%85%B3%E5%8D%A1%E5%88%B6"><span class="nav-number">1.11.3.</span> <span class="nav-text">第 1 周：把波发明白（关卡制）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#k0-%E5%AE%9E%E6%B5%8B%E8%AE%B0%E5%BD%952026-11-02-%E5%B7%B2%E8%BF%87"><span class="nav-number">1.11.3.1.</span> <span class="nav-text">K0 实测记录（2026-11-02 已过）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#k05-link-%E5%9F%BA%E7%BA%BF2-%E5%88%86%E9%92%9F%E5%8F%AA%E6%B5%8B%E4%B8%8D%E7%BB%83"><span class="nav-number">1.11.3.2.</span> <span class="nav-text">K0.5 · link 基线（2 分钟，只测不练）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%99%84%E8%BF%99%E4%B8%80%E5%91%A8%E5%90%8C%E6%97%B6%E6%98%AF%E5%AF%B9%E7%A9%BA%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95"><span class="nav-number">1.11.3.3.</span> <span class="nav-text">附：这一周同时是对空压力测试</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC-2-%E5%91%A8%E5%87%BB%E5%80%92%E4%B8%8E%E5%8E%8B%E8%B5%B7%E8%BA%ABday-8-14"><span class="nav-number">1.11.4.</span> <span class="nav-text">第 2 周：击倒与压起身（Day 8-14）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC-3-%E5%91%A8%E8%BF%9B%E6%94%BB%E6%89%A9%E5%B1%95day-15-21"><span class="nav-number">1.11.5.</span> <span class="nav-text">第 3 周：进攻扩展（Day 15-21）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC-4-%E5%91%A8%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86day-22-28"><span class="nav-number">1.11.6.</span> <span class="nav-text">第 4 周：风险管理（Day 22-28）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%81%E4%B8%80-%E6%95%B0%E6%8D%AE%E6%A0%A1%E5%87%86%E4%B8%8E%E5%BE%85%E5%AE%9E%E6%B5%8B%E6%B8%85%E5%8D%95"><span class="nav-number">1.12.</span> <span class="nav-text">十一、数据校准与待实测清单</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#111-%E5%A4%87%E5%BF%98%E5%BD%95-vs-%E5%AE%98%E6%96%B9%E5%B7%B2%E6%A0%B8%E5%AF%B9"><span class="nav-number">1.12.1.</span> <span class="nav-text">11.1 备忘录 vs 官方（已核对）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#112-%E5%BF%85%E9%A1%BB%E5%8E%BB%E8%AE%AD%E7%BB%83%E5%9C%BA%E5%AE%9E%E6%B5%8B%E7%9A%84%E6%88%91%E6%97%A0%E6%B3%95%E4%BB%8E%E8%B5%84%E6%96%99%E7%A1%AE%E8%AE%A4"><span class="nav-number">1.12.2.</span> <span class="nav-text">11.2 必须去训练场实测的（我无法从资料确认）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#113-%E4%B8%8E%E6%AF%92%E8%9B%87%E7%AC%94%E8%AE%B0%E7%9A%84%E8%BF%81%E7%A7%BB%E5%AF%B9%E7%85%A7%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84"><span class="nav-number">1.12.3.</span> <span class="nav-text">11.3 与毒蛇笔记的迁移对照（学习路径）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%84%E5%BD%95-a%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%AE%B0%E4%BD%8F%E7%9A%84-62-%E6%9D%A1"><span class="nav-number">1.13.</span> <span class="nav-text">附录 A：一句话记住的 62 条</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%84%E5%BD%95-b%E8%B5%84%E6%96%99%E6%BA%90"><span class="nav-number">1.14.</span> <span class="nav-text">附录 B：资料源</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SkyLark</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2026</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SkyLark</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
+  </div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'esJ64NjaRf19yPijsTW5gIv8-gzGzoHsz',
+      appKey     : 'rUGSTM0v6HknUkbxyXhJLfCv',
+      placeholder: "图一乐",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : true,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1,"hHeadPos":0.5,"vHeadPos":0.618,"jsonPath":"/live2dw/assets/assets/hijiki.model.json"},"display":{"superSample":2,"width":150,"height":300,"position":"right","hOffset":0,"vOffset":-20},"mobile":{"show":true,"scale":0.5},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
+</html>
